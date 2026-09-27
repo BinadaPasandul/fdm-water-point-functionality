@@ -6,20 +6,18 @@ learning techniques.
 
 ## Dataset
 
-- **Source:** [Rural Water Point Functionality Dataset (rwpfunctionality)](https://openwashdata.github.io/rwpfunctionality/)
-
-## Target Variable
-
-- `functional3`
-
-## Task
-
-Multiclass classification with the following target classes:
-
-- Functional
-- Partially functional
-- Abandoned or not functional
+- **Dataset name:** Rural Water Point Functionality Dataset (`rwpfunctionality`)
+- **Source:** [openwashdata.github.io/rwpfunctionality](https://openwashdata.github.io/rwpfunctionality/)
+- **File location:** `data/raw/water_pump_functionality.xlsx` (raw, unmodified)
+- **Number of records:** 1,793
+- **Number of variables:** 52
+- **Target variable:** `functional3`
+- **ML task:** Multiclass classification
+- **Target classes:**
+  - Functional
+  - Partially functional
+  - Abandoned or not functional
 
 ## Project Status
 
-🚧 Project setup complete. Data understanding, EDA, and modeling have not started yet.
+🚧 Initial data understanding complete (see `notebooks/01_data_understanding.ipynb`). EDA, preprocessing, and modeling have not started yet.
