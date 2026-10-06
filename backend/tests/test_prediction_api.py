@@ -66,6 +66,28 @@ def test_model_info_and_input_schema(client):
     assert schema["field_count"] == 32
     assert [field["name"] for field in schema["fields"]] == list(RAW_PREDICTOR_COLUMNS)
     assert all(field["required"] and field["nullable"] for field in schema["fields"])
+    fields = {field["name"]: field for field in schema["fields"]}
+    assert [item["label"] for item in fields["country"]["known_options"]] == [
+        "Ethiopia", "India", "Malawi", "Mali", "Mozambique", "Nepal", "Niger", "Rwanda", "Uganda",
+    ]
+    assert fields["admin1"]["options_by_parent"]["India"] == [
+        {"label": "Bihar", "value": "Bihar"}, {"label": "West Bengal", "value": "West Bengal"},
+    ]
+    assert fields["whomanage_wp"]["known_options"][3] == {"label": "Don't Know", "value": "Don't Know"}
+    assert fields["season"]["known_options"] == [
+        {"label": "Dry", "value": "dry"}, {"label": "Wet", "value": "wet"},
+    ]
+    assert fields["improved_wponly_wp"]["type"] == "binary_numeric"
+    assert fields["improved_wponly_wp"]["known_options"] == [
+        {"label": "No", "value": 0}, {"label": "Yes", "value": 1},
+    ]
+    assert fields["wc_savings_wp"]["known_options"] == [
+        {"label": "No", "value": 0}, {"label": "Yes", "value": 1},
+    ]
+    assert all(str(item["value"]) not in {"888", "999"} for item in fields["wc_savings_wp"]["known_options"])
+    assert [item["label"] for item in fields["wc_admin_index_wp"]["known_options"]] == [
+        "Inadequate", "Minimum", "Moderate", "Advanced",
+    ]
 
 
 def test_valid_prediction_has_labelled_probabilities(client):

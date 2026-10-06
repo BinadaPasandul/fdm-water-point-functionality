@@ -11,6 +11,7 @@ from fastapi.responses import JSONResponse
 
 from backend.config import Settings
 from backend.model_loader import load_production_model
+from backend.input_options import DEPENDENT_OPTIONS, FIELD_OPTIONS
 from backend.schemas import WaterPointPredictionRequest, WaterPointPredictionResponse
 from backend.services.dashboard_service import DashboardAssetError, DashboardService
 from backend.services.prediction_service import PredictionService
@@ -42,6 +43,7 @@ CATEGORICAL_FIELDS = {
     "paytocollect_wp", "wc_admin_index_wp", "wc_finance_index_wp", "wc_mgmt_index_wp",
     "wc_maint_index_wp", "season",
 }
+BINARY_NUMERIC_FIELDS = {"improved_wponly_wp", "wc_savings_wp"}
 
 
 def create_app(settings: Settings | None = None) -> FastAPI:
@@ -144,13 +146,12 @@ def create_app(settings: Settings | None = None) -> FastAPI:
             fields.append({
                 "name": name,
                 "label": FIELD_LABELS.get(name, name.replace("_", " ").title()),
-                "type": "categorical" if name in CATEGORICAL_FIELDS else "number",
+                "type": ("binary_numeric" if name in BINARY_NUMERIC_FIELDS else
+                         "categorical" if name in CATEGORICAL_FIELDS else "number"),
                 "required": True,
                 "nullable": True,
-                "description": (
-                    f"Raw model input: {name}. Unseen categorical values are accepted by the model pipeline."
-                    if name in CATEGORICAL_FIELDS else f"Raw model input: {name}."
-                ),
+                **({"known_options": FIELD_OPTIONS[name]} if name in FIELD_OPTIONS else {}),
+                **({"options_by_parent": DEPENDENT_OPTIONS[name]} if name in DEPENDENT_OPTIONS else {}),
             })
         return {"field_count": len(fields), "fields": fields}
 

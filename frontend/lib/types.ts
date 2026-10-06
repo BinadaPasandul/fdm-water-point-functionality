@@ -1,11 +1,15 @@
 export type Field = {
   name: string;
   label: string;
-  type: "categorical" | "number";
+  type: "categorical" | "number" | "binary_numeric";
   required: boolean;
   nullable: boolean;
   description?: string;
+  known_options?: FieldOption[];
+  options_by_parent?: Record<string, FieldOption[]>;
 };
+
+export type FieldOption = { label: string; value: string | number };
 
 export type InputSchema = { field_count: number; fields: Field[] };
 export type ApiError = { error?: { code?: string; message?: string; details?: { loc?: (string | number)[]; msg?: string }[] } };
