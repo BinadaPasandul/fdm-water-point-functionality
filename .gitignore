@@ -3,6 +3,10 @@
 venv/
 env/
 ENV/
+frontend/node_modules/
+frontend/.next/
+frontend/coverage/
+frontend/tsconfig.tsbuildinfo
 
 # Python
 __pycache__/

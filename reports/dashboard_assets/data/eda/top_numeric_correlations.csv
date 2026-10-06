@@ -1,0 +1,11 @@
+variable,other_variable,correlation
+qtyhh_wp,qtypeople_wp,0.8182731669597323
+longitude_wp,grant_number_wp,-0.7456150252035192
+longitude_wp,annual_rain,0.7408301928216251
+latitude_wp,longitude_wp,0.4774290175170499
+brokendays_wp,qtymonthsnowater_wp,0.4548438133345998
+latitude_wp,grant_number_wp,-0.44405898580896086
+latitude_wp,balance_any_dollars_wp,0.3963303413075443
+qtypeople_wp,grant_number_wp,0.3825108369511392
+qtyhh_c_wp,annual_rain,-0.3672407467177083
+latitude_wp,wpqty_wp,0.35467952112314743

@@ -1,0 +1,19 @@
+{
+  "metadata": {
+    "source": "Notebook 02 cell 15"
+  },
+  "records": [
+    {
+      "rehabyn": "No",
+      "rehab_age_missing_percent": 100.0
+    },
+    {
+      "rehabyn": "Yes",
+      "rehab_age_missing_percent": 0.36
+    },
+    {
+      "rehabyn": null,
+      "rehab_age_missing_percent": 100.0
+    }
+  ]
+}

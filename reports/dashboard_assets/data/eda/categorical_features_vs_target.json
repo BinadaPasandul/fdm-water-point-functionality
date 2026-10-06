@@ -1,0 +1,324 @@
+{
+  "metadata": {
+    "source": "Notebook 02 cell 38",
+    "category_filter": "n >= 10",
+    "normalization": "row percentages (as implemented in notebook)"
+  },
+  "records": [
+    {
+      "feature": "wptype",
+      "category": "Borehole with hand pump",
+      "class": "Functional",
+      "percentage": 84.84555984555985,
+      "category_n": 1036
+    },
+    {
+      "feature": "wptype",
+      "category": "Borehole with hand pump",
+      "class": "Partially functional",
+      "percentage": 5.115830115830116,
+      "category_n": 1036
+    },
+    {
+      "feature": "wptype",
+      "category": "Borehole with hand pump",
+      "class": "Abandoned or not functional",
+      "percentage": 10.038610038610038,
+      "category_n": 1036
+    },
+    {
+      "feature": "wptype",
+      "category": "Public tap / standpipe",
+      "class": "Functional",
+      "percentage": 63.372093023255815,
+      "category_n": 516
+    },
+    {
+      "feature": "wptype",
+      "category": "Public tap / standpipe",
+      "class": "Partially functional",
+      "percentage": 13.75968992248062,
+      "category_n": 516
+    },
+    {
+      "feature": "wptype",
+      "category": "Public tap / standpipe",
+      "class": "Abandoned or not functional",
+      "percentage": 22.868217054263564,
+      "category_n": 516
+    },
+    {
+      "feature": "wptype",
+      "category": "Protected dug well with hand pump",
+      "class": "Functional",
+      "percentage": 57.24137931034483,
+      "category_n": 145
+    },
+    {
+      "feature": "wptype",
+      "category": "Protected dug well with hand pump",
+      "class": "Partially functional",
+      "percentage": 4.137931034482759,
+      "category_n": 145
+    },
+    {
+      "feature": "wptype",
+      "category": "Protected dug well with hand pump",
+      "class": "Abandoned or not functional",
+      "percentage": 38.62068965517241,
+      "category_n": 145
+    },
+    {
+      "feature": "wptype",
+      "category": "Piped water into yard / plot",
+      "class": "Functional",
+      "percentage": 58.82352941176471,
+      "category_n": 51
+    },
+    {
+      "feature": "wptype",
+      "category": "Piped water into yard / plot",
+      "class": "Partially functional",
+      "percentage": 25.49019607843137,
+      "category_n": 51
+    },
+    {
+      "feature": "wptype",
+      "category": "Piped water into yard / plot",
+      "class": "Abandoned or not functional",
+      "percentage": 15.686274509803921,
+      "category_n": 51
+    },
+    {
+      "feature": "wptype",
+      "category": "Protected spring",
+      "class": "Functional",
+      "percentage": 17.857142857142858,
+      "category_n": 28
+    },
+    {
+      "feature": "wptype",
+      "category": "Protected spring",
+      "class": "Partially functional",
+      "percentage": 42.857142857142854,
+      "category_n": 28
+    },
+    {
+      "feature": "wptype",
+      "category": "Protected spring",
+      "class": "Abandoned or not functional",
+      "percentage": 39.285714285714285,
+      "category_n": 28
+    },
+    {
+      "feature": "wptype",
+      "category": "Mechanized borehole",
+      "class": "Functional",
+      "percentage": 80.0,
+      "category_n": 10
+    },
+    {
+      "feature": "wptype",
+      "category": "Mechanized borehole",
+      "class": "Partially functional",
+      "percentage": 10.0,
+      "category_n": 10
+    },
+    {
+      "feature": "wptype",
+      "category": "Mechanized borehole",
+      "class": "Abandoned or not functional",
+      "percentage": 10.0,
+      "category_n": 10
+    },
+    {
+      "feature": "drillmethod",
+      "category": "Manually drilled",
+      "class": "Functional",
+      "percentage": 86.15196078431373,
+      "category_n": 816
+    },
+    {
+      "feature": "drillmethod",
+      "category": "Manually drilled",
+      "class": "Partially functional",
+      "percentage": 2.941176470588235,
+      "category_n": 816
+    },
+    {
+      "feature": "drillmethod",
+      "category": "Manually drilled",
+      "class": "Abandoned or not functional",
+      "percentage": 10.906862745098039,
+      "category_n": 816
+    },
+    {
+      "feature": "drillmethod",
+      "category": "Drilled by machine",
+      "class": "Functional",
+      "percentage": 79.82456140350878,
+      "category_n": 228
+    },
+    {
+      "feature": "drillmethod",
+      "category": "Drilled by machine",
+      "class": "Partially functional",
+      "percentage": 13.157894736842104,
+      "category_n": 228
+    },
+    {
+      "feature": "drillmethod",
+      "category": "Drilled by machine",
+      "class": "Abandoned or not functional",
+      "percentage": 7.017543859649122,
+      "category_n": 228
+    },
+    {
+      "feature": "drillmethod",
+      "category": "Hand-dug",
+      "class": "Functional",
+      "percentage": 56.75675675675676,
+      "category_n": 148
+    },
+    {
+      "feature": "drillmethod",
+      "category": "Hand-dug",
+      "class": "Partially functional",
+      "percentage": 4.054054054054054,
+      "category_n": 148
+    },
+    {
+      "feature": "drillmethod",
+      "category": "Hand-dug",
+      "class": "Abandoned or not functional",
+      "percentage": 39.189189189189186,
+      "category_n": 148
+    },
+    {
+      "feature": "whomanage_wp",
+      "category": "Water committee",
+      "class": "Functional",
+      "percentage": 75.60497056899933,
+      "category_n": 1529
+    },
+    {
+      "feature": "whomanage_wp",
+      "category": "Water committee",
+      "class": "Partially functional",
+      "percentage": 8.633093525179856,
+      "category_n": 1529
+    },
+    {
+      "feature": "whomanage_wp",
+      "category": "Water committee",
+      "class": "Abandoned or not functional",
+      "percentage": 15.761935905820797,
+      "category_n": 1529
+    },
+    {
+      "feature": "whomanage_wp",
+      "category": "Private person",
+      "class": "Functional",
+      "percentage": 62.68656716417911,
+      "category_n": 67
+    },
+    {
+      "feature": "whomanage_wp",
+      "category": "Private person",
+      "class": "Partially functional",
+      "percentage": 19.402985074626866,
+      "category_n": 67
+    },
+    {
+      "feature": "whomanage_wp",
+      "category": "Private person",
+      "class": "Abandoned or not functional",
+      "percentage": 17.91044776119403,
+      "category_n": 67
+    },
+    {
+      "feature": "whomanage_wp",
+      "category": "School",
+      "class": "Functional",
+      "percentage": 76.66666666666667,
+      "category_n": 60
+    },
+    {
+      "feature": "whomanage_wp",
+      "category": "School",
+      "class": "Partially functional",
+      "percentage": 3.3333333333333335,
+      "category_n": 60
+    },
+    {
+      "feature": "whomanage_wp",
+      "category": "School",
+      "class": "Abandoned or not functional",
+      "percentage": 20.0,
+      "category_n": 60
+    },
+    {
+      "feature": "whomanage_wp",
+      "category": "Community leader",
+      "class": "Functional",
+      "percentage": 77.96610169491525,
+      "category_n": 59
+    },
+    {
+      "feature": "whomanage_wp",
+      "category": "Community leader",
+      "class": "Partially functional",
+      "percentage": 1.694915254237288,
+      "category_n": 59
+    },
+    {
+      "feature": "whomanage_wp",
+      "category": "Community leader",
+      "class": "Abandoned or not functional",
+      "percentage": 20.33898305084746,
+      "category_n": 59
+    },
+    {
+      "feature": "whomanage_wp",
+      "category": "Vendor",
+      "class": "Functional",
+      "percentage": 60.71428571428571,
+      "category_n": 56
+    },
+    {
+      "feature": "whomanage_wp",
+      "category": "Vendor",
+      "class": "Partially functional",
+      "percentage": 10.714285714285714,
+      "category_n": 56
+    },
+    {
+      "feature": "whomanage_wp",
+      "category": "Vendor",
+      "class": "Abandoned or not functional",
+      "percentage": 28.57142857142857,
+      "category_n": 56
+    },
+    {
+      "feature": "whomanage_wp",
+      "category": "No one",
+      "class": "Functional",
+      "percentage": 9.090909090909092,
+      "category_n": 11
+    },
+    {
+      "feature": "whomanage_wp",
+      "category": "No one",
+      "class": "Partially functional",
+      "percentage": 18.181818181818183,
+      "category_n": 11
+    },
+    {
+      "feature": "whomanage_wp",
+      "category": "No one",
+      "class": "Abandoned or not functional",
+      "percentage": 72.72727272727273,
+      "category_n": 11
+    }
+  ]
+}

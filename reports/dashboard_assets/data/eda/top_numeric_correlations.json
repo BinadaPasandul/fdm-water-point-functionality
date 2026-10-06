@@ -1,0 +1,58 @@
+{
+  "metadata": {
+    "source": "Notebook 02 cell 46",
+    "top_n": 10
+  },
+  "records": [
+    {
+      "variable": "qtyhh_wp",
+      "other_variable": "qtypeople_wp",
+      "correlation": 0.8182731669597323
+    },
+    {
+      "variable": "longitude_wp",
+      "other_variable": "grant_number_wp",
+      "correlation": -0.7456150252035192
+    },
+    {
+      "variable": "longitude_wp",
+      "other_variable": "annual_rain",
+      "correlation": 0.7408301928216251
+    },
+    {
+      "variable": "latitude_wp",
+      "other_variable": "longitude_wp",
+      "correlation": 0.4774290175170499
+    },
+    {
+      "variable": "brokendays_wp",
+      "other_variable": "qtymonthsnowater_wp",
+      "correlation": 0.4548438133345998
+    },
+    {
+      "variable": "latitude_wp",
+      "other_variable": "grant_number_wp",
+      "correlation": -0.44405898580896086
+    },
+    {
+      "variable": "latitude_wp",
+      "other_variable": "balance_any_dollars_wp",
+      "correlation": 0.3963303413075443
+    },
+    {
+      "variable": "qtypeople_wp",
+      "other_variable": "grant_number_wp",
+      "correlation": 0.3825108369511392
+    },
+    {
+      "variable": "qtyhh_c_wp",
+      "other_variable": "annual_rain",
+      "correlation": -0.3672407467177083
+    },
+    {
+      "variable": "latitude_wp",
+      "other_variable": "wpqty_wp",
+      "correlation": 0.35467952112314743
+    }
+  ]
+}

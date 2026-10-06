@@ -1,0 +1,108 @@
+{
+  "metadata": {
+    "source": "Notebook 02 cell 13",
+    "selection": "20 highest missing percentages"
+  },
+  "records": [
+    {
+      "column": "wpqty_wp",
+      "missing_count": 598,
+      "missing_percent": 33.35
+    },
+    {
+      "column": "paytocollect_wp",
+      "missing_count": 598,
+      "missing_percent": 33.35
+    },
+    {
+      "column": "improved_wponly_wp",
+      "missing_count": 598,
+      "missing_percent": 33.35
+    },
+    {
+      "column": "drillmethod",
+      "missing_count": 601,
+      "missing_percent": 33.52
+    },
+    {
+      "column": "wc_savings_wp",
+      "missing_count": 602,
+      "missing_percent": 33.58
+    },
+    {
+      "column": "pumptype",
+      "missing_count": 616,
+      "missing_percent": 34.36
+    },
+    {
+      "column": "wc_maint_index_wp",
+      "missing_count": 673,
+      "missing_percent": 37.53
+    },
+    {
+      "column": "wc_admin_index_wp",
+      "missing_count": 673,
+      "missing_percent": 37.53
+    },
+    {
+      "column": "wc_finance_index_wp",
+      "missing_count": 673,
+      "missing_percent": 37.53
+    },
+    {
+      "column": "wc_mgmt_index_wp",
+      "missing_count": 673,
+      "missing_percent": 37.53
+    },
+    {
+      "column": "pumpstrokes",
+      "missing_count": 818,
+      "missing_percent": 45.62
+    },
+    {
+      "column": "cwid",
+      "missing_count": 834,
+      "missing_percent": 46.51
+    },
+    {
+      "column": "balance_any_dollars_wp",
+      "missing_count": 853,
+      "missing_percent": 47.57
+    },
+    {
+      "column": "brokendays_wp",
+      "missing_count": 1160,
+      "missing_percent": 64.7
+    },
+    {
+      "column": "piped_pump",
+      "missing_count": 1219,
+      "missing_percent": 67.99
+    },
+    {
+      "column": "piped_source",
+      "missing_count": 1219,
+      "missing_percent": 67.99
+    },
+    {
+      "column": "grant_number_wp",
+      "missing_count": 1246,
+      "missing_percent": 69.49
+    },
+    {
+      "column": "whynowatertoday_wp",
+      "missing_count": 1491,
+      "missing_percent": 83.16
+    },
+    {
+      "column": "rehab_age",
+      "missing_count": 1513,
+      "missing_percent": 84.38
+    },
+    {
+      "column": "whynowatertoday_wp_other",
+      "missing_count": 1775,
+      "missing_percent": 99.0
+    }
+  ]
+}

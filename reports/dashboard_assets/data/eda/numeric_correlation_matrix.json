@@ -1,0 +1,1812 @@
+{
+  "metadata": {
+    "source": "Notebook 02 cells 45–46"
+  },
+  "records": [
+    {
+      "variable": "latitude_wp",
+      "other_variable": "latitude_wp",
+      "pearson_correlation": 1.0
+    },
+    {
+      "variable": "longitude_wp",
+      "other_variable": "latitude_wp",
+      "pearson_correlation": 0.4774290175170499
+    },
+    {
+      "variable": "elevation_wp",
+      "other_variable": "latitude_wp",
+      "pearson_correlation": 0.09712917203659582
+    },
+    {
+      "variable": "qtyhh_wp",
+      "other_variable": "latitude_wp",
+      "pearson_correlation": -0.292421150694569
+    },
+    {
+      "variable": "wp_age",
+      "other_variable": "latitude_wp",
+      "pearson_correlation": -0.09211829897614168
+    },
+    {
+      "variable": "rehab_age",
+      "other_variable": "latitude_wp",
+      "pearson_correlation": -0.05911149877064917
+    },
+    {
+      "variable": "qtypeople_wp",
+      "other_variable": "latitude_wp",
+      "pearson_correlation": -0.24952720292851802
+    },
+    {
+      "variable": "minutesfill20l",
+      "other_variable": "latitude_wp",
+      "pearson_correlation": 0.06484850901731985
+    },
+    {
+      "variable": "brokendays_wp",
+      "other_variable": "latitude_wp",
+      "pearson_correlation": 0.09891506092517273
+    },
+    {
+      "variable": "qtymonthsnowater_wp",
+      "other_variable": "latitude_wp",
+      "pearson_correlation": 0.08801358491852539
+    },
+    {
+      "variable": "pumpstrokes",
+      "other_variable": "latitude_wp",
+      "pearson_correlation": 0.08846733209754339
+    },
+    {
+      "variable": "grant_number_wp",
+      "other_variable": "latitude_wp",
+      "pearson_correlation": -0.44405898580896086
+    },
+    {
+      "variable": "balance_any_dollars_wp",
+      "other_variable": "latitude_wp",
+      "pearson_correlation": 0.3963303413075443
+    },
+    {
+      "variable": "improved_wponly_wp",
+      "other_variable": "latitude_wp",
+      "pearson_correlation": -0.21738313314808344
+    },
+    {
+      "variable": "qtyhh_c_wp",
+      "other_variable": "latitude_wp",
+      "pearson_correlation": 0.09061405416193036
+    },
+    {
+      "variable": "wc_savings_wp",
+      "other_variable": "latitude_wp",
+      "pearson_correlation": 0.04207482460433465
+    },
+    {
+      "variable": "wpqty_wp",
+      "other_variable": "latitude_wp",
+      "pearson_correlation": 0.35467952112314743
+    },
+    {
+      "variable": "pop_1000",
+      "other_variable": "latitude_wp",
+      "pearson_correlation": -0.049459291087263456
+    },
+    {
+      "variable": "annual_rain",
+      "other_variable": "latitude_wp",
+      "pearson_correlation": 0.10073531621007982
+    },
+    {
+      "variable": "latitude_wp",
+      "other_variable": "longitude_wp",
+      "pearson_correlation": 0.4774290175170499
+    },
+    {
+      "variable": "longitude_wp",
+      "other_variable": "longitude_wp",
+      "pearson_correlation": 1.0
+    },
+    {
+      "variable": "elevation_wp",
+      "other_variable": "longitude_wp",
+      "pearson_correlation": -0.009296955010306918
+    },
+    {
+      "variable": "qtyhh_wp",
+      "other_variable": "longitude_wp",
+      "pearson_correlation": -0.29752691814765814
+    },
+    {
+      "variable": "wp_age",
+      "other_variable": "longitude_wp",
+      "pearson_correlation": -0.018704546771609012
+    },
+    {
+      "variable": "rehab_age",
+      "other_variable": "longitude_wp",
+      "pearson_correlation": 0.13718008990320138
+    },
+    {
+      "variable": "qtypeople_wp",
+      "other_variable": "longitude_wp",
+      "pearson_correlation": -0.2908206413974199
+    },
+    {
+      "variable": "minutesfill20l",
+      "other_variable": "longitude_wp",
+      "pearson_correlation": 0.037321452390496064
+    },
+    {
+      "variable": "brokendays_wp",
+      "other_variable": "longitude_wp",
+      "pearson_correlation": -0.01715779522196933
+    },
+    {
+      "variable": "qtymonthsnowater_wp",
+      "other_variable": "longitude_wp",
+      "pearson_correlation": 0.05935640060505455
+    },
+    {
+      "variable": "pumpstrokes",
+      "other_variable": "longitude_wp",
+      "pearson_correlation": -0.09775977677735358
+    },
+    {
+      "variable": "grant_number_wp",
+      "other_variable": "longitude_wp",
+      "pearson_correlation": -0.7456150252035192
+    },
+    {
+      "variable": "balance_any_dollars_wp",
+      "other_variable": "longitude_wp",
+      "pearson_correlation": 0.30955891048749
+    },
+    {
+      "variable": "improved_wponly_wp",
+      "other_variable": "longitude_wp",
+      "pearson_correlation": 0.1353653302344531
+    },
+    {
+      "variable": "qtyhh_c_wp",
+      "other_variable": "longitude_wp",
+      "pearson_correlation": -0.19454527620811718
+    },
+    {
+      "variable": "wc_savings_wp",
+      "other_variable": "longitude_wp",
+      "pearson_correlation": 0.03042914523409885
+    },
+    {
+      "variable": "wpqty_wp",
+      "other_variable": "longitude_wp",
+      "pearson_correlation": -0.020248598008983286
+    },
+    {
+      "variable": "pop_1000",
+      "other_variable": "longitude_wp",
+      "pearson_correlation": 0.2115341993756101
+    },
+    {
+      "variable": "annual_rain",
+      "other_variable": "longitude_wp",
+      "pearson_correlation": 0.7408301928216251
+    },
+    {
+      "variable": "latitude_wp",
+      "other_variable": "elevation_wp",
+      "pearson_correlation": 0.09712917203659582
+    },
+    {
+      "variable": "longitude_wp",
+      "other_variable": "elevation_wp",
+      "pearson_correlation": -0.009296955010306918
+    },
+    {
+      "variable": "elevation_wp",
+      "other_variable": "elevation_wp",
+      "pearson_correlation": 1.0
+    },
+    {
+      "variable": "qtyhh_wp",
+      "other_variable": "elevation_wp",
+      "pearson_correlation": 0.16052038371310698
+    },
+    {
+      "variable": "wp_age",
+      "other_variable": "elevation_wp",
+      "pearson_correlation": -0.10457541085243642
+    },
+    {
+      "variable": "rehab_age",
+      "other_variable": "elevation_wp",
+      "pearson_correlation": -0.3069250127275529
+    },
+    {
+      "variable": "qtypeople_wp",
+      "other_variable": "elevation_wp",
+      "pearson_correlation": 0.19212894402719635
+    },
+    {
+      "variable": "minutesfill20l",
+      "other_variable": "elevation_wp",
+      "pearson_correlation": 0.11038799661646337
+    },
+    {
+      "variable": "brokendays_wp",
+      "other_variable": "elevation_wp",
+      "pearson_correlation": 0.2678651462779485
+    },
+    {
+      "variable": "qtymonthsnowater_wp",
+      "other_variable": "elevation_wp",
+      "pearson_correlation": 0.194090536588809
+    },
+    {
+      "variable": "pumpstrokes",
+      "other_variable": "elevation_wp",
+      "pearson_correlation": 0.11812920586526683
+    },
+    {
+      "variable": "grant_number_wp",
+      "other_variable": "elevation_wp",
+      "pearson_correlation": 0.012175614750349912
+    },
+    {
+      "variable": "balance_any_dollars_wp",
+      "other_variable": "elevation_wp",
+      "pearson_correlation": -0.013467366695241727
+    },
+    {
+      "variable": "improved_wponly_wp",
+      "other_variable": "elevation_wp",
+      "pearson_correlation": -0.1491112922765847
+    },
+    {
+      "variable": "qtyhh_c_wp",
+      "other_variable": "elevation_wp",
+      "pearson_correlation": 0.3229988236038218
+    },
+    {
+      "variable": "wc_savings_wp",
+      "other_variable": "elevation_wp",
+      "pearson_correlation": -0.198360532991419
+    },
+    {
+      "variable": "wpqty_wp",
+      "other_variable": "elevation_wp",
+      "pearson_correlation": -0.006611597632584204
+    },
+    {
+      "variable": "pop_1000",
+      "other_variable": "elevation_wp",
+      "pearson_correlation": 0.030304868368527953
+    },
+    {
+      "variable": "annual_rain",
+      "other_variable": "elevation_wp",
+      "pearson_correlation": -0.30488565528404465
+    },
+    {
+      "variable": "latitude_wp",
+      "other_variable": "qtyhh_wp",
+      "pearson_correlation": -0.292421150694569
+    },
+    {
+      "variable": "longitude_wp",
+      "other_variable": "qtyhh_wp",
+      "pearson_correlation": -0.29752691814765814
+    },
+    {
+      "variable": "elevation_wp",
+      "other_variable": "qtyhh_wp",
+      "pearson_correlation": 0.16052038371310698
+    },
+    {
+      "variable": "qtyhh_wp",
+      "other_variable": "qtyhh_wp",
+      "pearson_correlation": 1.0
+    },
+    {
+      "variable": "wp_age",
+      "other_variable": "qtyhh_wp",
+      "pearson_correlation": 0.12875992348275095
+    },
+    {
+      "variable": "rehab_age",
+      "other_variable": "qtyhh_wp",
+      "pearson_correlation": -0.09675671197421505
+    },
+    {
+      "variable": "qtypeople_wp",
+      "other_variable": "qtyhh_wp",
+      "pearson_correlation": 0.8182731669597323
+    },
+    {
+      "variable": "minutesfill20l",
+      "other_variable": "qtyhh_wp",
+      "pearson_correlation": 0.04199277727193334
+    },
+    {
+      "variable": "brokendays_wp",
+      "other_variable": "qtyhh_wp",
+      "pearson_correlation": 0.18889228488707993
+    },
+    {
+      "variable": "qtymonthsnowater_wp",
+      "other_variable": "qtyhh_wp",
+      "pearson_correlation": 0.01832195116521359
+    },
+    {
+      "variable": "pumpstrokes",
+      "other_variable": "qtyhh_wp",
+      "pearson_correlation": 0.05405723024987481
+    },
+    {
+      "variable": "grant_number_wp",
+      "other_variable": "qtyhh_wp",
+      "pearson_correlation": 0.3329448448759103
+    },
+    {
+      "variable": "balance_any_dollars_wp",
+      "other_variable": "qtyhh_wp",
+      "pearson_correlation": -0.13692465981839433
+    },
+    {
+      "variable": "improved_wponly_wp",
+      "other_variable": "qtyhh_wp",
+      "pearson_correlation": -0.007833785093306107
+    },
+    {
+      "variable": "qtyhh_c_wp",
+      "other_variable": "qtyhh_wp",
+      "pearson_correlation": 0.28142374185667346
+    },
+    {
+      "variable": "wc_savings_wp",
+      "other_variable": "qtyhh_wp",
+      "pearson_correlation": -0.035637391954962204
+    },
+    {
+      "variable": "wpqty_wp",
+      "other_variable": "qtyhh_wp",
+      "pearson_correlation": -0.10002380460024612
+    },
+    {
+      "variable": "pop_1000",
+      "other_variable": "qtyhh_wp",
+      "pearson_correlation": 0.048893952390196393
+    },
+    {
+      "variable": "annual_rain",
+      "other_variable": "qtyhh_wp",
+      "pearson_correlation": -0.26183643978474125
+    },
+    {
+      "variable": "latitude_wp",
+      "other_variable": "wp_age",
+      "pearson_correlation": -0.09211829897614168
+    },
+    {
+      "variable": "longitude_wp",
+      "other_variable": "wp_age",
+      "pearson_correlation": -0.018704546771609012
+    },
+    {
+      "variable": "elevation_wp",
+      "other_variable": "wp_age",
+      "pearson_correlation": -0.10457541085243642
+    },
+    {
+      "variable": "qtyhh_wp",
+      "other_variable": "wp_age",
+      "pearson_correlation": 0.12875992348275095
+    },
+    {
+      "variable": "wp_age",
+      "other_variable": "wp_age",
+      "pearson_correlation": 1.0
+    },
+    {
+      "variable": "rehab_age",
+      "other_variable": "wp_age",
+      "pearson_correlation": 0.33657713601385403
+    },
+    {
+      "variable": "qtypeople_wp",
+      "other_variable": "wp_age",
+      "pearson_correlation": 0.11854887554454016
+    },
+    {
+      "variable": "minutesfill20l",
+      "other_variable": "wp_age",
+      "pearson_correlation": 0.0034184179358436317
+    },
+    {
+      "variable": "brokendays_wp",
+      "other_variable": "wp_age",
+      "pearson_correlation": 0.04608563192097138
+    },
+    {
+      "variable": "qtymonthsnowater_wp",
+      "other_variable": "wp_age",
+      "pearson_correlation": 0.08656457463134315
+    },
+    {
+      "variable": "pumpstrokes",
+      "other_variable": "wp_age",
+      "pearson_correlation": 0.0633985057760538
+    },
+    {
+      "variable": "grant_number_wp",
+      "other_variable": "wp_age",
+      "pearson_correlation": 0.11067781613046693
+    },
+    {
+      "variable": "balance_any_dollars_wp",
+      "other_variable": "wp_age",
+      "pearson_correlation": -0.11948142596827278
+    },
+    {
+      "variable": "improved_wponly_wp",
+      "other_variable": "wp_age",
+      "pearson_correlation": 0.11508795898643846
+    },
+    {
+      "variable": "qtyhh_c_wp",
+      "other_variable": "wp_age",
+      "pearson_correlation": -0.027743151449838105
+    },
+    {
+      "variable": "wc_savings_wp",
+      "other_variable": "wp_age",
+      "pearson_correlation": 0.12434949074264803
+    },
+    {
+      "variable": "wpqty_wp",
+      "other_variable": "wp_age",
+      "pearson_correlation": -0.10952157496322965
+    },
+    {
+      "variable": "pop_1000",
+      "other_variable": "wp_age",
+      "pearson_correlation": 0.16629345170573168
+    },
+    {
+      "variable": "annual_rain",
+      "other_variable": "wp_age",
+      "pearson_correlation": -0.010348744240439573
+    },
+    {
+      "variable": "latitude_wp",
+      "other_variable": "rehab_age",
+      "pearson_correlation": -0.05911149877064917
+    },
+    {
+      "variable": "longitude_wp",
+      "other_variable": "rehab_age",
+      "pearson_correlation": 0.13718008990320138
+    },
+    {
+      "variable": "elevation_wp",
+      "other_variable": "rehab_age",
+      "pearson_correlation": -0.3069250127275529
+    },
+    {
+      "variable": "qtyhh_wp",
+      "other_variable": "rehab_age",
+      "pearson_correlation": -0.09675671197421505
+    },
+    {
+      "variable": "wp_age",
+      "other_variable": "rehab_age",
+      "pearson_correlation": 0.33657713601385403
+    },
+    {
+      "variable": "rehab_age",
+      "other_variable": "rehab_age",
+      "pearson_correlation": 1.0
+    },
+    {
+      "variable": "qtypeople_wp",
+      "other_variable": "rehab_age",
+      "pearson_correlation": -0.14235601301604814
+    },
+    {
+      "variable": "minutesfill20l",
+      "other_variable": "rehab_age",
+      "pearson_correlation": 0.11411587507272918
+    },
+    {
+      "variable": "brokendays_wp",
+      "other_variable": "rehab_age",
+      "pearson_correlation": 0.25861050791199075
+    },
+    {
+      "variable": "qtymonthsnowater_wp",
+      "other_variable": "rehab_age",
+      "pearson_correlation": 0.03121737350955602
+    },
+    {
+      "variable": "pumpstrokes",
+      "other_variable": "rehab_age",
+      "pearson_correlation": 0.06436151506085212
+    },
+    {
+      "variable": "grant_number_wp",
+      "other_variable": "rehab_age",
+      "pearson_correlation": -0.029709588017876085
+    },
+    {
+      "variable": "balance_any_dollars_wp",
+      "other_variable": "rehab_age",
+      "pearson_correlation": -0.09657945174332733
+    },
+    {
+      "variable": "improved_wponly_wp",
+      "other_variable": "rehab_age",
+      "pearson_correlation": 0.11486868250572074
+    },
+    {
+      "variable": "qtyhh_c_wp",
+      "other_variable": "rehab_age",
+      "pearson_correlation": -0.20085416733985276
+    },
+    {
+      "variable": "wc_savings_wp",
+      "other_variable": "rehab_age",
+      "pearson_correlation": 0.09120223706335516
+    },
+    {
+      "variable": "wpqty_wp",
+      "other_variable": "rehab_age",
+      "pearson_correlation": -0.11606656332256562
+    },
+    {
+      "variable": "pop_1000",
+      "other_variable": "rehab_age",
+      "pearson_correlation": 0.1296064934375318
+    },
+    {
+      "variable": "annual_rain",
+      "other_variable": "rehab_age",
+      "pearson_correlation": 0.1550257348677753
+    },
+    {
+      "variable": "latitude_wp",
+      "other_variable": "qtypeople_wp",
+      "pearson_correlation": -0.24952720292851802
+    },
+    {
+      "variable": "longitude_wp",
+      "other_variable": "qtypeople_wp",
+      "pearson_correlation": -0.2908206413974199
+    },
+    {
+      "variable": "elevation_wp",
+      "other_variable": "qtypeople_wp",
+      "pearson_correlation": 0.19212894402719635
+    },
+    {
+      "variable": "qtyhh_wp",
+      "other_variable": "qtypeople_wp",
+      "pearson_correlation": 0.8182731669597323
+    },
+    {
+      "variable": "wp_age",
+      "other_variable": "qtypeople_wp",
+      "pearson_correlation": 0.11854887554454016
+    },
+    {
+      "variable": "rehab_age",
+      "other_variable": "qtypeople_wp",
+      "pearson_correlation": -0.14235601301604814
+    },
+    {
+      "variable": "qtypeople_wp",
+      "other_variable": "qtypeople_wp",
+      "pearson_correlation": 1.0
+    },
+    {
+      "variable": "minutesfill20l",
+      "other_variable": "qtypeople_wp",
+      "pearson_correlation": 0.06228213747848809
+    },
+    {
+      "variable": "brokendays_wp",
+      "other_variable": "qtypeople_wp",
+      "pearson_correlation": 0.2154752181011757
+    },
+    {
+      "variable": "qtymonthsnowater_wp",
+      "other_variable": "qtypeople_wp",
+      "pearson_correlation": 0.03223299682518164
+    },
+    {
+      "variable": "pumpstrokes",
+      "other_variable": "qtypeople_wp",
+      "pearson_correlation": 0.07670549985979902
+    },
+    {
+      "variable": "grant_number_wp",
+      "other_variable": "qtypeople_wp",
+      "pearson_correlation": 0.3825108369511392
+    },
+    {
+      "variable": "balance_any_dollars_wp",
+      "other_variable": "qtypeople_wp",
+      "pearson_correlation": -0.1348262186842686
+    },
+    {
+      "variable": "improved_wponly_wp",
+      "other_variable": "qtypeople_wp",
+      "pearson_correlation": -0.029537377327711983
+    },
+    {
+      "variable": "qtyhh_c_wp",
+      "other_variable": "qtypeople_wp",
+      "pearson_correlation": 0.2794074260062304
+    },
+    {
+      "variable": "wc_savings_wp",
+      "other_variable": "qtypeople_wp",
+      "pearson_correlation": -0.038544194177893266
+    },
+    {
+      "variable": "wpqty_wp",
+      "other_variable": "qtypeople_wp",
+      "pearson_correlation": -0.10499192313801585
+    },
+    {
+      "variable": "pop_1000",
+      "other_variable": "qtypeople_wp",
+      "pearson_correlation": 0.039691780253253456
+    },
+    {
+      "variable": "annual_rain",
+      "other_variable": "qtypeople_wp",
+      "pearson_correlation": -0.2728462807445831
+    },
+    {
+      "variable": "latitude_wp",
+      "other_variable": "minutesfill20l",
+      "pearson_correlation": 0.06484850901731985
+    },
+    {
+      "variable": "longitude_wp",
+      "other_variable": "minutesfill20l",
+      "pearson_correlation": 0.037321452390496064
+    },
+    {
+      "variable": "elevation_wp",
+      "other_variable": "minutesfill20l",
+      "pearson_correlation": 0.11038799661646337
+    },
+    {
+      "variable": "qtyhh_wp",
+      "other_variable": "minutesfill20l",
+      "pearson_correlation": 0.04199277727193334
+    },
+    {
+      "variable": "wp_age",
+      "other_variable": "minutesfill20l",
+      "pearson_correlation": 0.0034184179358436317
+    },
+    {
+      "variable": "rehab_age",
+      "other_variable": "minutesfill20l",
+      "pearson_correlation": 0.11411587507272918
+    },
+    {
+      "variable": "qtypeople_wp",
+      "other_variable": "minutesfill20l",
+      "pearson_correlation": 0.06228213747848809
+    },
+    {
+      "variable": "minutesfill20l",
+      "other_variable": "minutesfill20l",
+      "pearson_correlation": 1.0
+    },
+    {
+      "variable": "brokendays_wp",
+      "other_variable": "minutesfill20l",
+      "pearson_correlation": -0.013262622371913325
+    },
+    {
+      "variable": "qtymonthsnowater_wp",
+      "other_variable": "minutesfill20l",
+      "pearson_correlation": 0.19390298438680784
+    },
+    {
+      "variable": "pumpstrokes",
+      "other_variable": "minutesfill20l",
+      "pearson_correlation": 0.21774454116788955
+    },
+    {
+      "variable": "grant_number_wp",
+      "other_variable": "minutesfill20l",
+      "pearson_correlation": -0.13467959725058526
+    },
+    {
+      "variable": "balance_any_dollars_wp",
+      "other_variable": "minutesfill20l",
+      "pearson_correlation": 0.06585570716747914
+    },
+    {
+      "variable": "improved_wponly_wp",
+      "other_variable": "minutesfill20l",
+      "pearson_correlation": -0.10690973214064554
+    },
+    {
+      "variable": "qtyhh_c_wp",
+      "other_variable": "minutesfill20l",
+      "pearson_correlation": 0.05537513770864726
+    },
+    {
+      "variable": "wc_savings_wp",
+      "other_variable": "minutesfill20l",
+      "pearson_correlation": -0.03703102567448888
+    },
+    {
+      "variable": "wpqty_wp",
+      "other_variable": "minutesfill20l",
+      "pearson_correlation": 0.024719804271531975
+    },
+    {
+      "variable": "pop_1000",
+      "other_variable": "minutesfill20l",
+      "pearson_correlation": -0.022540517379017404
+    },
+    {
+      "variable": "annual_rain",
+      "other_variable": "minutesfill20l",
+      "pearson_correlation": -0.11486176786149346
+    },
+    {
+      "variable": "latitude_wp",
+      "other_variable": "brokendays_wp",
+      "pearson_correlation": 0.09891506092517273
+    },
+    {
+      "variable": "longitude_wp",
+      "other_variable": "brokendays_wp",
+      "pearson_correlation": -0.01715779522196933
+    },
+    {
+      "variable": "elevation_wp",
+      "other_variable": "brokendays_wp",
+      "pearson_correlation": 0.2678651462779485
+    },
+    {
+      "variable": "qtyhh_wp",
+      "other_variable": "brokendays_wp",
+      "pearson_correlation": 0.18889228488707993
+    },
+    {
+      "variable": "wp_age",
+      "other_variable": "brokendays_wp",
+      "pearson_correlation": 0.04608563192097138
+    },
+    {
+      "variable": "rehab_age",
+      "other_variable": "brokendays_wp",
+      "pearson_correlation": 0.25861050791199075
+    },
+    {
+      "variable": "qtypeople_wp",
+      "other_variable": "brokendays_wp",
+      "pearson_correlation": 0.2154752181011757
+    },
+    {
+      "variable": "minutesfill20l",
+      "other_variable": "brokendays_wp",
+      "pearson_correlation": -0.013262622371913325
+    },
+    {
+      "variable": "brokendays_wp",
+      "other_variable": "brokendays_wp",
+      "pearson_correlation": 1.0
+    },
+    {
+      "variable": "qtymonthsnowater_wp",
+      "other_variable": "brokendays_wp",
+      "pearson_correlation": 0.4548438133345998
+    },
+    {
+      "variable": "pumpstrokes",
+      "other_variable": "brokendays_wp",
+      "pearson_correlation": 0.17160354429146074
+    },
+    {
+      "variable": "grant_number_wp",
+      "other_variable": "brokendays_wp",
+      "pearson_correlation": 0.06518794395999641
+    },
+    {
+      "variable": "balance_any_dollars_wp",
+      "other_variable": "brokendays_wp",
+      "pearson_correlation": 0.0622393801573038
+    },
+    {
+      "variable": "improved_wponly_wp",
+      "other_variable": "brokendays_wp",
+      "pearson_correlation": -0.17459121576171133
+    },
+    {
+      "variable": "qtyhh_c_wp",
+      "other_variable": "brokendays_wp",
+      "pearson_correlation": 0.18762404085693546
+    },
+    {
+      "variable": "wc_savings_wp",
+      "other_variable": "brokendays_wp",
+      "pearson_correlation": 0.011188050512898697
+    },
+    {
+      "variable": "wpqty_wp",
+      "other_variable": "brokendays_wp",
+      "pearson_correlation": 0.08801576143473326
+    },
+    {
+      "variable": "pop_1000",
+      "other_variable": "brokendays_wp",
+      "pearson_correlation": -0.05487434858608529
+    },
+    {
+      "variable": "annual_rain",
+      "other_variable": "brokendays_wp",
+      "pearson_correlation": -0.20708125874828484
+    },
+    {
+      "variable": "latitude_wp",
+      "other_variable": "qtymonthsnowater_wp",
+      "pearson_correlation": 0.08801358491852539
+    },
+    {
+      "variable": "longitude_wp",
+      "other_variable": "qtymonthsnowater_wp",
+      "pearson_correlation": 0.05935640060505455
+    },
+    {
+      "variable": "elevation_wp",
+      "other_variable": "qtymonthsnowater_wp",
+      "pearson_correlation": 0.194090536588809
+    },
+    {
+      "variable": "qtyhh_wp",
+      "other_variable": "qtymonthsnowater_wp",
+      "pearson_correlation": 0.01832195116521359
+    },
+    {
+      "variable": "wp_age",
+      "other_variable": "qtymonthsnowater_wp",
+      "pearson_correlation": 0.08656457463134315
+    },
+    {
+      "variable": "rehab_age",
+      "other_variable": "qtymonthsnowater_wp",
+      "pearson_correlation": 0.03121737350955602
+    },
+    {
+      "variable": "qtypeople_wp",
+      "other_variable": "qtymonthsnowater_wp",
+      "pearson_correlation": 0.03223299682518164
+    },
+    {
+      "variable": "minutesfill20l",
+      "other_variable": "qtymonthsnowater_wp",
+      "pearson_correlation": 0.19390298438680784
+    },
+    {
+      "variable": "brokendays_wp",
+      "other_variable": "qtymonthsnowater_wp",
+      "pearson_correlation": 0.4548438133345998
+    },
+    {
+      "variable": "qtymonthsnowater_wp",
+      "other_variable": "qtymonthsnowater_wp",
+      "pearson_correlation": 1.0
+    },
+    {
+      "variable": "pumpstrokes",
+      "other_variable": "qtymonthsnowater_wp",
+      "pearson_correlation": 0.11556616411457334
+    },
+    {
+      "variable": "grant_number_wp",
+      "other_variable": "qtymonthsnowater_wp",
+      "pearson_correlation": 0.005985949424346324
+    },
+    {
+      "variable": "balance_any_dollars_wp",
+      "other_variable": "qtymonthsnowater_wp",
+      "pearson_correlation": -0.005769474763028314
+    },
+    {
+      "variable": "improved_wponly_wp",
+      "other_variable": "qtymonthsnowater_wp",
+      "pearson_correlation": -0.11510488054129536
+    },
+    {
+      "variable": "qtyhh_c_wp",
+      "other_variable": "qtymonthsnowater_wp",
+      "pearson_correlation": 0.12404551879719246
+    },
+    {
+      "variable": "wc_savings_wp",
+      "other_variable": "qtymonthsnowater_wp",
+      "pearson_correlation": -0.04536166104668752
+    },
+    {
+      "variable": "wpqty_wp",
+      "other_variable": "qtymonthsnowater_wp",
+      "pearson_correlation": 0.015083320963213596
+    },
+    {
+      "variable": "pop_1000",
+      "other_variable": "qtymonthsnowater_wp",
+      "pearson_correlation": -0.039040997854608926
+    },
+    {
+      "variable": "annual_rain",
+      "other_variable": "qtymonthsnowater_wp",
+      "pearson_correlation": -0.10758316205040373
+    },
+    {
+      "variable": "latitude_wp",
+      "other_variable": "pumpstrokes",
+      "pearson_correlation": 0.08846733209754339
+    },
+    {
+      "variable": "longitude_wp",
+      "other_variable": "pumpstrokes",
+      "pearson_correlation": -0.09775977677735358
+    },
+    {
+      "variable": "elevation_wp",
+      "other_variable": "pumpstrokes",
+      "pearson_correlation": 0.11812920586526683
+    },
+    {
+      "variable": "qtyhh_wp",
+      "other_variable": "pumpstrokes",
+      "pearson_correlation": 0.05405723024987481
+    },
+    {
+      "variable": "wp_age",
+      "other_variable": "pumpstrokes",
+      "pearson_correlation": 0.0633985057760538
+    },
+    {
+      "variable": "rehab_age",
+      "other_variable": "pumpstrokes",
+      "pearson_correlation": 0.06436151506085212
+    },
+    {
+      "variable": "qtypeople_wp",
+      "other_variable": "pumpstrokes",
+      "pearson_correlation": 0.07670549985979902
+    },
+    {
+      "variable": "minutesfill20l",
+      "other_variable": "pumpstrokes",
+      "pearson_correlation": 0.21774454116788955
+    },
+    {
+      "variable": "brokendays_wp",
+      "other_variable": "pumpstrokes",
+      "pearson_correlation": 0.17160354429146074
+    },
+    {
+      "variable": "qtymonthsnowater_wp",
+      "other_variable": "pumpstrokes",
+      "pearson_correlation": 0.11556616411457334
+    },
+    {
+      "variable": "pumpstrokes",
+      "other_variable": "pumpstrokes",
+      "pearson_correlation": 1.0
+    },
+    {
+      "variable": "grant_number_wp",
+      "other_variable": "pumpstrokes",
+      "pearson_correlation": 0.07383610777315734
+    },
+    {
+      "variable": "balance_any_dollars_wp",
+      "other_variable": "pumpstrokes",
+      "pearson_correlation": 0.12481331900805696
+    },
+    {
+      "variable": "improved_wponly_wp",
+      "other_variable": "pumpstrokes",
+      "pearson_correlation": -0.11412567975463722
+    },
+    {
+      "variable": "qtyhh_c_wp",
+      "other_variable": "pumpstrokes",
+      "pearson_correlation": 0.05835779140443923
+    },
+    {
+      "variable": "wc_savings_wp",
+      "other_variable": "pumpstrokes",
+      "pearson_correlation": -0.0439915225262302
+    },
+    {
+      "variable": "wpqty_wp",
+      "other_variable": "pumpstrokes",
+      "pearson_correlation": 0.0445898047647686
+    },
+    {
+      "variable": "pop_1000",
+      "other_variable": "pumpstrokes",
+      "pearson_correlation": -0.08313795355768007
+    },
+    {
+      "variable": "annual_rain",
+      "other_variable": "pumpstrokes",
+      "pearson_correlation": -0.18214536532444844
+    },
+    {
+      "variable": "latitude_wp",
+      "other_variable": "grant_number_wp",
+      "pearson_correlation": -0.44405898580896086
+    },
+    {
+      "variable": "longitude_wp",
+      "other_variable": "grant_number_wp",
+      "pearson_correlation": -0.7456150252035192
+    },
+    {
+      "variable": "elevation_wp",
+      "other_variable": "grant_number_wp",
+      "pearson_correlation": 0.012175614750349912
+    },
+    {
+      "variable": "qtyhh_wp",
+      "other_variable": "grant_number_wp",
+      "pearson_correlation": 0.3329448448759103
+    },
+    {
+      "variable": "wp_age",
+      "other_variable": "grant_number_wp",
+      "pearson_correlation": 0.11067781613046693
+    },
+    {
+      "variable": "rehab_age",
+      "other_variable": "grant_number_wp",
+      "pearson_correlation": -0.029709588017876085
+    },
+    {
+      "variable": "qtypeople_wp",
+      "other_variable": "grant_number_wp",
+      "pearson_correlation": 0.3825108369511392
+    },
+    {
+      "variable": "minutesfill20l",
+      "other_variable": "grant_number_wp",
+      "pearson_correlation": -0.13467959725058526
+    },
+    {
+      "variable": "brokendays_wp",
+      "other_variable": "grant_number_wp",
+      "pearson_correlation": 0.06518794395999641
+    },
+    {
+      "variable": "qtymonthsnowater_wp",
+      "other_variable": "grant_number_wp",
+      "pearson_correlation": 0.005985949424346324
+    },
+    {
+      "variable": "pumpstrokes",
+      "other_variable": "grant_number_wp",
+      "pearson_correlation": 0.07383610777315734
+    },
+    {
+      "variable": "grant_number_wp",
+      "other_variable": "grant_number_wp",
+      "pearson_correlation": 1.0
+    },
+    {
+      "variable": "balance_any_dollars_wp",
+      "other_variable": "grant_number_wp",
+      "pearson_correlation": null
+    },
+    {
+      "variable": "improved_wponly_wp",
+      "other_variable": "grant_number_wp",
+      "pearson_correlation": null
+    },
+    {
+      "variable": "qtyhh_c_wp",
+      "other_variable": "grant_number_wp",
+      "pearson_correlation": null
+    },
+    {
+      "variable": "wc_savings_wp",
+      "other_variable": "grant_number_wp",
+      "pearson_correlation": null
+    },
+    {
+      "variable": "wpqty_wp",
+      "other_variable": "grant_number_wp",
+      "pearson_correlation": null
+    },
+    {
+      "variable": "pop_1000",
+      "other_variable": "grant_number_wp",
+      "pearson_correlation": null
+    },
+    {
+      "variable": "annual_rain",
+      "other_variable": "grant_number_wp",
+      "pearson_correlation": null
+    },
+    {
+      "variable": "latitude_wp",
+      "other_variable": "balance_any_dollars_wp",
+      "pearson_correlation": 0.3963303413075443
+    },
+    {
+      "variable": "longitude_wp",
+      "other_variable": "balance_any_dollars_wp",
+      "pearson_correlation": 0.30955891048749
+    },
+    {
+      "variable": "elevation_wp",
+      "other_variable": "balance_any_dollars_wp",
+      "pearson_correlation": -0.013467366695241727
+    },
+    {
+      "variable": "qtyhh_wp",
+      "other_variable": "balance_any_dollars_wp",
+      "pearson_correlation": -0.13692465981839433
+    },
+    {
+      "variable": "wp_age",
+      "other_variable": "balance_any_dollars_wp",
+      "pearson_correlation": -0.11948142596827278
+    },
+    {
+      "variable": "rehab_age",
+      "other_variable": "balance_any_dollars_wp",
+      "pearson_correlation": -0.09657945174332733
+    },
+    {
+      "variable": "qtypeople_wp",
+      "other_variable": "balance_any_dollars_wp",
+      "pearson_correlation": -0.1348262186842686
+    },
+    {
+      "variable": "minutesfill20l",
+      "other_variable": "balance_any_dollars_wp",
+      "pearson_correlation": 0.06585570716747914
+    },
+    {
+      "variable": "brokendays_wp",
+      "other_variable": "balance_any_dollars_wp",
+      "pearson_correlation": 0.0622393801573038
+    },
+    {
+      "variable": "qtymonthsnowater_wp",
+      "other_variable": "balance_any_dollars_wp",
+      "pearson_correlation": -0.005769474763028314
+    },
+    {
+      "variable": "pumpstrokes",
+      "other_variable": "balance_any_dollars_wp",
+      "pearson_correlation": 0.12481331900805696
+    },
+    {
+      "variable": "grant_number_wp",
+      "other_variable": "balance_any_dollars_wp",
+      "pearson_correlation": null
+    },
+    {
+      "variable": "balance_any_dollars_wp",
+      "other_variable": "balance_any_dollars_wp",
+      "pearson_correlation": 1.0
+    },
+    {
+      "variable": "improved_wponly_wp",
+      "other_variable": "balance_any_dollars_wp",
+      "pearson_correlation": -0.10908688313773619
+    },
+    {
+      "variable": "qtyhh_c_wp",
+      "other_variable": "balance_any_dollars_wp",
+      "pearson_correlation": -0.015773374654947797
+    },
+    {
+      "variable": "wc_savings_wp",
+      "other_variable": "balance_any_dollars_wp",
+      "pearson_correlation": -0.09427439826576413
+    },
+    {
+      "variable": "wpqty_wp",
+      "other_variable": "balance_any_dollars_wp",
+      "pearson_correlation": 0.2929629145255646
+    },
+    {
+      "variable": "pop_1000",
+      "other_variable": "balance_any_dollars_wp",
+      "pearson_correlation": -0.18066041042857733
+    },
+    {
+      "variable": "annual_rain",
+      "other_variable": "balance_any_dollars_wp",
+      "pearson_correlation": 0.2968887556210687
+    },
+    {
+      "variable": "latitude_wp",
+      "other_variable": "improved_wponly_wp",
+      "pearson_correlation": -0.21738313314808344
+    },
+    {
+      "variable": "longitude_wp",
+      "other_variable": "improved_wponly_wp",
+      "pearson_correlation": 0.1353653302344531
+    },
+    {
+      "variable": "elevation_wp",
+      "other_variable": "improved_wponly_wp",
+      "pearson_correlation": -0.1491112922765847
+    },
+    {
+      "variable": "qtyhh_wp",
+      "other_variable": "improved_wponly_wp",
+      "pearson_correlation": -0.007833785093306107
+    },
+    {
+      "variable": "wp_age",
+      "other_variable": "improved_wponly_wp",
+      "pearson_correlation": 0.11508795898643846
+    },
+    {
+      "variable": "rehab_age",
+      "other_variable": "improved_wponly_wp",
+      "pearson_correlation": 0.11486868250572074
+    },
+    {
+      "variable": "qtypeople_wp",
+      "other_variable": "improved_wponly_wp",
+      "pearson_correlation": -0.029537377327711983
+    },
+    {
+      "variable": "minutesfill20l",
+      "other_variable": "improved_wponly_wp",
+      "pearson_correlation": -0.10690973214064554
+    },
+    {
+      "variable": "brokendays_wp",
+      "other_variable": "improved_wponly_wp",
+      "pearson_correlation": -0.17459121576171133
+    },
+    {
+      "variable": "qtymonthsnowater_wp",
+      "other_variable": "improved_wponly_wp",
+      "pearson_correlation": -0.11510488054129536
+    },
+    {
+      "variable": "pumpstrokes",
+      "other_variable": "improved_wponly_wp",
+      "pearson_correlation": -0.11412567975463722
+    },
+    {
+      "variable": "grant_number_wp",
+      "other_variable": "improved_wponly_wp",
+      "pearson_correlation": null
+    },
+    {
+      "variable": "balance_any_dollars_wp",
+      "other_variable": "improved_wponly_wp",
+      "pearson_correlation": -0.10908688313773619
+    },
+    {
+      "variable": "improved_wponly_wp",
+      "other_variable": "improved_wponly_wp",
+      "pearson_correlation": 1.0
+    },
+    {
+      "variable": "qtyhh_c_wp",
+      "other_variable": "improved_wponly_wp",
+      "pearson_correlation": -0.13986934418267874
+    },
+    {
+      "variable": "wc_savings_wp",
+      "other_variable": "improved_wponly_wp",
+      "pearson_correlation": 0.04954992223975391
+    },
+    {
+      "variable": "wpqty_wp",
+      "other_variable": "improved_wponly_wp",
+      "pearson_correlation": -0.2444758843074724
+    },
+    {
+      "variable": "pop_1000",
+      "other_variable": "improved_wponly_wp",
+      "pearson_correlation": 0.2639357719368447
+    },
+    {
+      "variable": "annual_rain",
+      "other_variable": "improved_wponly_wp",
+      "pearson_correlation": 0.19731463287918583
+    },
+    {
+      "variable": "latitude_wp",
+      "other_variable": "qtyhh_c_wp",
+      "pearson_correlation": 0.09061405416193036
+    },
+    {
+      "variable": "longitude_wp",
+      "other_variable": "qtyhh_c_wp",
+      "pearson_correlation": -0.19454527620811718
+    },
+    {
+      "variable": "elevation_wp",
+      "other_variable": "qtyhh_c_wp",
+      "pearson_correlation": 0.3229988236038218
+    },
+    {
+      "variable": "qtyhh_wp",
+      "other_variable": "qtyhh_c_wp",
+      "pearson_correlation": 0.28142374185667346
+    },
+    {
+      "variable": "wp_age",
+      "other_variable": "qtyhh_c_wp",
+      "pearson_correlation": -0.027743151449838105
+    },
+    {
+      "variable": "rehab_age",
+      "other_variable": "qtyhh_c_wp",
+      "pearson_correlation": -0.20085416733985276
+    },
+    {
+      "variable": "qtypeople_wp",
+      "other_variable": "qtyhh_c_wp",
+      "pearson_correlation": 0.2794074260062304
+    },
+    {
+      "variable": "minutesfill20l",
+      "other_variable": "qtyhh_c_wp",
+      "pearson_correlation": 0.05537513770864726
+    },
+    {
+      "variable": "brokendays_wp",
+      "other_variable": "qtyhh_c_wp",
+      "pearson_correlation": 0.18762404085693546
+    },
+    {
+      "variable": "qtymonthsnowater_wp",
+      "other_variable": "qtyhh_c_wp",
+      "pearson_correlation": 0.12404551879719246
+    },
+    {
+      "variable": "pumpstrokes",
+      "other_variable": "qtyhh_c_wp",
+      "pearson_correlation": 0.05835779140443923
+    },
+    {
+      "variable": "grant_number_wp",
+      "other_variable": "qtyhh_c_wp",
+      "pearson_correlation": null
+    },
+    {
+      "variable": "balance_any_dollars_wp",
+      "other_variable": "qtyhh_c_wp",
+      "pearson_correlation": -0.015773374654947797
+    },
+    {
+      "variable": "improved_wponly_wp",
+      "other_variable": "qtyhh_c_wp",
+      "pearson_correlation": -0.13986934418267874
+    },
+    {
+      "variable": "qtyhh_c_wp",
+      "other_variable": "qtyhh_c_wp",
+      "pearson_correlation": 1.0
+    },
+    {
+      "variable": "wc_savings_wp",
+      "other_variable": "qtyhh_c_wp",
+      "pearson_correlation": -0.04835143826035043
+    },
+    {
+      "variable": "wpqty_wp",
+      "other_variable": "qtyhh_c_wp",
+      "pearson_correlation": 0.24280406567590979
+    },
+    {
+      "variable": "pop_1000",
+      "other_variable": "qtyhh_c_wp",
+      "pearson_correlation": 0.026205554270233355
+    },
+    {
+      "variable": "annual_rain",
+      "other_variable": "qtyhh_c_wp",
+      "pearson_correlation": -0.3672407467177083
+    },
+    {
+      "variable": "latitude_wp",
+      "other_variable": "wc_savings_wp",
+      "pearson_correlation": 0.04207482460433465
+    },
+    {
+      "variable": "longitude_wp",
+      "other_variable": "wc_savings_wp",
+      "pearson_correlation": 0.03042914523409885
+    },
+    {
+      "variable": "elevation_wp",
+      "other_variable": "wc_savings_wp",
+      "pearson_correlation": -0.198360532991419
+    },
+    {
+      "variable": "qtyhh_wp",
+      "other_variable": "wc_savings_wp",
+      "pearson_correlation": -0.035637391954962204
+    },
+    {
+      "variable": "wp_age",
+      "other_variable": "wc_savings_wp",
+      "pearson_correlation": 0.12434949074264803
+    },
+    {
+      "variable": "rehab_age",
+      "other_variable": "wc_savings_wp",
+      "pearson_correlation": 0.09120223706335516
+    },
+    {
+      "variable": "qtypeople_wp",
+      "other_variable": "wc_savings_wp",
+      "pearson_correlation": -0.038544194177893266
+    },
+    {
+      "variable": "minutesfill20l",
+      "other_variable": "wc_savings_wp",
+      "pearson_correlation": -0.03703102567448888
+    },
+    {
+      "variable": "brokendays_wp",
+      "other_variable": "wc_savings_wp",
+      "pearson_correlation": 0.011188050512898697
+    },
+    {
+      "variable": "qtymonthsnowater_wp",
+      "other_variable": "wc_savings_wp",
+      "pearson_correlation": -0.04536166104668752
+    },
+    {
+      "variable": "pumpstrokes",
+      "other_variable": "wc_savings_wp",
+      "pearson_correlation": -0.0439915225262302
+    },
+    {
+      "variable": "grant_number_wp",
+      "other_variable": "wc_savings_wp",
+      "pearson_correlation": null
+    },
+    {
+      "variable": "balance_any_dollars_wp",
+      "other_variable": "wc_savings_wp",
+      "pearson_correlation": -0.09427439826576413
+    },
+    {
+      "variable": "improved_wponly_wp",
+      "other_variable": "wc_savings_wp",
+      "pearson_correlation": 0.04954992223975391
+    },
+    {
+      "variable": "qtyhh_c_wp",
+      "other_variable": "wc_savings_wp",
+      "pearson_correlation": -0.04835143826035043
+    },
+    {
+      "variable": "wc_savings_wp",
+      "other_variable": "wc_savings_wp",
+      "pearson_correlation": 1.0
+    },
+    {
+      "variable": "wpqty_wp",
+      "other_variable": "wc_savings_wp",
+      "pearson_correlation": 0.02902334829844625
+    },
+    {
+      "variable": "pop_1000",
+      "other_variable": "wc_savings_wp",
+      "pearson_correlation": 0.16649457248620328
+    },
+    {
+      "variable": "annual_rain",
+      "other_variable": "wc_savings_wp",
+      "pearson_correlation": 0.055298336286135584
+    },
+    {
+      "variable": "latitude_wp",
+      "other_variable": "wpqty_wp",
+      "pearson_correlation": 0.35467952112314743
+    },
+    {
+      "variable": "longitude_wp",
+      "other_variable": "wpqty_wp",
+      "pearson_correlation": -0.020248598008983286
+    },
+    {
+      "variable": "elevation_wp",
+      "other_variable": "wpqty_wp",
+      "pearson_correlation": -0.006611597632584204
+    },
+    {
+      "variable": "qtyhh_wp",
+      "other_variable": "wpqty_wp",
+      "pearson_correlation": -0.10002380460024612
+    },
+    {
+      "variable": "wp_age",
+      "other_variable": "wpqty_wp",
+      "pearson_correlation": -0.10952157496322965
+    },
+    {
+      "variable": "rehab_age",
+      "other_variable": "wpqty_wp",
+      "pearson_correlation": -0.11606656332256562
+    },
+    {
+      "variable": "qtypeople_wp",
+      "other_variable": "wpqty_wp",
+      "pearson_correlation": -0.10499192313801585
+    },
+    {
+      "variable": "minutesfill20l",
+      "other_variable": "wpqty_wp",
+      "pearson_correlation": 0.024719804271531975
+    },
+    {
+      "variable": "brokendays_wp",
+      "other_variable": "wpqty_wp",
+      "pearson_correlation": 0.08801576143473326
+    },
+    {
+      "variable": "qtymonthsnowater_wp",
+      "other_variable": "wpqty_wp",
+      "pearson_correlation": 0.015083320963213596
+    },
+    {
+      "variable": "pumpstrokes",
+      "other_variable": "wpqty_wp",
+      "pearson_correlation": 0.0445898047647686
+    },
+    {
+      "variable": "grant_number_wp",
+      "other_variable": "wpqty_wp",
+      "pearson_correlation": null
+    },
+    {
+      "variable": "balance_any_dollars_wp",
+      "other_variable": "wpqty_wp",
+      "pearson_correlation": 0.2929629145255646
+    },
+    {
+      "variable": "improved_wponly_wp",
+      "other_variable": "wpqty_wp",
+      "pearson_correlation": -0.2444758843074724
+    },
+    {
+      "variable": "qtyhh_c_wp",
+      "other_variable": "wpqty_wp",
+      "pearson_correlation": 0.24280406567590979
+    },
+    {
+      "variable": "wc_savings_wp",
+      "other_variable": "wpqty_wp",
+      "pearson_correlation": 0.02902334829844625
+    },
+    {
+      "variable": "wpqty_wp",
+      "other_variable": "wpqty_wp",
+      "pearson_correlation": 1.0
+    },
+    {
+      "variable": "pop_1000",
+      "other_variable": "wpqty_wp",
+      "pearson_correlation": -0.20239204975715455
+    },
+    {
+      "variable": "annual_rain",
+      "other_variable": "wpqty_wp",
+      "pearson_correlation": -0.053772133666029356
+    },
+    {
+      "variable": "latitude_wp",
+      "other_variable": "pop_1000",
+      "pearson_correlation": -0.049459291087263456
+    },
+    {
+      "variable": "longitude_wp",
+      "other_variable": "pop_1000",
+      "pearson_correlation": 0.2115341993756101
+    },
+    {
+      "variable": "elevation_wp",
+      "other_variable": "pop_1000",
+      "pearson_correlation": 0.030304868368527953
+    },
+    {
+      "variable": "qtyhh_wp",
+      "other_variable": "pop_1000",
+      "pearson_correlation": 0.048893952390196393
+    },
+    {
+      "variable": "wp_age",
+      "other_variable": "pop_1000",
+      "pearson_correlation": 0.16629345170573168
+    },
+    {
+      "variable": "rehab_age",
+      "other_variable": "pop_1000",
+      "pearson_correlation": 0.1296064934375318
+    },
+    {
+      "variable": "qtypeople_wp",
+      "other_variable": "pop_1000",
+      "pearson_correlation": 0.039691780253253456
+    },
+    {
+      "variable": "minutesfill20l",
+      "other_variable": "pop_1000",
+      "pearson_correlation": -0.022540517379017404
+    },
+    {
+      "variable": "brokendays_wp",
+      "other_variable": "pop_1000",
+      "pearson_correlation": -0.05487434858608529
+    },
+    {
+      "variable": "qtymonthsnowater_wp",
+      "other_variable": "pop_1000",
+      "pearson_correlation": -0.039040997854608926
+    },
+    {
+      "variable": "pumpstrokes",
+      "other_variable": "pop_1000",
+      "pearson_correlation": -0.08313795355768007
+    },
+    {
+      "variable": "grant_number_wp",
+      "other_variable": "pop_1000",
+      "pearson_correlation": null
+    },
+    {
+      "variable": "balance_any_dollars_wp",
+      "other_variable": "pop_1000",
+      "pearson_correlation": -0.18066041042857733
+    },
+    {
+      "variable": "improved_wponly_wp",
+      "other_variable": "pop_1000",
+      "pearson_correlation": 0.2639357719368447
+    },
+    {
+      "variable": "qtyhh_c_wp",
+      "other_variable": "pop_1000",
+      "pearson_correlation": 0.026205554270233355
+    },
+    {
+      "variable": "wc_savings_wp",
+      "other_variable": "pop_1000",
+      "pearson_correlation": 0.16649457248620328
+    },
+    {
+      "variable": "wpqty_wp",
+      "other_variable": "pop_1000",
+      "pearson_correlation": -0.20239204975715455
+    },
+    {
+      "variable": "pop_1000",
+      "other_variable": "pop_1000",
+      "pearson_correlation": 1.0
+    },
+    {
+      "variable": "annual_rain",
+      "other_variable": "pop_1000",
+      "pearson_correlation": 0.1698736823506468
+    },
+    {
+      "variable": "latitude_wp",
+      "other_variable": "annual_rain",
+      "pearson_correlation": 0.10073531621007982
+    },
+    {
+      "variable": "longitude_wp",
+      "other_variable": "annual_rain",
+      "pearson_correlation": 0.7408301928216251
+    },
+    {
+      "variable": "elevation_wp",
+      "other_variable": "annual_rain",
+      "pearson_correlation": -0.30488565528404465
+    },
+    {
+      "variable": "qtyhh_wp",
+      "other_variable": "annual_rain",
+      "pearson_correlation": -0.26183643978474125
+    },
+    {
+      "variable": "wp_age",
+      "other_variable": "annual_rain",
+      "pearson_correlation": -0.010348744240439573
+    },
+    {
+      "variable": "rehab_age",
+      "other_variable": "annual_rain",
+      "pearson_correlation": 0.1550257348677753
+    },
+    {
+      "variable": "qtypeople_wp",
+      "other_variable": "annual_rain",
+      "pearson_correlation": -0.2728462807445831
+    },
+    {
+      "variable": "minutesfill20l",
+      "other_variable": "annual_rain",
+      "pearson_correlation": -0.11486176786149346
+    },
+    {
+      "variable": "brokendays_wp",
+      "other_variable": "annual_rain",
+      "pearson_correlation": -0.20708125874828484
+    },
+    {
+      "variable": "qtymonthsnowater_wp",
+      "other_variable": "annual_rain",
+      "pearson_correlation": -0.10758316205040373
+    },
+    {
+      "variable": "pumpstrokes",
+      "other_variable": "annual_rain",
+      "pearson_correlation": -0.18214536532444844
+    },
+    {
+      "variable": "grant_number_wp",
+      "other_variable": "annual_rain",
+      "pearson_correlation": null
+    },
+    {
+      "variable": "balance_any_dollars_wp",
+      "other_variable": "annual_rain",
+      "pearson_correlation": 0.2968887556210687
+    },
+    {
+      "variable": "improved_wponly_wp",
+      "other_variable": "annual_rain",
+      "pearson_correlation": 0.19731463287918583
+    },
+    {
+      "variable": "qtyhh_c_wp",
+      "other_variable": "annual_rain",
+      "pearson_correlation": -0.3672407467177083
+    },
+    {
+      "variable": "wc_savings_wp",
+      "other_variable": "annual_rain",
+      "pearson_correlation": 0.055298336286135584
+    },
+    {
+      "variable": "wpqty_wp",
+      "other_variable": "annual_rain",
+      "pearson_correlation": -0.053772133666029356
+    },
+    {
+      "variable": "pop_1000",
+      "other_variable": "annual_rain",
+      "pearson_correlation": 0.1698736823506468
+    },
+    {
+      "variable": "annual_rain",
+      "other_variable": "annual_rain",
+      "pearson_correlation": 1.0
+    }
+  ]
+}

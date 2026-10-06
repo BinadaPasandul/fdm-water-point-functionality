@@ -1,0 +1,31 @@
+configuration,class,average_precision
+LR Base,Functional,0.941245459712337
+LR Base,Partially functional,0.2761648321440792
+LR Base,Abandoned or not functional,0.798038253577371
+LR Engineered,Functional,0.9412153789021602
+LR Engineered,Partially functional,0.2750568226445998
+LR Engineered,Abandoned or not functional,0.797412108245809
+RF Base,Functional,0.9515469421272184
+RF Base,Partially functional,0.3695493350828433
+RF Base,Abandoned or not functional,0.8342927311227198
+RF Engineered,Functional,0.9524574981195366
+RF Engineered,Partially functional,0.3658596662917669
+RF Engineered,Abandoned or not functional,0.8288280457672159
+HistGB Base,Functional,0.9524197143713367
+HistGB Base,Partially functional,0.38552942452460554
+HistGB Base,Abandoned or not functional,0.8555467978216004
+HistGB Engineered,Functional,0.9480758931458062
+HistGB Engineered,Partially functional,0.3650744468878921
+HistGB Engineered,Abandoned or not functional,0.8449784502040949
+XGBoost Base,Functional,0.9532860812806967
+XGBoost Base,Partially functional,0.3799365022514949
+XGBoost Base,Abandoned or not functional,0.8518822731309411
+XGBoost Engineered,Functional,0.9529210176431837
+XGBoost Engineered,Partially functional,0.3635019873437316
+XGBoost Engineered,Abandoned or not functional,0.8454350440957505
+CatBoost Base,Functional,0.9483191674591561
+CatBoost Base,Partially functional,0.30898491873789014
+CatBoost Base,Abandoned or not functional,0.7946974755539644
+CatBoost Engineered,Functional,0.9477877842086455
+CatBoost Engineered,Partially functional,0.30168917849314814
+CatBoost Engineered,Abandoned or not functional,0.7927928624942174

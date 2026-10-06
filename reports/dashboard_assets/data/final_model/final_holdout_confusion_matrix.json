@@ -1,0 +1,77 @@
+{
+  "metadata": {
+    "source": "notebooks/05_model_optimization.ipynb cell 39 stored output",
+    "historical_recorded_result": true,
+    "holdout_recomputed": false,
+    "class_order": [
+      "Functional",
+      "Partially functional",
+      "Abandoned or not functional"
+    ]
+  },
+  "records": [
+    {
+      "actual": "Functional",
+      "predicted": "Functional",
+      "count": 259,
+      "row_normalized": 0.97,
+      "actual_support": 267
+    },
+    {
+      "actual": "Functional",
+      "predicted": "Partially functional",
+      "count": 1,
+      "row_normalized": 0.0037,
+      "actual_support": 267
+    },
+    {
+      "actual": "Functional",
+      "predicted": "Abandoned or not functional",
+      "count": 7,
+      "row_normalized": 0.0262,
+      "actual_support": 267
+    },
+    {
+      "actual": "Partially functional",
+      "predicted": "Functional",
+      "count": 22,
+      "row_normalized": 0.7097,
+      "actual_support": 31
+    },
+    {
+      "actual": "Partially functional",
+      "predicted": "Partially functional",
+      "count": 6,
+      "row_normalized": 0.1935,
+      "actual_support": 31
+    },
+    {
+      "actual": "Partially functional",
+      "predicted": "Abandoned or not functional",
+      "count": 3,
+      "row_normalized": 0.0968,
+      "actual_support": 31
+    },
+    {
+      "actual": "Abandoned or not functional",
+      "predicted": "Functional",
+      "count": 13,
+      "row_normalized": 0.2131,
+      "actual_support": 61
+    },
+    {
+      "actual": "Abandoned or not functional",
+      "predicted": "Partially functional",
+      "count": 2,
+      "row_normalized": 0.0328,
+      "actual_support": 61
+    },
+    {
+      "actual": "Abandoned or not functional",
+      "predicted": "Abandoned or not functional",
+      "count": 46,
+      "row_normalized": 0.7541,
+      "actual_support": 61
+    }
+  ]
+}

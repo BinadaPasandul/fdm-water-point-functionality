@@ -1,0 +1,170 @@
+{
+  "metadata": {
+    "source": "Notebook 02 cell 54 stored analysis, reproduced from raw descriptive data",
+    "intended_use": "technical_report_only"
+  },
+  "records": [
+    {
+      "variable": "brokendays_wp",
+      "class": "Abandoned or not functional",
+      "count": 200.0,
+      "mean": 429.77,
+      "50%": 270.0,
+      "max": 3650.0,
+      "value": null
+    },
+    {
+      "variable": "brokendays_wp",
+      "class": "Functional",
+      "count": 366.0,
+      "mean": 27.153005464480874,
+      "50%": 7.0,
+      "max": 510.0,
+      "value": null
+    },
+    {
+      "variable": "brokendays_wp",
+      "class": "Partially functional",
+      "count": 67.0,
+      "mean": 49.97014925373134,
+      "50%": 5.0,
+      "max": 1460.0,
+      "value": null
+    },
+    {
+      "variable": "qtymonthsnowater_wp",
+      "class": "Abandoned or not functional",
+      "count": 274.0,
+      "mean": 2.5145985401459856,
+      "50%": 0.0,
+      "max": 12.0,
+      "value": null
+    },
+    {
+      "variable": "qtymonthsnowater_wp",
+      "class": "Functional",
+      "count": 1227.0,
+      "mean": 0.12550937245313773,
+      "50%": 0.0,
+      "max": 7.0,
+      "value": null
+    },
+    {
+      "variable": "qtymonthsnowater_wp",
+      "class": "Partially functional",
+      "count": 123.0,
+      "mean": 0.5284552845528455,
+      "50%": 0.0,
+      "max": 12.0,
+      "value": null
+    },
+    {
+      "variable": "whynowatertoday_wp_recorded",
+      "class": "Functional",
+      "count": 1333.0,
+      "mean": null,
+      "50%": null,
+      "max": null,
+      "value": "False"
+    },
+    {
+      "variable": "whynowatertoday_wp_recorded",
+      "class": "Partially functional",
+      "count": 155.0,
+      "mean": null,
+      "50%": null,
+      "max": null,
+      "value": "False"
+    },
+    {
+      "variable": "whynowatertoday_wp_recorded",
+      "class": "Abandoned or not functional",
+      "count": 3.0,
+      "mean": null,
+      "50%": null,
+      "max": null,
+      "value": "False"
+    },
+    {
+      "variable": "whynowatertoday_wp_recorded",
+      "class": "Functional",
+      "count": 0.0,
+      "mean": null,
+      "50%": null,
+      "max": null,
+      "value": "True"
+    },
+    {
+      "variable": "whynowatertoday_wp_recorded",
+      "class": "Partially functional",
+      "count": 2.0,
+      "mean": null,
+      "50%": null,
+      "max": null,
+      "value": "True"
+    },
+    {
+      "variable": "whynowatertoday_wp_recorded",
+      "class": "Abandoned or not functional",
+      "count": 300.0,
+      "mean": null,
+      "50%": null,
+      "max": null,
+      "value": "True"
+    },
+    {
+      "variable": "lockedfullday_wp",
+      "class": "Functional",
+      "count": 1179.0,
+      "mean": null,
+      "50%": null,
+      "max": null,
+      "value": "No"
+    },
+    {
+      "variable": "lockedfullday_wp",
+      "class": "Partially functional",
+      "count": 149.0,
+      "mean": null,
+      "50%": null,
+      "max": null,
+      "value": "No"
+    },
+    {
+      "variable": "lockedfullday_wp",
+      "class": "Abandoned or not functional",
+      "count": 217.0,
+      "mean": null,
+      "50%": null,
+      "max": null,
+      "value": "No"
+    },
+    {
+      "variable": "lockedfullday_wp",
+      "class": "Functional",
+      "count": 148.0,
+      "mean": null,
+      "50%": null,
+      "max": null,
+      "value": "Yes"
+    },
+    {
+      "variable": "lockedfullday_wp",
+      "class": "Partially functional",
+      "count": 8.0,
+      "mean": null,
+      "50%": null,
+      "max": null,
+      "value": "Yes"
+    },
+    {
+      "variable": "lockedfullday_wp",
+      "class": "Abandoned or not functional",
+      "count": 20.0,
+      "mean": null,
+      "50%": null,
+      "max": null,
+      "value": "Yes"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "source": "Notebook 02 cell 8",
+    "rows": 1793,
+    "target": "functional3"
+  },
+  "records": [
+    {
+      "class": "Functional",
+      "count": 1333,
+      "percentage": 74.34
+    },
+    {
+      "class": "Partially functional",
+      "count": 157,
+      "percentage": 8.76
+    },
+    {
+      "class": "Abandoned or not functional",
+      "count": 303,
+      "percentage": 16.9
+    }
+  ]
+}

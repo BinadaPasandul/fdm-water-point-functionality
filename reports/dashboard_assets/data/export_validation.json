@@ -1,0 +1,388 @@
+{
+  "status": "PASS",
+  "asset_count": 31,
+  "mandatory_assets_present": true,
+  "png_count": 31,
+  "svg_count": 31,
+  "all_images_valid": true,
+  "all_data_assets_nonempty_and_parseable": true,
+  "target_counts_match_notebook_02": true,
+  "model_metrics_match_saved_reports": true,
+  "final_confusion_support_total": 359,
+  "holdout_recomputed": false,
+  "notebooks_model_lock_and_final_model_unchanged": true,
+  "figure_validation": [
+    {
+      "path": "figures/eda/eda_target_class_distribution.png",
+      "type": "PNG",
+      "bytes": 74667,
+      "valid": true
+    },
+    {
+      "path": "figures/eda/eda_target_class_distribution.svg",
+      "type": "SVG",
+      "bytes": 8850,
+      "valid": true
+    },
+    {
+      "path": "figures/eda/eda_top20_missing_values.png",
+      "type": "PNG",
+      "bytes": 110724,
+      "valid": true
+    },
+    {
+      "path": "figures/eda/eda_top20_missing_values.svg",
+      "type": "SVG",
+      "bytes": 19179,
+      "valid": true
+    },
+    {
+      "path": "figures/eda/eda_key_numeric_distributions.png",
+      "type": "PNG",
+      "bytes": 137541,
+      "valid": true
+    },
+    {
+      "path": "figures/eda/eda_key_numeric_distributions.svg",
+      "type": "SVG",
+      "bytes": 96303,
+      "valid": true
+    },
+    {
+      "path": "figures/eda/eda_key_numeric_boxplots.png",
+      "type": "PNG",
+      "bytes": 146480,
+      "valid": true
+    },
+    {
+      "path": "figures/eda/eda_key_numeric_boxplots.svg",
+      "type": "SVG",
+      "bytes": 80279,
+      "valid": true
+    },
+    {
+      "path": "figures/eda/eda_key_categorical_frequencies.png",
+      "type": "PNG",
+      "bytes": 243431,
+      "valid": true
+    },
+    {
+      "path": "figures/eda/eda_key_categorical_frequencies.svg",
+      "type": "SVG",
+      "bytes": 56880,
+      "valid": true
+    },
+    {
+      "path": "figures/eda/eda_functionality_by_country.png",
+      "type": "PNG",
+      "bytes": 63241,
+      "valid": true
+    },
+    {
+      "path": "figures/eda/eda_functionality_by_country.svg",
+      "type": "SVG",
+      "bytes": 17996,
+      "valid": true
+    },
+    {
+      "path": "figures/eda/eda_categorical_features_vs_target.png",
+      "type": "PNG",
+      "bytes": 130487,
+      "valid": true
+    },
+    {
+      "path": "figures/eda/eda_categorical_features_vs_target.svg",
+      "type": "SVG",
+      "bytes": 33267,
+      "valid": true
+    },
+    {
+      "path": "figures/eda/eda_numeric_features_vs_target.png",
+      "type": "PNG",
+      "bytes": 167783,
+      "valid": true
+    },
+    {
+      "path": "figures/eda/eda_numeric_features_vs_target.svg",
+      "type": "SVG",
+      "bytes": 66480,
+      "valid": true
+    },
+    {
+      "path": "figures/eda/eda_numeric_correlation_heatmap.png",
+      "type": "PNG",
+      "bytes": 190784,
+      "valid": true
+    },
+    {
+      "path": "figures/eda/eda_numeric_correlation_heatmap.svg",
+      "type": "SVG",
+      "bytes": 102898,
+      "valid": true
+    },
+    {
+      "path": "figures/eda/eda_leakage_diagnostic.png",
+      "type": "PNG",
+      "bytes": 141131,
+      "valid": true
+    },
+    {
+      "path": "figures/eda/eda_leakage_diagnostic.svg",
+      "type": "SVG",
+      "bytes": 39663,
+      "valid": true
+    },
+    {
+      "path": "figures/modelling/model_baseline_macro_f1.png",
+      "type": "PNG",
+      "bytes": 109844,
+      "valid": true
+    },
+    {
+      "path": "figures/modelling/model_baseline_macro_f1.svg",
+      "type": "SVG",
+      "bytes": 16530,
+      "valid": true
+    },
+    {
+      "path": "figures/modelling/model_base_vs_engineered_ablation.png",
+      "type": "PNG",
+      "bytes": 116323,
+      "valid": true
+    },
+    {
+      "path": "figures/modelling/model_base_vs_engineered_ablation.svg",
+      "type": "SVG",
+      "bytes": 23779,
+      "valid": true
+    },
+    {
+      "path": "figures/modelling/model_train_vs_validation_and_mcc.png",
+      "type": "PNG",
+      "bytes": 154162,
+      "valid": true
+    },
+    {
+      "path": "figures/modelling/model_train_vs_validation_and_mcc.svg",
+      "type": "SVG",
+      "bytes": 23489,
+      "valid": true
+    },
+    {
+      "path": "figures/modelling/model_partial_class_baselines.png",
+      "type": "PNG",
+      "bytes": 124855,
+      "valid": true
+    },
+    {
+      "path": "figures/modelling/model_partial_class_baselines.svg",
+      "type": "SVG",
+      "bytes": 26511,
+      "valid": true
+    },
+    {
+      "path": "figures/modelling/model_family_winner_confusion_matrices.png",
+      "type": "PNG",
+      "bytes": 439197,
+      "valid": true
+    },
+    {
+      "path": "figures/modelling/model_family_winner_confusion_matrices.svg",
+      "type": "SVG",
+      "bytes": 83833,
+      "valid": true
+    },
+    {
+      "path": "figures/modelling/model_shortlist_precision_recall_curves.png",
+      "type": "PNG",
+      "bytes": 225350,
+      "valid": true
+    },
+    {
+      "path": "figures/modelling/model_shortlist_precision_recall_curves.svg",
+      "type": "SVG",
+      "bytes": 71823,
+      "valid": true
+    },
+    {
+      "path": "figures/optimization/optimization_overview.png",
+      "type": "PNG",
+      "bytes": 128442,
+      "valid": true
+    },
+    {
+      "path": "figures/optimization/optimization_overview.svg",
+      "type": "SVG",
+      "bytes": 33367,
+      "valid": true
+    },
+    {
+      "path": "figures/optimization/baseline_vs_optimized_macro_f1.png",
+      "type": "PNG",
+      "bytes": 60891,
+      "valid": true
+    },
+    {
+      "path": "figures/optimization/baseline_vs_optimized_macro_f1.svg",
+      "type": "SVG",
+      "bytes": 9958,
+      "valid": true
+    },
+    {
+      "path": "figures/optimization/baseline_vs_optimized_mcc.png",
+      "type": "PNG",
+      "bytes": 58550,
+      "valid": true
+    },
+    {
+      "path": "figures/optimization/baseline_vs_optimized_mcc.svg",
+      "type": "SVG",
+      "bytes": 9501,
+      "valid": true
+    },
+    {
+      "path": "figures/optimization/finalist_repeated_cv_macro_f1.png",
+      "type": "PNG",
+      "bytes": 50464,
+      "valid": true
+    },
+    {
+      "path": "figures/optimization/finalist_repeated_cv_macro_f1.svg",
+      "type": "SVG",
+      "bytes": 9299,
+      "valid": true
+    },
+    {
+      "path": "figures/optimization/finalist_partial_class_metrics.png",
+      "type": "PNG",
+      "bytes": 53975,
+      "valid": true
+    },
+    {
+      "path": "figures/optimization/finalist_partial_class_metrics.svg",
+      "type": "SVG",
+      "bytes": 15437,
+      "valid": true
+    },
+    {
+      "path": "figures/optimization/optimization_finalist_confusion_matrices.png",
+      "type": "PNG",
+      "bytes": 195975,
+      "valid": true
+    },
+    {
+      "path": "figures/optimization/optimization_finalist_confusion_matrices.svg",
+      "type": "SVG",
+      "bytes": 59717,
+      "valid": true
+    },
+    {
+      "path": "figures/final_model/final_model_cv_vs_holdout.png",
+      "type": "PNG",
+      "bytes": 54793,
+      "valid": true
+    },
+    {
+      "path": "figures/final_model/final_model_cv_vs_holdout.svg",
+      "type": "SVG",
+      "bytes": 9295,
+      "valid": true
+    },
+    {
+      "path": "figures/final_model/final_holdout_confusion_matrix.png",
+      "type": "PNG",
+      "bytes": 90626,
+      "valid": true
+    },
+    {
+      "path": "figures/final_model/final_holdout_confusion_matrix.svg",
+      "type": "SVG",
+      "bytes": 26029,
+      "valid": true
+    },
+    {
+      "path": "figures/robustness/country_robustness_locked_rf.png",
+      "type": "PNG",
+      "bytes": 56337,
+      "valid": true
+    },
+    {
+      "path": "figures/robustness/country_robustness_locked_rf.svg",
+      "type": "SVG",
+      "bytes": 11978,
+      "valid": true
+    },
+    {
+      "path": "figures/robustness/robustness_raw_permutation_importance.png",
+      "type": "PNG",
+      "bytes": 45058,
+      "valid": true
+    },
+    {
+      "path": "figures/robustness/robustness_raw_permutation_importance.svg",
+      "type": "SVG",
+      "bytes": 19306,
+      "valid": true
+    },
+    {
+      "path": "figures/robustness/robustness_selected_rf_feature_importance.png",
+      "type": "PNG",
+      "bytes": 84454,
+      "valid": true
+    },
+    {
+      "path": "figures/robustness/robustness_selected_rf_feature_importance.svg",
+      "type": "SVG",
+      "bytes": 19068,
+      "valid": true
+    },
+    {
+      "path": "figures/robustness/robustness_candidate_comparison.png",
+      "type": "PNG",
+      "bytes": 23949,
+      "valid": true
+    },
+    {
+      "path": "figures/robustness/robustness_candidate_comparison.svg",
+      "type": "SVG",
+      "bytes": 15134,
+      "valid": true
+    },
+    {
+      "path": "figures/robustness/robustness_learning_curves.png",
+      "type": "PNG",
+      "bytes": 45712,
+      "valid": true
+    },
+    {
+      "path": "figures/robustness/robustness_learning_curves.svg",
+      "type": "SVG",
+      "bytes": 15970,
+      "valid": true
+    },
+    {
+      "path": "figures/robustness/robustness_overview.png",
+      "type": "PNG",
+      "bytes": 37101,
+      "valid": true
+    },
+    {
+      "path": "figures/robustness/robustness_overview.svg",
+      "type": "SVG",
+      "bytes": 37364,
+      "valid": true
+    },
+    {
+      "path": "figures/robustness/robustness_train_vs_cv_macro_f1.png",
+      "type": "PNG",
+      "bytes": 21667,
+      "valid": true
+    },
+    {
+      "path": "figures/robustness/robustness_train_vs_cv_macro_f1.svg",
+      "type": "SVG",
+      "bytes": 9252,
+      "valid": true
+    }
+  ]
+}

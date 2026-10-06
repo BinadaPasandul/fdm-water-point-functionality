@@ -1,0 +1,7 @@
+variant,model_family,include_optional_engineered_features,rare_min_frequency,use_log_transform,scale_numeric,one_hot_encode,native_categorical_handling,categorical_features
+scaled_base,scale_sensitive,False,10.0,True,True,,,
+scaled_engineered,scale_sensitive,True,10.0,True,True,,,
+tree_base,tree_boosting,False,10.0,False,False,,,
+tree_engineered,tree_boosting,True,10.0,False,False,,,
+catboost_native_base,catboost_native,False,,False,False,False,True,"['cat_not_applicable__pumptype', 'cat_not_applicable__drillmethod', 'cat_not_applicable__piped_source', 'cat_not_applicable__piped_pump', 'cat_unknown__country', 'cat_unknown__admin1', 'cat_unknown__wptype', 'cat_unknown__whomanage_wp', 'cat_unknown__rehabyn', 'cat_unknown__season', 'cat_unknown__cwfunded_wp', 'cat_unknown__wc_present_wp', 'cat_unknown__paytocollect_wp', 'cat_unknown__lockedfullday_wp']"
+catboost_native_engineered,catboost_native,True,,False,False,False,True,"['cat_not_applicable__pumptype', 'cat_not_applicable__drillmethod', 'cat_not_applicable__piped_source', 'cat_not_applicable__piped_pump', 'cat_unknown__country', 'cat_unknown__admin1', 'cat_unknown__wptype', 'cat_unknown__whomanage_wp', 'cat_unknown__rehabyn', 'cat_unknown__season', 'cat_unknown__cwfunded_wp', 'cat_unknown__wc_present_wp', 'cat_unknown__paytocollect_wp', 'cat_unknown__lockedfullday_wp', 'cat_unknown__wp_age_group']"

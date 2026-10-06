@@ -1,0 +1,62 @@
+{
+  "primary_metric": "Mean repeated-stratified-CV Macro-F1",
+  "validation_strategy": {
+    "name": "RepeatedStratifiedKFold",
+    "n_splits": 5,
+    "n_repeats": 3,
+    "random_state": 42
+  },
+  "shortlisted_model_families": [
+    "HistGradientBoosting",
+    "XGBoost",
+    "Random Forest"
+  ],
+  "selected_baseline_variant_per_family": [
+    {
+      "model_family": "HistGradientBoosting",
+      "configuration": "HistGB Base",
+      "preprocessing_variant": "tree_base",
+      "cv_macro_f1": 0.6952668835089694,
+      "cv_sd": 0.02737950355049502,
+      "balanced_accuracy": 0.6720297757928212,
+      "mcc": 0.6331920716659528,
+      "partial_f1": 0.36363636363636365,
+      "partial_recall": 0.2857142857142857,
+      "partial_ap": 0.38552942452460554,
+      "train_cv_gap": 0.3047331164910306,
+      "mean_log_loss": 0.6677890501085871,
+      "country_macro_f1_mean_observed_classes": 0.44163117126566764
+    },
+    {
+      "model_family": "XGBoost",
+      "configuration": "XGBoost Base",
+      "preprocessing_variant": "tree_base",
+      "cv_macro_f1": 0.689089510389214,
+      "cv_sd": 0.02832658305705639,
+      "balanced_accuracy": 0.662659006879056,
+      "mcc": 0.6285118511198952,
+      "partial_f1": 0.3655913978494624,
+      "partial_recall": 0.2698412698412698,
+      "partial_ap": 0.3799365022514949,
+      "train_cv_gap": 0.3109104896107862,
+      "mean_log_loss": 0.5202011876424977,
+      "country_macro_f1_mean_observed_classes": 0.4596879707030406
+    },
+    {
+      "model_family": "Random Forest",
+      "configuration": "RF Base",
+      "preprocessing_variant": "tree_base",
+      "cv_macro_f1": 0.6689462716680947,
+      "cv_sd": 0.028842230742866265,
+      "balanced_accuracy": 0.6387532912835382,
+      "mcc": 0.6127727684556475,
+      "partial_f1": 0.32044198895027626,
+      "partial_recall": 0.23015873015873015,
+      "partial_ap": 0.3695493350828433,
+      "train_cv_gap": 0.33068187209165756,
+      "mean_log_loss": 0.6503803080045959,
+      "country_macro_f1_mean_observed_classes": 0.4897193800734526
+    }
+  ],
+  "locked_holdout_loaded": false
+}

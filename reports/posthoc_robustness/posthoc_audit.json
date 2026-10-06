@@ -1,0 +1,39 @@
+{
+  "development_rows": 1434,
+  "model_data_reads": [
+    "E:\\SLIIT\\SLIIT Y3S2\\FDM\\fdm-water-point-functionality\\notebooks\\..\\data\\processed\\modern\\X_train_raw.csv",
+    "E:\\SLIIT\\SLIIT Y3S2\\FDM\\fdm-water-point-functionality\\notebooks\\..\\data\\processed\\modern\\y_train.csv"
+  ],
+  "lock_sha256_before_after": "86b5ba6051a97a37ed903de2bcc9114fbedbfcbcb46e69e7f84643b60b9d342f",
+  "notebook05_sha256_before_after": "e06a2195df7ccd91792086067bd8874d82dfb3fb037cf33401ccface8b27fecf",
+  "official_model_unchanged": true,
+  "holdout_access": "NONE",
+  "evidence_files": [
+    "automated_interpretation.json",
+    "candidate_comparison.png",
+    "coordinate_ablation_folds.csv",
+    "coordinate_ablation_summary.csv",
+    "learning_curve_diagnostics.csv",
+    "learning_curves.png",
+    "locked_rf_repeated_cv.csv",
+    "locked_rf_summary.csv",
+    "posthoc_audit.json",
+    "posthoc_candidate_assessment.json",
+    "posthoc_comparison.csv",
+    "posthoc_country_robustness.csv",
+    "posthoc_interpretation.md",
+    "posthoc_oof_class_metrics.csv",
+    "posthoc_repeated_cv_folds.csv",
+    "posthoc_repeated_cv_summary.csv",
+    "raw_feature_permutation_importance.csv",
+    "raw_permutation_importance.png",
+    "reference_locked_model.json",
+    "robustness_dashboard.png",
+    "selected_feature_importance.png",
+    "selected_processed_feature_importance.csv",
+    "smotenc_control_folds.csv",
+    "smotenc_folds.csv",
+    "smotenc_summary.csv",
+    "train_vs_cv_macro_f1.png"
+  ]
+}

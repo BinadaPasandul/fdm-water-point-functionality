@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "source": "reports/model_optimization/finalist_oof_class_metrics.csv"
+  },
+  "records": [
+    {
+      "finalist": "HistGradientBoosting / none",
+      "class": "Partially functional",
+      "support": 126,
+      "precision": 0.6730769230769231,
+      "recall": 0.2777777777777778,
+      "f1": 0.3932584269662921,
+      "average_precision": 0.4032952324297154
+    },
+    {
+      "finalist": "XGBoost / none",
+      "class": "Partially functional",
+      "support": 126,
+      "precision": 0.5416666666666666,
+      "recall": 0.3095238095238095,
+      "f1": 0.3939393939393939,
+      "average_precision": 0.4074785452501286
+    },
+    {
+      "finalist": "Random Forest / none / {'select_k': 60}",
+      "class": "Partially functional",
+      "support": 126,
+      "precision": 0.6176470588235294,
+      "recall": 0.3333333333333333,
+      "f1": 0.4329896907216495,
+      "average_precision": 0.4245343843981167
+    }
+  ]
+}

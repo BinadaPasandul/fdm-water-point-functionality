@@ -1,0 +1,31 @@
+{
+  "finalist": "Random Forest / none / {'select_k': 60}",
+  "model_family": "Random Forest",
+  "preprocessing_variant": "tree_base",
+  "hyperparameters": {
+    "bootstrap": false,
+    "max_depth": null,
+    "max_features": 0.5,
+    "min_samples_leaf": 5,
+    "min_samples_split": 8,
+    "n_estimators": 336
+  },
+  "imbalance_strategy": "none",
+  "rare_min_frequency": 10,
+  "feature_selection_k": 60,
+  "feature_set": "base",
+  "class_mapping": {
+    "Functional": 0,
+    "Partially functional": 1,
+    "Abandoned or not functional": 2
+  },
+  "primary_cv_macro_f1": 0.6995798685801132,
+  "cv_sd": 0.04812455152560639,
+  "balanced_accuracy": 0.6690930039286535,
+  "mcc": 0.6349234570476817,
+  "partial_f1": 0.4329896907216495,
+  "partial_recall": 0.3333333333333333,
+  "selection_rule": "Repeated-CV Macro-F1; within 0.005: Balanced Accuracy, Partial F1, Partial Recall, MCC, lower SD, lower Log Loss",
+  "development_rows": 1434,
+  "holdout_evaluated": false
+}

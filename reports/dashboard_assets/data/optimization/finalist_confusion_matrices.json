@@ -1,0 +1,197 @@
+{
+  "metadata": {
+    "source": "reports/model_optimization/finalist_confusion_matrices.csv",
+    "OOF": true
+  },
+  "records": [
+    {
+      "finalist": "HistGradientBoosting / none",
+      "actual": "Functional",
+      "predicted": "Functional",
+      "count": 1024,
+      "row_normalized": 0.9606003752345216
+    },
+    {
+      "finalist": "HistGradientBoosting / none",
+      "actual": "Functional",
+      "predicted": "Partially functional",
+      "count": 12,
+      "row_normalized": 0.0112570356472795
+    },
+    {
+      "finalist": "HistGradientBoosting / none",
+      "actual": "Functional",
+      "predicted": "Abandoned or not functional",
+      "count": 30,
+      "row_normalized": 0.0281425891181988
+    },
+    {
+      "finalist": "HistGradientBoosting / none",
+      "actual": "Partially functional",
+      "predicted": "Functional",
+      "count": 77,
+      "row_normalized": 0.6111111111111112
+    },
+    {
+      "finalist": "HistGradientBoosting / none",
+      "actual": "Partially functional",
+      "predicted": "Partially functional",
+      "count": 35,
+      "row_normalized": 0.2777777777777778
+    },
+    {
+      "finalist": "HistGradientBoosting / none",
+      "actual": "Partially functional",
+      "predicted": "Abandoned or not functional",
+      "count": 14,
+      "row_normalized": 0.1111111111111111
+    },
+    {
+      "finalist": "HistGradientBoosting / none",
+      "actual": "Abandoned or not functional",
+      "predicted": "Functional",
+      "count": 58,
+      "row_normalized": 0.2396694214876033
+    },
+    {
+      "finalist": "HistGradientBoosting / none",
+      "actual": "Abandoned or not functional",
+      "predicted": "Partially functional",
+      "count": 5,
+      "row_normalized": 0.0206611570247933
+    },
+    {
+      "finalist": "HistGradientBoosting / none",
+      "actual": "Abandoned or not functional",
+      "predicted": "Abandoned or not functional",
+      "count": 179,
+      "row_normalized": 0.7396694214876033
+    },
+    {
+      "finalist": "XGBoost / none",
+      "actual": "Functional",
+      "predicted": "Functional",
+      "count": 1009,
+      "row_normalized": 0.9465290806754222
+    },
+    {
+      "finalist": "XGBoost / none",
+      "actual": "Functional",
+      "predicted": "Partially functional",
+      "count": 26,
+      "row_normalized": 0.024390243902439
+    },
+    {
+      "finalist": "XGBoost / none",
+      "actual": "Functional",
+      "predicted": "Abandoned or not functional",
+      "count": 31,
+      "row_normalized": 0.0290806754221388
+    },
+    {
+      "finalist": "XGBoost / none",
+      "actual": "Partially functional",
+      "predicted": "Functional",
+      "count": 71,
+      "row_normalized": 0.5634920634920635
+    },
+    {
+      "finalist": "XGBoost / none",
+      "actual": "Partially functional",
+      "predicted": "Partially functional",
+      "count": 39,
+      "row_normalized": 0.3095238095238095
+    },
+    {
+      "finalist": "XGBoost / none",
+      "actual": "Partially functional",
+      "predicted": "Abandoned or not functional",
+      "count": 16,
+      "row_normalized": 0.1269841269841269
+    },
+    {
+      "finalist": "XGBoost / none",
+      "actual": "Abandoned or not functional",
+      "predicted": "Functional",
+      "count": 56,
+      "row_normalized": 0.2314049586776859
+    },
+    {
+      "finalist": "XGBoost / none",
+      "actual": "Abandoned or not functional",
+      "predicted": "Partially functional",
+      "count": 7,
+      "row_normalized": 0.0289256198347107
+    },
+    {
+      "finalist": "XGBoost / none",
+      "actual": "Abandoned or not functional",
+      "predicted": "Abandoned or not functional",
+      "count": 179,
+      "row_normalized": 0.7396694214876033
+    },
+    {
+      "finalist": "Random Forest / none / {'select_k': 60}",
+      "actual": "Functional",
+      "predicted": "Functional",
+      "count": 1015,
+      "row_normalized": 0.952157598499062
+    },
+    {
+      "finalist": "Random Forest / none / {'select_k': 60}",
+      "actual": "Functional",
+      "predicted": "Partially functional",
+      "count": 18,
+      "row_normalized": 0.0168855534709193
+    },
+    {
+      "finalist": "Random Forest / none / {'select_k': 60}",
+      "actual": "Functional",
+      "predicted": "Abandoned or not functional",
+      "count": 33,
+      "row_normalized": 0.0309568480300187
+    },
+    {
+      "finalist": "Random Forest / none / {'select_k': 60}",
+      "actual": "Partially functional",
+      "predicted": "Functional",
+      "count": 72,
+      "row_normalized": 0.5714285714285714
+    },
+    {
+      "finalist": "Random Forest / none / {'select_k': 60}",
+      "actual": "Partially functional",
+      "predicted": "Partially functional",
+      "count": 42,
+      "row_normalized": 0.3333333333333333
+    },
+    {
+      "finalist": "Random Forest / none / {'select_k': 60}",
+      "actual": "Partially functional",
+      "predicted": "Abandoned or not functional",
+      "count": 12,
+      "row_normalized": 0.0952380952380952
+    },
+    {
+      "finalist": "Random Forest / none / {'select_k': 60}",
+      "actual": "Abandoned or not functional",
+      "predicted": "Functional",
+      "count": 52,
+      "row_normalized": 0.2148760330578512
+    },
+    {
+      "finalist": "Random Forest / none / {'select_k': 60}",
+      "actual": "Abandoned or not functional",
+      "predicted": "Partially functional",
+      "count": 8,
+      "row_normalized": 0.0330578512396694
+    },
+    {
+      "finalist": "Random Forest / none / {'select_k': 60}",
+      "actual": "Abandoned or not functional",
+      "predicted": "Abandoned or not functional",
+      "count": 182,
+      "row_normalized": 0.7520661157024794
+    }
+  ]
+}

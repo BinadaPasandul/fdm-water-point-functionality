@@ -1,0 +1,13 @@
+class,variable,n,mean,median,q1,q3
+Functional,wp_age,1321,4.348978046934141,3.0,1.0,4.0
+Partially functional,wp_age,155,5.04516129032258,3.0,1.0,4.5
+Abandoned or not functional,wp_age,300,5.528333333333333,4.0,2.0,6.0
+Functional,rehab_age,203,2.3374384236453203,2.0,1.0,3.0
+Partially functional,rehab_age,21,4.0,3.0,2.0,5.0
+Abandoned or not functional,rehab_age,56,2.455357142857143,2.0,1.0,3.25
+Functional,qtypeople_wp,1310,339.85725190839696,250.0,100.0,420.0
+Partially functional,qtypeople_wp,156,320.87179487179486,200.0,14.0,508.5
+Abandoned or not functional,qtypeople_wp,289,393.69204152249137,290.0,58.0,550.0
+Functional,annual_rain,884,999.5803167420814,1007.0,631.0,1225.25
+Partially functional,annual_rain,104,1158.3076923076924,1007.0,1007.0,1689.0
+Abandoned or not functional,annual_rain,258,920.5038759689922,631.0,601.0,1205.0

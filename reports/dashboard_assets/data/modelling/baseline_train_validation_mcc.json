@@ -1,0 +1,77 @@
+{
+  "metadata": {
+    "source": "reports/model_development/baseline_cv_summary.csv"
+  },
+  "records": [
+    {
+      "configuration": "HistGB Base",
+      "model_family": "HistGradientBoosting",
+      "mean_train_macro_f1": 1.0,
+      "mean_macro_f1": 0.6952668835089694,
+      "mean_mcc": 0.6331920716659528
+    },
+    {
+      "configuration": "XGBoost Base",
+      "model_family": "XGBoost",
+      "mean_train_macro_f1": 1.0,
+      "mean_macro_f1": 0.689089510389214,
+      "mean_mcc": 0.6285118511198952
+    },
+    {
+      "configuration": "HistGB Engineered",
+      "model_family": "HistGradientBoosting",
+      "mean_train_macro_f1": 1.0,
+      "mean_macro_f1": 0.6843823441492282,
+      "mean_mcc": 0.6197100105060243
+    },
+    {
+      "configuration": "XGBoost Engineered",
+      "model_family": "XGBoost",
+      "mean_train_macro_f1": 1.0,
+      "mean_macro_f1": 0.6812954048848473,
+      "mean_mcc": 0.6223760286199802
+    },
+    {
+      "configuration": "RF Base",
+      "model_family": "Random Forest",
+      "mean_train_macro_f1": 0.9996281437597522,
+      "mean_macro_f1": 0.6689462716680947,
+      "mean_mcc": 0.6127727684556475
+    },
+    {
+      "configuration": "RF Engineered",
+      "model_family": "Random Forest",
+      "mean_train_macro_f1": 0.9997517203699642,
+      "mean_macro_f1": 0.6586876255471901,
+      "mean_mcc": 0.596581886615507
+    },
+    {
+      "configuration": "CatBoost Base",
+      "model_family": "CatBoost",
+      "mean_train_macro_f1": 0.8342550074112804,
+      "mean_macro_f1": 0.6251385201758929,
+      "mean_mcc": 0.5592238602885741
+    },
+    {
+      "configuration": "CatBoost Engineered",
+      "model_family": "CatBoost",
+      "mean_train_macro_f1": 0.8396264708797486,
+      "mean_macro_f1": 0.6113270207820104,
+      "mean_mcc": 0.5398307242686218
+    },
+    {
+      "configuration": "LR Engineered",
+      "model_family": "Logistic Regression",
+      "mean_train_macro_f1": 0.6680610431436251,
+      "mean_macro_f1": 0.6013277217604531,
+      "mean_mcc": 0.549179641011446
+    },
+    {
+      "configuration": "LR Base",
+      "model_family": "Logistic Regression",
+      "mean_train_macro_f1": 0.6626582860097707,
+      "mean_macro_f1": 0.5966298905928276,
+      "mean_mcc": 0.5449297587860925
+    }
+  ]
+}

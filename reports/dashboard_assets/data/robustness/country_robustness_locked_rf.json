@@ -1,0 +1,126 @@
+{
+  "metadata": {
+    "source": "reports/model_optimization/finalist_country_robustness.csv",
+    "validation": "leave-one-country-out",
+    "metric": "Macro-F1 over observed classes"
+  },
+  "records": [
+    {
+      "finalist": "Random Forest / none / {'select_k': 60}",
+      "country": "Ethiopia",
+      "rows": 307,
+      "observed_classes": "Functional, Partially functional, Abandoned or not functional",
+      "macro_f1_observed_classes": 0.5877333056374172,
+      "balanced_accuracy": 0.6109367996414165,
+      "mcc": 0.708610999863208,
+      "accuracy": 0.8501628664495114,
+      "support_Functional": 184,
+      "support_Partially functional": 26,
+      "support_Abandoned or not functional": 97
+    },
+    {
+      "finalist": "Random Forest / none / {'select_k': 60}",
+      "country": "India",
+      "rows": 105,
+      "observed_classes": "Functional, Partially functional, Abandoned or not functional",
+      "macro_f1_observed_classes": 0.6577540106951871,
+      "balanced_accuracy": 0.6666666666666666,
+      "mcc": 0.7882697328459344,
+      "accuracy": 0.9523809523809524,
+      "support_Functional": 91,
+      "support_Partially functional": 5,
+      "support_Abandoned or not functional": 9
+    },
+    {
+      "finalist": "Random Forest / none / {'select_k': 60}",
+      "country": "Malawi",
+      "rows": 215,
+      "observed_classes": "Functional, Partially functional, Abandoned or not functional",
+      "macro_f1_observed_classes": 0.4325463033183342,
+      "balanced_accuracy": 0.5876190476190476,
+      "mcc": 0.2359761643382563,
+      "accuracy": 0.7395348837209302,
+      "support_Functional": 175,
+      "support_Partially functional": 26,
+      "support_Abandoned or not functional": 14
+    },
+    {
+      "finalist": "Random Forest / none / {'select_k': 60}",
+      "country": "Mali",
+      "rows": 126,
+      "observed_classes": "Functional, Partially functional, Abandoned or not functional",
+      "macro_f1_observed_classes": 0.5688463583200426,
+      "balanced_accuracy": 0.5608187134502923,
+      "mcc": 0.6476686016794536,
+      "accuracy": 0.9444444444444444,
+      "support_Functional": 114,
+      "support_Partially functional": 2,
+      "support_Abandoned or not functional": 10
+    },
+    {
+      "finalist": "Random Forest / none / {'select_k': 60}",
+      "country": "Mozambique",
+      "rows": 93,
+      "observed_classes": "Functional, Partially functional, Abandoned or not functional",
+      "macro_f1_observed_classes": 0.494413407821229,
+      "balanced_accuracy": 0.5,
+      "mcc": 0.4650640345704277,
+      "accuracy": 0.956989247311828,
+      "support_Functional": 88,
+      "support_Partially functional": 3,
+      "support_Abandoned or not functional": 2
+    },
+    {
+      "finalist": "Random Forest / none / {'select_k': 60}",
+      "country": "Nepal",
+      "rows": 267,
+      "observed_classes": "Functional, Partially functional, Abandoned or not functional",
+      "macro_f1_observed_classes": 0.2047056956419451,
+      "balanced_accuracy": 0.3475101896154527,
+      "mcc": -0.0094100518054449,
+      "accuracy": 0.2434456928838951,
+      "support_Functional": 165,
+      "support_Partially functional": 45,
+      "support_Abandoned or not functional": 57
+    },
+    {
+      "finalist": "Random Forest / none / {'select_k': 60}",
+      "country": "Niger",
+      "rows": 113,
+      "observed_classes": "Functional, Partially functional, Abandoned or not functional",
+      "macro_f1_observed_classes": 0.4427035330261137,
+      "balanced_accuracy": 0.4325396825396825,
+      "mcc": 0.361683952324873,
+      "accuracy": 0.7876106194690266,
+      "support_Functional": 84,
+      "support_Partially functional": 5,
+      "support_Abandoned or not functional": 24
+    },
+    {
+      "finalist": "Random Forest / none / {'select_k': 60}",
+      "country": "Rwanda",
+      "rows": 103,
+      "observed_classes": "Functional, Partially functional, Abandoned or not functional",
+      "macro_f1_observed_classes": 0.3616319078716382,
+      "balanced_accuracy": 0.4642786069651741,
+      "mcc": 0.2899569629260622,
+      "accuracy": 0.5145631067961165,
+      "support_Functional": 67,
+      "support_Partially functional": 11,
+      "support_Abandoned or not functional": 25
+    },
+    {
+      "finalist": "Random Forest / none / {'select_k': 60}",
+      "country": "Uganda",
+      "rows": 105,
+      "observed_classes": "Functional, Partially functional, Abandoned or not functional",
+      "macro_f1_observed_classes": 0.661641541038526,
+      "balanced_accuracy": 0.6666666666666666,
+      "mcc": 0.7494879903796589,
+      "accuracy": 0.9714285714285714,
+      "support_Functional": 98,
+      "support_Partially functional": 3,
+      "support_Abandoned or not functional": 4
+    }
+  ]
+}

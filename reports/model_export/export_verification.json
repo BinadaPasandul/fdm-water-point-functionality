@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "holdout_access": false,
+  "development_rows": 1434,
+  "raw_predictor_count": 32,
+  "preprocessing_parity": true,
+  "preprocessing_feature_count": 102,
+  "selected_feature_count": 60,
+  "artifact_created": true,
+  "artifact_sha256": "e035c403e4bece3ca1cf7202a10439815a0d5f7396748c0696e1e6258fd984de",
+  "artifact_bytes": 1510087,
+  "fresh_process_load": true,
+  "prediction_parity": true,
+  "probability_parity": true,
+  "class_order_valid": true,
+  "schema_tests": "PASS",
+  "serialization_safe": true,
+  "backend_ready": true,
+  "source_lock_sha256": "86b5ba6051a97a37ed903de2bcc9114fbedbfcbcb46e69e7f84643b60b9d342f",
+  "prediction_parity_fraction": 1.0,
+  "probability_rtol": 0,
+  "probability_atol": 1e-12
+}

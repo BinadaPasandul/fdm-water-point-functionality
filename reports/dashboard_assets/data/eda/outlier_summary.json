@@ -1,0 +1,118 @@
+{
+  "metadata": {
+    "source": "Notebook 02 cells 30–33",
+    "rule": "1.5 × IQR; values not removed"
+  },
+  "records": [
+    {
+      "variable": "wp_age",
+      "n": 1776,
+      "min": 0.5,
+      "max": 74.0,
+      "iqr_lower": -3.5,
+      "iqr_upper": 8.5,
+      "n_outliers": 202,
+      "pct_outliers": 11.37
+    },
+    {
+      "variable": "rehab_age",
+      "n": 280,
+      "min": 0.5,
+      "max": 12.0,
+      "iqr_lower": -2.0,
+      "iqr_upper": 6.0,
+      "n_outliers": 9,
+      "pct_outliers": 3.21
+    },
+    {
+      "variable": "qtypeople_wp",
+      "n": 1755,
+      "min": 0.0,
+      "max": 5000.0,
+      "iqr_lower": -436.25,
+      "iqr_upper": 989.75,
+      "n_outliers": 99,
+      "pct_outliers": 5.64
+    },
+    {
+      "variable": "qtyhh_wp",
+      "n": 1738,
+      "min": 0.0,
+      "max": 800.0,
+      "iqr_lower": -82.5,
+      "iqr_upper": 177.5,
+      "n_outliers": 98,
+      "pct_outliers": 5.64
+    },
+    {
+      "variable": "annual_rain",
+      "n": 1246,
+      "min": 601.0,
+      "max": 1689.0,
+      "iqr_lower": -426.5,
+      "iqr_upper": 2313.5,
+      "n_outliers": 0,
+      "pct_outliers": 0.0
+    },
+    {
+      "variable": "elevation_wp",
+      "n": 1658,
+      "min": -217.0,
+      "max": 4493.7,
+      "iqr_lower": -1661.7,
+      "iqr_upper": 3578.83,
+      "n_outliers": 1,
+      "pct_outliers": 0.06
+    },
+    {
+      "variable": "pop_1000",
+      "n": 1229,
+      "min": 31.78126798,
+      "max": 9412.559168,
+      "iqr_lower": -1326.62,
+      "iqr_upper": 2902.65,
+      "n_outliers": 52,
+      "pct_outliers": 4.23
+    },
+    {
+      "variable": "minutesfill20l",
+      "n": 1473,
+      "min": 0.2,
+      "max": 555.0,
+      "iqr_lower": -0.23,
+      "iqr_upper": 3.1,
+      "n_outliers": 141,
+      "pct_outliers": 9.57
+    },
+    {
+      "variable": "brokendays_wp",
+      "n": 633,
+      "min": 0.0,
+      "max": 3650.0,
+      "iqr_lower": -172.5,
+      "iqr_upper": 295.5,
+      "n_outliers": 108,
+      "pct_outliers": 17.06
+    },
+    {
+      "variable": "qtymonthsnowater_wp",
+      "n": 1624,
+      "min": 0.0,
+      "max": 12.0,
+      "iqr_lower": 0.0,
+      "iqr_upper": 0.0,
+      "n_outliers": 172,
+      "pct_outliers": 10.59
+    },
+    {
+      "variable": "pumpstrokes",
+      "n": 975,
+      "min": 1.0,
+      "max": 95.0,
+      "iqr_lower": -2.0,
+      "iqr_upper": 6.0,
+      "n_outliers": 95,
+      "pct_outliers": 9.74
+    }
+  ]
+}

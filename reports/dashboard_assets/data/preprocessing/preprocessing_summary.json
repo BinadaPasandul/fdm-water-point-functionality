@@ -1,0 +1,53 @@
+{
+  "raw_predictor_count": 32,
+  "raw_predictor_columns": [
+    "country",
+    "admin1",
+    "latitude_wp",
+    "longitude_wp",
+    "elevation_wp",
+    "cwfunded_wp",
+    "wptype",
+    "pumptype",
+    "drillmethod",
+    "piped_source",
+    "piped_pump",
+    "rehabyn",
+    "qtyhh_wp",
+    "whomanage_wp",
+    "wp_age",
+    "rehab_age",
+    "qtypeople_wp",
+    "lockedfullday_wp",
+    "pumpstrokes",
+    "wc_present_wp",
+    "paytocollect_wp",
+    "improved_wponly_wp",
+    "qtyhh_c_wp",
+    "wc_admin_index_wp",
+    "wc_finance_index_wp",
+    "wc_mgmt_index_wp",
+    "wc_maint_index_wp",
+    "wc_savings_wp",
+    "wpqty_wp",
+    "pop_1000",
+    "annual_rain",
+    "season"
+  ],
+  "target": "functional3",
+  "tree_base": {
+    "model_family": "tree_boosting",
+    "include_optional_engineered_features": false,
+    "rare_min_frequency": 10,
+    "use_log_transform": false,
+    "scale_numeric": false
+  },
+  "locked_model": {
+    "preprocessing_variant": "tree_base",
+    "rare_min_frequency": 10,
+    "feature_set": "base",
+    "feature_selection_k": 60,
+    "imbalance_strategy": "none",
+    "preprocessing_output_count": 102
+  }
+}

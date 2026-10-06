@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "source": "Notebook 02 cells 26–28"
+  },
+  "records": [
+    {
+      "variable": "wptype",
+      "category": "Rainwater collection",
+      "count": 4
+    },
+    {
+      "variable": "wptype",
+      "category": "Unprotected dug well",
+      "count": 2
+    },
+    {
+      "variable": "wptype",
+      "category": "Unprotected spring",
+      "count": 1
+    },
+    {
+      "variable": "whomanage_wp",
+      "category": "Health administrator",
+      "count": 3
+    },
+    {
+      "variable": "whomanage_wp",
+      "category": "District/local government",
+      "count": 2
+    },
+    {
+      "variable": "whomanage_wp",
+      "category": "Church",
+      "count": 2
+    },
+    {
+      "variable": "whomanage_wp",
+      "category": "Other",
+      "count": 2
+    },
+    {
+      "variable": "whomanage_wp",
+      "category": "Don't Know",
+      "count": 1
+    },
+    {
+      "variable": "whomanage_wp",
+      "category": "(Missing)",
+      "count": 1
+    }
+  ]
+}

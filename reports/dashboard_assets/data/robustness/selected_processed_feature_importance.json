@@ -1,0 +1,248 @@
+{
+  "metadata": {
+    "source": "reports/posthoc_robustness/selected_processed_feature_importance.csv",
+    "values_reused_without_refitting": true
+  },
+  "records": [
+    {
+      "selected_processed_feature": "num_indicator__missingindicator_pumpstrokes",
+      "rf_impurity_importance": 0.2291403322202349
+    },
+    {
+      "selected_processed_feature": "num_other__longitude_wp",
+      "rf_impurity_importance": 0.1090115753765385
+    },
+    {
+      "selected_processed_feature": "num_other__latitude_wp",
+      "rf_impurity_importance": 0.092300352672949
+    },
+    {
+      "selected_processed_feature": "num_other__elevation_wp",
+      "rf_impurity_importance": 0.0675238201408288
+    },
+    {
+      "selected_processed_feature": "cat_unknown__lockedfullday_wp_Unknown",
+      "rf_impurity_importance": 0.0588174062607125
+    },
+    {
+      "selected_processed_feature": "num_indicator__annual_rain",
+      "rf_impurity_importance": 0.044856472605815
+    },
+    {
+      "selected_processed_feature": "num_indicator__pumpstrokes",
+      "rf_impurity_importance": 0.0435083806143788
+    },
+    {
+      "selected_processed_feature": "num_skew__pop_1000",
+      "rf_impurity_importance": 0.0323051088012855
+    },
+    {
+      "selected_processed_feature": "num_skew__qtypeople_wp",
+      "rf_impurity_importance": 0.0288613792843985
+    },
+    {
+      "selected_processed_feature": "cat_unknown__country_Ethiopia",
+      "rf_impurity_importance": 0.0277278517078109
+    },
+    {
+      "selected_processed_feature": "cat_unknown__admin1_Tigray",
+      "rf_impurity_importance": 0.0247322353484372
+    },
+    {
+      "selected_processed_feature": "cat_not_applicable__pumptype_Not applicable",
+      "rf_impurity_importance": 0.0223487026879883
+    },
+    {
+      "selected_processed_feature": "num_indicator__qtyhh_c_wp",
+      "rf_impurity_importance": 0.0192959549930386
+    },
+    {
+      "selected_processed_feature": "num_skew__qtyhh_wp",
+      "rf_impurity_importance": 0.0180968909850576
+    },
+    {
+      "selected_processed_feature": "cat_unknown__rehabyn_Unknown",
+      "rf_impurity_importance": 0.0168006434215371
+    },
+    {
+      "selected_processed_feature": "cat_unknown__wptype_Borehole with hand pump",
+      "rf_impurity_importance": 0.0161317779982317
+    },
+    {
+      "selected_processed_feature": "ordinal_wc_index__wc_admin_index_wp",
+      "rf_impurity_importance": 0.0141238791658884
+    },
+    {
+      "selected_processed_feature": "num_indicator__wpqty_wp",
+      "rf_impurity_importance": 0.0139791879668508
+    },
+    {
+      "selected_processed_feature": "cat_not_applicable__drillmethod_Not applicable",
+      "rf_impurity_importance": 0.0132534224988923
+    },
+    {
+      "selected_processed_feature": "cat_not_applicable__piped_pump_Not applicable",
+      "rf_impurity_importance": 0.0114986005981457
+    },
+    {
+      "selected_processed_feature": "num_other__rehab_age",
+      "rf_impurity_importance": 0.0108350788230084
+    },
+    {
+      "selected_processed_feature": "ordinal_wc_index__wc_mgmt_index_wp",
+      "rf_impurity_importance": 0.0090625087605173
+    },
+    {
+      "selected_processed_feature": "cat_not_applicable__drillmethod_Manually drilled",
+      "rf_impurity_importance": 0.0078667345764063
+    },
+    {
+      "selected_processed_feature": "cat_not_applicable__drillmethod_Drilled by machine",
+      "rf_impurity_importance": 0.0068622281460327
+    },
+    {
+      "selected_processed_feature": "cat_unknown__lockedfullday_wp_No",
+      "rf_impurity_importance": 0.0059332577038495
+    },
+    {
+      "selected_processed_feature": "ordinal_wc_index__wc_finance_index_wp",
+      "rf_impurity_importance": 0.0054129044764363
+    },
+    {
+      "selected_processed_feature": "cat_unknown__season_Unknown",
+      "rf_impurity_importance": 0.005306667937738
+    },
+    {
+      "selected_processed_feature": "semantic_flags__rehab_age_missing",
+      "rf_impurity_importance": 0.005013335691947
+    },
+    {
+      "selected_processed_feature": "cat_not_applicable__piped_source_Not applicable",
+      "rf_impurity_importance": 0.0047221887769037
+    },
+    {
+      "selected_processed_feature": "cat_unknown__country_Niger",
+      "rf_impurity_importance": 0.0036235514189815
+    },
+    {
+      "selected_processed_feature": "ordinal_wc_index__wc_maint_index_wp",
+      "rf_impurity_importance": 0.0034846323013712
+    },
+    {
+      "selected_processed_feature": "cat_unknown__season_wet",
+      "rf_impurity_importance": 0.0031373302817209
+    },
+    {
+      "selected_processed_feature": "cat_not_applicable__pumptype_India Mark II",
+      "rf_impurity_importance": 0.0027375426169771
+    },
+    {
+      "selected_processed_feature": "semantic_flags__pop_1000_missing",
+      "rf_impurity_importance": 0.002208369379808
+    },
+    {
+      "selected_processed_feature": "cat_unknown__wptype_Protected spring",
+      "rf_impurity_importance": 0.0021713377033134
+    },
+    {
+      "selected_processed_feature": "cat_unknown__admin1_Maradi",
+      "rf_impurity_importance": 0.0021046201919062
+    },
+    {
+      "selected_processed_feature": "cat_unknown__whomanage_wp_Water committee",
+      "rf_impurity_importance": 0.001680619298088
+    },
+    {
+      "selected_processed_feature": "cat_unknown__paytocollect_wp_Unknown",
+      "rf_impurity_importance": 0.0016181966265894
+    },
+    {
+      "selected_processed_feature": "cat_not_applicable__drillmethod_Hand-dug",
+      "rf_impurity_importance": 0.0015710424817268
+    },
+    {
+      "selected_processed_feature": "cat_not_applicable__piped_pump_Gravity Fed",
+      "rf_impurity_importance": 0.0013363524676573
+    },
+    {
+      "selected_processed_feature": "num_indicator__missingindicator_qtyhh_c_wp",
+      "rf_impurity_importance": 0.0012243535575862
+    },
+    {
+      "selected_processed_feature": "cat_not_applicable__piped_source_Protected spring",
+      "rf_impurity_importance": 0.0011123140928798
+    },
+    {
+      "selected_processed_feature": "cat_not_applicable__pumptype_Water4",
+      "rf_impurity_importance": 0.0010353811592256
+    },
+    {
+      "selected_processed_feature": "cat_unknown__wptype_Public tap / standpipe",
+      "rf_impurity_importance": 0.0009540953101723
+    },
+    {
+      "selected_processed_feature": "num_indicator__missingindicator_improved_wponly_wp",
+      "rf_impurity_importance": 0.0008352765858503
+    },
+    {
+      "selected_processed_feature": "cat_unknown__country_Mali",
+      "rf_impurity_importance": 0.0008253074740871
+    },
+    {
+      "selected_processed_feature": "num_indicator__missingindicator_wpqty_wp",
+      "rf_impurity_importance": 0.000779226555459
+    },
+    {
+      "selected_processed_feature": "cat_unknown__paytocollect_wp_Yes",
+      "rf_impurity_importance": 0.0006752955378839
+    },
+    {
+      "selected_processed_feature": "cat_unknown__country_Rwanda",
+      "rf_impurity_importance": 0.0004151959366836
+    },
+    {
+      "selected_processed_feature": "cat_unknown__lockedfullday_wp_Yes",
+      "rf_impurity_importance": 0.0003545591655904
+    },
+    {
+      "selected_processed_feature": "cat_unknown__wc_present_wp_No",
+      "rf_impurity_importance": 0.0002948407646184
+    },
+    {
+      "selected_processed_feature": "cat_unknown__wptype_infrequent_sklearn",
+      "rf_impurity_importance": 0.0001875244739959
+    },
+    {
+      "selected_processed_feature": "cat_unknown__admin1_Nampula",
+      "rf_impurity_importance": 9.967392180237486e-05
+    },
+    {
+      "selected_processed_feature": "cat_unknown__country_Mozambique",
+      "rf_impurity_importance": 7.748155270964673e-05
+    },
+    {
+      "selected_processed_feature": "cat_unknown__whomanage_wp_School",
+      "rf_impurity_importance": 5.540987460080709e-05
+    },
+    {
+      "selected_processed_feature": "cat_not_applicable__pumptype_Vergnet",
+      "rf_impurity_importance": 5.2481900647607e-05
+    },
+    {
+      "selected_processed_feature": "cat_not_applicable__pumptype_Vergnet Hydro",
+      "rf_impurity_importance": 1.9107126205502312e-05
+    },
+    {
+      "selected_processed_feature": "cat_unknown__admin1_Bihar",
+      "rf_impurity_importance": 0.0
+    },
+    {
+      "selected_processed_feature": "cat_unknown__cwfunded_wp_Unknown",
+      "rf_impurity_importance": 0.0
+    },
+    {
+      "selected_processed_feature": "cat_unknown__cwfunded_wp_infrequent_sklearn",
+      "rf_impurity_importance": 0.0
+    }
+  ]
+}

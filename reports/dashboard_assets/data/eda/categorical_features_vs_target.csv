@@ -1,0 +1,46 @@
+feature,category,class,percentage,category_n
+wptype,Borehole with hand pump,Functional,84.84555984555985,1036
+wptype,Borehole with hand pump,Partially functional,5.115830115830116,1036
+wptype,Borehole with hand pump,Abandoned or not functional,10.038610038610038,1036
+wptype,Public tap / standpipe,Functional,63.372093023255815,516
+wptype,Public tap / standpipe,Partially functional,13.75968992248062,516
+wptype,Public tap / standpipe,Abandoned or not functional,22.868217054263564,516
+wptype,Protected dug well with hand pump,Functional,57.24137931034483,145
+wptype,Protected dug well with hand pump,Partially functional,4.137931034482759,145
+wptype,Protected dug well with hand pump,Abandoned or not functional,38.62068965517241,145
+wptype,Piped water into yard / plot,Functional,58.82352941176471,51
+wptype,Piped water into yard / plot,Partially functional,25.49019607843137,51
+wptype,Piped water into yard / plot,Abandoned or not functional,15.686274509803921,51
+wptype,Protected spring,Functional,17.857142857142858,28
+wptype,Protected spring,Partially functional,42.857142857142854,28
+wptype,Protected spring,Abandoned or not functional,39.285714285714285,28
+wptype,Mechanized borehole,Functional,80.0,10
+wptype,Mechanized borehole,Partially functional,10.0,10
+wptype,Mechanized borehole,Abandoned or not functional,10.0,10
+drillmethod,Manually drilled,Functional,86.15196078431373,816
+drillmethod,Manually drilled,Partially functional,2.941176470588235,816
+drillmethod,Manually drilled,Abandoned or not functional,10.906862745098039,816
+drillmethod,Drilled by machine,Functional,79.82456140350878,228
+drillmethod,Drilled by machine,Partially functional,13.157894736842104,228
+drillmethod,Drilled by machine,Abandoned or not functional,7.017543859649122,228
+drillmethod,Hand-dug,Functional,56.75675675675676,148
+drillmethod,Hand-dug,Partially functional,4.054054054054054,148
+drillmethod,Hand-dug,Abandoned or not functional,39.189189189189186,148
+whomanage_wp,Water committee,Functional,75.60497056899933,1529
+whomanage_wp,Water committee,Partially functional,8.633093525179856,1529
+whomanage_wp,Water committee,Abandoned or not functional,15.761935905820797,1529
+whomanage_wp,Private person,Functional,62.68656716417911,67
+whomanage_wp,Private person,Partially functional,19.402985074626866,67
+whomanage_wp,Private person,Abandoned or not functional,17.91044776119403,67
+whomanage_wp,School,Functional,76.66666666666667,60
+whomanage_wp,School,Partially functional,3.3333333333333335,60
+whomanage_wp,School,Abandoned or not functional,20.0,60
+whomanage_wp,Community leader,Functional,77.96610169491525,59
+whomanage_wp,Community leader,Partially functional,1.694915254237288,59
+whomanage_wp,Community leader,Abandoned or not functional,20.33898305084746,59
+whomanage_wp,Vendor,Functional,60.71428571428571,56
+whomanage_wp,Vendor,Partially functional,10.714285714285714,56
+whomanage_wp,Vendor,Abandoned or not functional,28.57142857142857,56
+whomanage_wp,No one,Functional,9.090909090909092,11
+whomanage_wp,No one,Partially functional,18.181818181818183,11
+whomanage_wp,No one,Abandoned or not functional,72.72727272727273,11

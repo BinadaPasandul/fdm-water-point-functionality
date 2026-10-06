@@ -1,0 +1,10 @@
+actual,predicted,count,row_normalized,actual_support
+Functional,Functional,259,0.97,267
+Functional,Partially functional,1,0.0037,267
+Functional,Abandoned or not functional,7,0.0262,267
+Partially functional,Functional,22,0.7097,31
+Partially functional,Partially functional,6,0.1935,31
+Partially functional,Abandoned or not functional,3,0.0968,31
+Abandoned or not functional,Functional,13,0.2131,61
+Abandoned or not functional,Partially functional,2,0.0328,61
+Abandoned or not functional,Abandoned or not functional,46,0.7541,61

@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "source": "Notebook 02 cell 36",
+    "unit": "row percent"
+  },
+  "records": [
+    {
+      "country": "Ethiopia",
+      "Functional": 60.62176165803109,
+      "Partially functional": 7.512953367875648,
+      "Abandoned or not functional": 31.865284974093267
+    },
+    {
+      "country": "Nepal",
+      "Functional": 60.670731707317074,
+      "Partially functional": 18.597560975609756,
+      "Abandoned or not functional": 20.73170731707317
+    },
+    {
+      "country": "Rwanda",
+      "Functional": 63.793103448275865,
+      "Partially functional": 10.344827586206897,
+      "Abandoned or not functional": 25.862068965517242
+    },
+    {
+      "country": "Niger",
+      "Functional": 76.19047619047619,
+      "Partially functional": 4.081632653061225,
+      "Abandoned or not functional": 19.727891156462583
+    },
+    {
+      "country": "Malawi",
+      "Functional": 82.31046931407943,
+      "Partially functional": 11.552346570397113,
+      "Abandoned or not functional": 6.137184115523466
+    },
+    {
+      "country": "India",
+      "Functional": 86.15384615384616,
+      "Partially functional": 5.384615384615385,
+      "Abandoned or not functional": 8.461538461538462
+    },
+    {
+      "country": "Mali",
+      "Functional": 89.57055214723927,
+      "Partially functional": 1.2269938650306749,
+      "Abandoned or not functional": 9.202453987730062
+    },
+    {
+      "country": "Uganda",
+      "Functional": 90.9090909090909,
+      "Partially functional": 3.787878787878788,
+      "Abandoned or not functional": 5.303030303030303
+    },
+    {
+      "country": "Mozambique",
+      "Functional": 94.73684210526315,
+      "Partially functional": 2.631578947368421,
+      "Abandoned or not functional": 2.631578947368421
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+index,feature_name,selected
+0,cat_not_applicable__pumptype_Afridev,False
+1,cat_not_applicable__pumptype_Hydro India,False
+2,cat_not_applicable__pumptype_India Mark II,True
+3,cat_not_applicable__pumptype_Not applicable,True
+4,cat_not_applicable__pumptype_U3,False
+5,cat_not_applicable__pumptype_Vergnet,True
+6,cat_not_applicable__pumptype_Vergnet Hydro,True
+7,cat_not_applicable__pumptype_Water4,True
+8,cat_not_applicable__drillmethod_Drilled by machine,True
+9,cat_not_applicable__drillmethod_Hand-dug,True
+10,cat_not_applicable__drillmethod_Manually drilled,True
+11,cat_not_applicable__drillmethod_Not applicable,True
+12,cat_not_applicable__piped_source_Borehole,False
+13,cat_not_applicable__piped_source_Not applicable,True
+14,cat_not_applicable__piped_source_Protected spring,True
+15,cat_not_applicable__piped_source_Unprotected spring,False
+16,cat_not_applicable__piped_pump_Electric powered pump,False
+17,cat_not_applicable__piped_pump_Gravity Fed,True
+18,cat_not_applicable__piped_pump_Not applicable,True
+19,cat_not_applicable__piped_pump_Solar powered pump,False
+20,cat_not_applicable__piped_pump_infrequent_sklearn,False
+21,cat_unknown__country_Ethiopia,True
+22,cat_unknown__country_India,False
+23,cat_unknown__country_Malawi,False
+24,cat_unknown__country_Mali,True
+25,cat_unknown__country_Mozambique,True
+26,cat_unknown__country_Nepal,False
+27,cat_unknown__country_Niger,True
+28,cat_unknown__country_Rwanda,True
+29,cat_unknown__country_Uganda,False
+30,cat_unknown__admin1_Bihar,True
+31,cat_unknown__admin1_Central,False
+32,cat_unknown__admin1_Dosso,False
+33,cat_unknown__admin1_Eastern,False
+34,cat_unknown__admin1_Koulikoro,False
+35,cat_unknown__admin1_Maradi,True
+36,cat_unknown__admin1_Nampula,True
+37,cat_unknown__admin1_North,False
+38,cat_unknown__admin1_Northern Province,False
+39,cat_unknown__admin1_Segou,False
+40,cat_unknown__admin1_South,False
+41,cat_unknown__admin1_Tigray,True
+42,cat_unknown__admin1_West Bengal,False
+43,cat_unknown__admin1_Western,False
+44,cat_unknown__admin1_Zambezia,False
+45,cat_unknown__wptype_Borehole with hand pump,True
+46,cat_unknown__wptype_Piped water into yard / plot,False
+47,cat_unknown__wptype_Protected dug well with hand pump,False
+48,cat_unknown__wptype_Protected spring,True
+49,cat_unknown__wptype_Public tap / standpipe,True
+50,cat_unknown__wptype_infrequent_sklearn,True
+51,cat_unknown__whomanage_wp_Community leader,False
+52,cat_unknown__whomanage_wp_No one,False
+53,cat_unknown__whomanage_wp_Private person,False
+54,cat_unknown__whomanage_wp_School,True
+55,cat_unknown__whomanage_wp_Vendor,False
+56,cat_unknown__whomanage_wp_Water committee,True
+57,cat_unknown__whomanage_wp_infrequent_sklearn,False
+58,cat_unknown__rehabyn_No,False
+59,cat_unknown__rehabyn_Unknown,True
+60,cat_unknown__rehabyn_Yes,False
+61,cat_unknown__season_Unknown,True
+62,cat_unknown__season_dry,False
+63,cat_unknown__season_wet,True
+64,cat_unknown__cwfunded_wp_Unknown,True
+65,cat_unknown__cwfunded_wp_Yes,False
+66,cat_unknown__cwfunded_wp_infrequent_sklearn,True
+67,cat_unknown__wc_present_wp_No,True
+68,cat_unknown__wc_present_wp_Unknown,False
+69,cat_unknown__wc_present_wp_Yes,False
+70,cat_unknown__paytocollect_wp_No,False
+71,cat_unknown__paytocollect_wp_Unknown,True
+72,cat_unknown__paytocollect_wp_Yes,True
+73,cat_unknown__lockedfullday_wp_No,True
+74,cat_unknown__lockedfullday_wp_Unknown,True
+75,cat_unknown__lockedfullday_wp_Yes,True
+76,ordinal_wc_index__wc_admin_index_wp,True
+77,ordinal_wc_index__wc_finance_index_wp,True
+78,ordinal_wc_index__wc_mgmt_index_wp,True
+79,ordinal_wc_index__wc_maint_index_wp,True
+80,num_skew__wp_age,False
+81,num_skew__qtypeople_wp,True
+82,num_skew__qtyhh_wp,True
+83,num_skew__pop_1000,True
+84,num_other__elevation_wp,True
+85,num_other__latitude_wp,True
+86,num_other__longitude_wp,True
+87,num_other__rehab_age,True
+88,num_indicator__annual_rain,True
+89,num_indicator__wpqty_wp,True
+90,num_indicator__qtyhh_c_wp,True
+91,num_indicator__improved_wponly_wp,False
+92,num_indicator__wc_savings_wp,False
+93,num_indicator__pumpstrokes,True
+94,num_indicator__missingindicator_annual_rain,False
+95,num_indicator__missingindicator_wpqty_wp,True
+96,num_indicator__missingindicator_qtyhh_c_wp,True
+97,num_indicator__missingindicator_improved_wponly_wp,True
+98,num_indicator__missingindicator_wc_savings_wp,False
+99,num_indicator__missingindicator_pumpstrokes,True
+100,semantic_flags__rehab_age_missing,True
+101,semantic_flags__pop_1000_missing,True

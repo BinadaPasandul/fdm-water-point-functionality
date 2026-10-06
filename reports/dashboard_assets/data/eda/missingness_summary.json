@@ -1,0 +1,209 @@
+{
+  "metadata": {
+    "source": "Notebook 02 cell 12",
+    "rows": 1793,
+    "columns_with_missing": 40
+  },
+  "records": [
+    {
+      "column": "whynowatertoday_wp_other",
+      "missing_count": 1775,
+      "missing_percent": 99.0
+    },
+    {
+      "column": "rehab_age",
+      "missing_count": 1513,
+      "missing_percent": 84.38
+    },
+    {
+      "column": "whynowatertoday_wp",
+      "missing_count": 1491,
+      "missing_percent": 83.16
+    },
+    {
+      "column": "grant_number_wp",
+      "missing_count": 1246,
+      "missing_percent": 69.49
+    },
+    {
+      "column": "piped_source",
+      "missing_count": 1219,
+      "missing_percent": 67.99
+    },
+    {
+      "column": "piped_pump",
+      "missing_count": 1219,
+      "missing_percent": 67.99
+    },
+    {
+      "column": "brokendays_wp",
+      "missing_count": 1160,
+      "missing_percent": 64.7
+    },
+    {
+      "column": "balance_any_dollars_wp",
+      "missing_count": 853,
+      "missing_percent": 47.57
+    },
+    {
+      "column": "cwid",
+      "missing_count": 834,
+      "missing_percent": 46.51
+    },
+    {
+      "column": "pumpstrokes",
+      "missing_count": 818,
+      "missing_percent": 45.62
+    },
+    {
+      "column": "wc_maint_index_wp",
+      "missing_count": 673,
+      "missing_percent": 37.53
+    },
+    {
+      "column": "wc_admin_index_wp",
+      "missing_count": 673,
+      "missing_percent": 37.53
+    },
+    {
+      "column": "wc_finance_index_wp",
+      "missing_count": 673,
+      "missing_percent": 37.53
+    },
+    {
+      "column": "wc_mgmt_index_wp",
+      "missing_count": 673,
+      "missing_percent": 37.53
+    },
+    {
+      "column": "pumptype",
+      "missing_count": 616,
+      "missing_percent": 34.36
+    },
+    {
+      "column": "wc_savings_wp",
+      "missing_count": 602,
+      "missing_percent": 33.58
+    },
+    {
+      "column": "drillmethod",
+      "missing_count": 601,
+      "missing_percent": 33.52
+    },
+    {
+      "column": "improved_wponly_wp",
+      "missing_count": 598,
+      "missing_percent": 33.35
+    },
+    {
+      "column": "wpqty_wp",
+      "missing_count": 598,
+      "missing_percent": 33.35
+    },
+    {
+      "column": "paytocollect_wp",
+      "missing_count": 598,
+      "missing_percent": 33.35
+    },
+    {
+      "column": "wc_present_wp",
+      "missing_count": 598,
+      "missing_percent": 33.35
+    },
+    {
+      "column": "qtyhh_c_wp",
+      "missing_count": 598,
+      "missing_percent": 33.35
+    },
+    {
+      "column": "pop_1000",
+      "missing_count": 564,
+      "missing_percent": 31.46
+    },
+    {
+      "column": "annual_rain",
+      "missing_count": 547,
+      "missing_percent": 30.51
+    },
+    {
+      "column": "season",
+      "missing_count": 547,
+      "missing_percent": 30.51
+    },
+    {
+      "column": "rehabyn",
+      "missing_count": 367,
+      "missing_percent": 20.47
+    },
+    {
+      "column": "minutesfill20l",
+      "missing_count": 320,
+      "missing_percent": 17.85
+    },
+    {
+      "column": "admin3",
+      "missing_count": 201,
+      "missing_percent": 11.21
+    },
+    {
+      "column": "qtymonthsnowater_wp",
+      "missing_count": 169,
+      "missing_percent": 9.43
+    },
+    {
+      "column": "elevation_wp",
+      "missing_count": 135,
+      "missing_percent": 7.53
+    },
+    {
+      "column": "lockedfullday_wp",
+      "missing_count": 72,
+      "missing_percent": 4.02
+    },
+    {
+      "column": "qtyhh_wp",
+      "missing_count": 55,
+      "missing_percent": 3.07
+    },
+    {
+      "column": "qtypeople_wp",
+      "missing_count": 38,
+      "missing_percent": 2.12
+    },
+    {
+      "column": "admin2",
+      "missing_count": 33,
+      "missing_percent": 1.84
+    },
+    {
+      "column": "latitude_wp",
+      "missing_count": 26,
+      "missing_percent": 1.45
+    },
+    {
+      "column": "longitude_wp",
+      "missing_count": 26,
+      "missing_percent": 1.45
+    },
+    {
+      "column": "wp_age",
+      "missing_count": 17,
+      "missing_percent": 0.95
+    },
+    {
+      "column": "cwfunded_wp",
+      "missing_count": 13,
+      "missing_percent": 0.73
+    },
+    {
+      "column": "downtime2weeks",
+      "missing_count": 1,
+      "missing_percent": 0.06
+    },
+    {
+      "column": "whomanage_wp",
+      "missing_count": 1,
+      "missing_percent": 0.06
+    }
+  ]
+}

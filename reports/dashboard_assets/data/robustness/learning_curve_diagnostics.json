@@ -1,0 +1,80 @@
+{
+  "metadata": {
+    "source": "reports/posthoc_robustness/learning_curve_diagnostics.csv",
+    "values_reused_without_refitting": true
+  },
+  "records": [
+    {
+      "configuration": "Locked RF",
+      "train_rows": 458,
+      "train_macro_f1_mean": 0.8333808933635236,
+      "train_macro_f1_sd": 0.0104880719511072,
+      "cv_macro_f1_mean": 0.6153044225382291,
+      "cv_macro_f1_sd": 0.0554618896936317,
+      "gap": 0.2180764708252944
+    },
+    {
+      "configuration": "Locked RF",
+      "train_rows": 688,
+      "train_macro_f1_mean": 0.8384008623142453,
+      "train_macro_f1_sd": 0.0192091668428485,
+      "cv_macro_f1_mean": 0.6415423558284872,
+      "cv_macro_f1_sd": 0.0168845457474235,
+      "gap": 0.1968585064857581
+    },
+    {
+      "configuration": "Locked RF",
+      "train_rows": 917,
+      "train_macro_f1_mean": 0.8495476966937459,
+      "train_macro_f1_sd": 0.0069084048943045,
+      "cv_macro_f1_mean": 0.6735537912730152,
+      "cv_macro_f1_sd": 0.0348433436008854,
+      "gap": 0.1759939054207306
+    },
+    {
+      "configuration": "Locked RF",
+      "train_rows": 1147,
+      "train_macro_f1_mean": 0.8631054436195355,
+      "train_macro_f1_sd": 0.005537774157275,
+      "cv_macro_f1_mean": 0.705886327737477,
+      "cv_macro_f1_sd": 0.0543328712210001,
+      "gap": 0.1572191158820585
+    },
+    {
+      "configuration": "RF without coordinates",
+      "train_rows": 458,
+      "train_macro_f1_mean": 0.8206183221967585,
+      "train_macro_f1_sd": 0.0164116633686977,
+      "cv_macro_f1_mean": 0.5878355529609504,
+      "cv_macro_f1_sd": 0.0533344421497998,
+      "gap": 0.2327827692358081
+    },
+    {
+      "configuration": "RF without coordinates",
+      "train_rows": 688,
+      "train_macro_f1_mean": 0.8102714495651495,
+      "train_macro_f1_sd": 0.0138882690867286,
+      "cv_macro_f1_mean": 0.5970650446649042,
+      "cv_macro_f1_sd": 0.047214972872564,
+      "gap": 0.2132064049002453
+    },
+    {
+      "configuration": "RF without coordinates",
+      "train_rows": 917,
+      "train_macro_f1_mean": 0.8253101068572924,
+      "train_macro_f1_sd": 0.0174023021841504,
+      "cv_macro_f1_mean": 0.6451825016204463,
+      "cv_macro_f1_sd": 0.0203216689985935,
+      "gap": 0.1801276052368461
+    },
+    {
+      "configuration": "RF without coordinates",
+      "train_rows": 1147,
+      "train_macro_f1_mean": 0.8286191108182199,
+      "train_macro_f1_sd": 0.0071028970767584,
+      "cv_macro_f1_mean": 0.6857684304045296,
+      "cv_macro_f1_sd": 0.0464358371833868,
+      "gap": 0.1428506804136903
+    }
+  ]
+}

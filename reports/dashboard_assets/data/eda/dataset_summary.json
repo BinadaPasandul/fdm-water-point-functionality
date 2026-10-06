@@ -1,0 +1,20 @@
+{
+  "rows": 1793,
+  "columns": 52,
+  "target": "functional3",
+  "numeric_columns_excluding_id_count": 19,
+  "categorical_columns_excluding_target_and_id_count": 31,
+  "columns_with_missing": 40,
+  "duplicate_rows": 0,
+  "negative_elevation_rows": 107,
+  "negative_elevation_by_country": {
+    "India": 106,
+    "Mali": 1
+  },
+  "target_class_counts": {
+    "Functional": 1333,
+    "Partially functional": 157,
+    "Abandoned or not functional": 303
+  },
+  "source": "Notebook 02 descriptive analysis; raw workbook before locked split"
+}

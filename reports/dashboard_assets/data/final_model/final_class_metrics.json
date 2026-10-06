@@ -1,0 +1,33 @@
+{
+  "metadata": {
+    "source": "reports/model_optimization/final_holdout_class_metrics.csv",
+    "historical_recorded_evaluation": true,
+    "holdout_recomputed": false
+  },
+  "records": [
+    {
+      "class": "Functional",
+      "support": 267,
+      "precision": 0.8809523809523809,
+      "recall": 0.9700374531835206,
+      "f1": 0.9233511586452764,
+      "average_precision": 0.9742126446008956
+    },
+    {
+      "class": "Partially functional",
+      "support": 31,
+      "precision": 0.6666666666666666,
+      "recall": 0.1935483870967742,
+      "f1": 0.3,
+      "average_precision": 0.520801867696213
+    },
+    {
+      "class": "Abandoned or not functional",
+      "support": 61,
+      "precision": 0.8214285714285714,
+      "recall": 0.7540983606557377,
+      "f1": 0.7863247863247863,
+      "average_precision": 0.8840380477245796
+    }
+  ]
+}

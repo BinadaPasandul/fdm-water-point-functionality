@@ -1,0 +1,28 @@
+configuration,model_family,held_out_country,validation_rows,observed_classes,class_count,macro_f1_observed_classes,balanced_accuracy,mcc,accuracy,support_Functional,support_Partially functional,support_Abandoned or not functional
+HistGB Base,HistGradientBoosting,Ethiopia,307,"Functional, Partially functional, Abandoned or not functional",3,0.4136378904937857,0.4293665023158524,0.36999718449141955,0.6872964169381107,184,26,97
+HistGB Base,HistGradientBoosting,India,105,"Functional, Partially functional, Abandoned or not functional",3,0.6577540106951871,0.6666666666666666,0.7882697328459344,0.9523809523809523,91,5,9
+HistGB Base,HistGradientBoosting,Malawi,215,"Functional, Partially functional, Abandoned or not functional",3,0.3340967708655731,0.37714285714285717,0.003548797247955732,0.7069767441860465,175,26,14
+HistGB Base,HistGradientBoosting,Mali,126,"Functional, Partially functional, Abandoned or not functional",3,0.5424551188743328,0.5549707602339181,0.574307728900653,0.9285714285714286,114,2,10
+HistGB Base,HistGradientBoosting,Mozambique,93,"Functional, Partially functional, Abandoned or not functional",3,0.3202979515828678,0.32575757575757575,-0.026252356254715538,0.9247311827956989,88,3,2
+HistGB Base,HistGradientBoosting,Nepal,267,"Functional, Partially functional, Abandoned or not functional",3,0.3255948255948256,0.3700159489633174,0.052365067749470015,0.4943820224719101,165,45,57
+HistGB Base,HistGradientBoosting,Niger,113,"Functional, Partially functional, Abandoned or not functional",3,0.4375155279503106,0.44246031746031744,0.29176384536842404,0.7433628318584071,84,5,24
+HistGB Base,HistGradientBoosting,Rwanda,103,"Functional, Partially functional, Abandoned or not functional",3,0.28168690429559995,0.371524197195839,0.062103544579865826,0.3300970873786408,67,11,25
+HistGB Base,HistGradientBoosting,Uganda,105,"Functional, Partially functional, Abandoned or not functional",3,0.661641541038526,0.6666666666666666,0.7494879903796589,0.9714285714285714,98,3,4
+XGBoost Base,XGBoost,Ethiopia,307,"Functional, Partially functional, Abandoned or not functional",3,0.46711300869515887,0.4640568791734188,0.3987834135802326,0.7035830618892508,184,26,97
+XGBoost Base,XGBoost,India,105,"Functional, Partially functional, Abandoned or not functional",3,0.6381461675579323,0.6296296296296297,0.7375574315252922,0.9428571428571428,91,5,9
+XGBoost Base,XGBoost,Malawi,215,"Functional, Partially functional, Abandoned or not functional",3,0.4398148148148148,0.49714285714285716,0.20136848640473545,0.786046511627907,175,26,14
+XGBoost Base,XGBoost,Mali,126,"Functional, Partially functional, Abandoned or not functional",3,0.5424551188743328,0.5549707602339181,0.574307728900653,0.9285714285714286,114,2,10
+XGBoost Base,XGBoost,Mozambique,93,"Functional, Partially functional, Abandoned or not functional",3,0.31835205992509363,0.32196969696969696,-0.03301763475319411,0.9139784946236559,88,3,2
+XGBoost Base,XGBoost,Nepal,267,"Functional, Partially functional, Abandoned or not functional",3,0.2812341375735598,0.40510366826156297,0.08146566290103088,0.27715355805243447,165,45,57
+XGBoost Base,XGBoost,Niger,113,"Functional, Partially functional, Abandoned or not functional",3,0.46792206733512676,0.47420634920634913,0.37366316113771075,0.7699115044247787,84,5,24
+XGBoost Base,XGBoost,Rwanda,103,"Functional, Partially functional, Abandoned or not functional",3,0.3205128205128205,0.34686567164179105,0.04809388025920044,0.6116504854368932,67,11,25
+XGBoost Base,XGBoost,Uganda,105,"Functional, Partially functional, Abandoned or not functional",3,0.661641541038526,0.6666666666666666,0.7494879903796589,0.9714285714285714,98,3,4
+RF Base,Random Forest,Ethiopia,307,"Functional, Partially functional, Abandoned or not functional",3,0.523554071162211,0.52558643358733,0.5724438493921745,0.7785016286644951,184,26,97
+RF Base,Random Forest,India,105,"Functional, Partially functional, Abandoned or not functional",3,0.5557217651458489,0.5185185185185185,0.5756708187710523,0.9142857142857143,91,5,9
+RF Base,Random Forest,Malawi,215,"Functional, Partially functional, Abandoned or not functional",3,0.5038194444444445,0.4761904761904762,0.3711961315056003,0.8418604651162791,175,26,14
+RF Base,Random Forest,Mali,126,"Functional, Partially functional, Abandoned or not functional",3,0.5688463583200426,0.5608187134502923,0.6476686016794536,0.9444444444444444,114,2,10
+RF Base,Random Forest,Mozambique,93,"Functional, Partially functional, Abandoned or not functional",3,0.494413407821229,0.5,0.4650640345704277,0.956989247311828,88,3,2
+RF Base,Random Forest,Nepal,267,"Functional, Partially functional, Abandoned or not functional",3,0.3246619248331577,0.36395534290271137,0.0978975894993509,0.6179775280898876,165,45,57
+RF Base,Random Forest,Niger,113,"Functional, Partially functional, Abandoned or not functional",3,0.4386022927689594,0.4265873015873016,0.39514682428576525,0.7964601769911505,84,5,24
+RF Base,Random Forest,Rwanda,103,"Functional, Partially functional, Abandoned or not functional",3,0.3854742037842285,0.42388059701492536,0.20702248620104952,0.5825242718446602,67,11,25
+RF Base,Random Forest,Uganda,105,"Functional, Partially functional, Abandoned or not functional",3,0.6123809523809524,0.5833333333333334,0.6458860593154713,0.9619047619047619,98,3,4

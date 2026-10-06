@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "source": "reports/model_optimization/finalist_cv_summary.csv"
+  },
+  "records": [
+    {
+      "finalist": "Random Forest / none / {'select_k': 60}",
+      "family": "Random Forest",
+      "strategy": "none",
+      "macro_f1": 0.6995798685801132,
+      "balanced_accuracy": 0.6690930039286535,
+      "macro_recall": 0.6690930039286535,
+      "macro_precision": 0.7756276726031017,
+      "mcc": 0.6349234570476817,
+      "weighted_f1": 0.84719179334041,
+      "accuracy": 0.8593723349820911,
+      "log_loss": 0.4577951007105825,
+      "macro_ap": 0.7547892071569957,
+      "partial_precision": 0.6522628787334669,
+      "partial_recall": 0.3205128205128206,
+      "partial_f1": 0.4220308143419959,
+      "partial_ap": 0.4483802719537216,
+      "train_macro_f1": 0.8647392045023146,
+      "train_cv_gap": 0.1651593359222012,
+      "sd_macro_f1": 0.0481245515256063
+    },
+    {
+      "finalist": "XGBoost / none",
+      "family": "XGBoost",
+      "strategy": "none",
+      "macro_f1": 0.6873992599419947,
+      "balanced_accuracy": 0.6594090865490855,
+      "macro_recall": 0.6594090865490855,
+      "macro_precision": 0.7536723453577158,
+      "mcc": 0.6264403894743182,
+      "weighted_f1": 0.8437204059081584,
+      "accuracy": 0.8561194902658317,
+      "log_loss": 0.4462202387711297,
+      "macro_ap": 0.7456534908220889,
+      "partial_precision": 0.5800457875457875,
+      "partial_recall": 0.2911794871794872,
+      "partial_f1": 0.3821483858918328,
+      "partial_ap": 0.4263544116162159,
+      "train_macro_f1": 0.9948706704574468,
+      "train_cv_gap": 0.3074714105154524,
+      "sd_macro_f1": 0.0290924161039512
+    },
+    {
+      "finalist": "HistGradientBoosting / none",
+      "family": "HistGradientBoosting",
+      "strategy": "none",
+      "macro_f1": 0.679294053281275,
+      "balanced_accuracy": 0.6496982619760877,
+      "macro_recall": 0.6496982619760877,
+      "macro_precision": 0.7576859592315635,
+      "mcc": 0.6215971055163926,
+      "weighted_f1": 0.8409654156111087,
+      "accuracy": 0.8549580500800011,
+      "log_loss": 0.4685238429678667,
+      "macro_ap": 0.7326402822488326,
+      "partial_precision": 0.6037636827110511,
+      "partial_recall": 0.2697435897435898,
+      "partial_f1": 0.3677416750636564,
+      "partial_ap": 0.4136712693773446,
+      "train_macro_f1": 0.9806020749305672,
+      "train_cv_gap": 0.3013080216492922,
+      "sd_macro_f1": 0.0221176666580736
+    }
+  ]
+}

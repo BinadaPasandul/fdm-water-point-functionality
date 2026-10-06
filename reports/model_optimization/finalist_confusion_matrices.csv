@@ -1,0 +1,28 @@
+finalist,actual,predicted,count,row_normalized
+HistGradientBoosting / none,Functional,Functional,1024,0.9606003752345216
+HistGradientBoosting / none,Functional,Partially functional,12,0.01125703564727955
+HistGradientBoosting / none,Functional,Abandoned or not functional,30,0.028142589118198873
+HistGradientBoosting / none,Partially functional,Functional,77,0.6111111111111112
+HistGradientBoosting / none,Partially functional,Partially functional,35,0.2777777777777778
+HistGradientBoosting / none,Partially functional,Abandoned or not functional,14,0.1111111111111111
+HistGradientBoosting / none,Abandoned or not functional,Functional,58,0.2396694214876033
+HistGradientBoosting / none,Abandoned or not functional,Partially functional,5,0.02066115702479339
+HistGradientBoosting / none,Abandoned or not functional,Abandoned or not functional,179,0.7396694214876033
+XGBoost / none,Functional,Functional,1009,0.9465290806754222
+XGBoost / none,Functional,Partially functional,26,0.024390243902439025
+XGBoost / none,Functional,Abandoned or not functional,31,0.029080675422138838
+XGBoost / none,Partially functional,Functional,71,0.5634920634920635
+XGBoost / none,Partially functional,Partially functional,39,0.30952380952380953
+XGBoost / none,Partially functional,Abandoned or not functional,16,0.12698412698412698
+XGBoost / none,Abandoned or not functional,Functional,56,0.23140495867768596
+XGBoost / none,Abandoned or not functional,Partially functional,7,0.028925619834710745
+XGBoost / none,Abandoned or not functional,Abandoned or not functional,179,0.7396694214876033
+Random Forest / none / {'select_k': 60},Functional,Functional,1015,0.9521575984990619
+Random Forest / none / {'select_k': 60},Functional,Partially functional,18,0.016885553470919325
+Random Forest / none / {'select_k': 60},Functional,Abandoned or not functional,33,0.03095684803001876
+Random Forest / none / {'select_k': 60},Partially functional,Functional,72,0.5714285714285714
+Random Forest / none / {'select_k': 60},Partially functional,Partially functional,42,0.3333333333333333
+Random Forest / none / {'select_k': 60},Partially functional,Abandoned or not functional,12,0.09523809523809523
+Random Forest / none / {'select_k': 60},Abandoned or not functional,Functional,52,0.21487603305785125
+Random Forest / none / {'select_k': 60},Abandoned or not functional,Partially functional,8,0.03305785123966942
+Random Forest / none / {'select_k': 60},Abandoned or not functional,Abandoned or not functional,182,0.7520661157024794

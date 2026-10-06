@@ -1,0 +1,10 @@
+finalist,country,rows,observed_classes,macro_f1_observed_classes,balanced_accuracy,mcc,accuracy,support_Functional,support_Partially functional,support_Abandoned or not functional
+Random Forest / none / {'select_k': 60},Ethiopia,307,"Functional, Partially functional, Abandoned or not functional",0.5877333056374172,0.6109367996414165,0.708610999863208,0.8501628664495114,184,26,97
+Random Forest / none / {'select_k': 60},India,105,"Functional, Partially functional, Abandoned or not functional",0.6577540106951871,0.6666666666666666,0.7882697328459344,0.9523809523809524,91,5,9
+Random Forest / none / {'select_k': 60},Malawi,215,"Functional, Partially functional, Abandoned or not functional",0.4325463033183342,0.5876190476190476,0.2359761643382563,0.7395348837209302,175,26,14
+Random Forest / none / {'select_k': 60},Mali,126,"Functional, Partially functional, Abandoned or not functional",0.5688463583200426,0.5608187134502923,0.6476686016794536,0.9444444444444444,114,2,10
+Random Forest / none / {'select_k': 60},Mozambique,93,"Functional, Partially functional, Abandoned or not functional",0.494413407821229,0.5,0.4650640345704277,0.956989247311828,88,3,2
+Random Forest / none / {'select_k': 60},Nepal,267,"Functional, Partially functional, Abandoned or not functional",0.2047056956419451,0.3475101896154527,-0.0094100518054449,0.2434456928838951,165,45,57
+Random Forest / none / {'select_k': 60},Niger,113,"Functional, Partially functional, Abandoned or not functional",0.4427035330261137,0.4325396825396825,0.361683952324873,0.7876106194690266,84,5,24
+Random Forest / none / {'select_k': 60},Rwanda,103,"Functional, Partially functional, Abandoned or not functional",0.3616319078716382,0.4642786069651741,0.2899569629260622,0.5145631067961165,67,11,25
+Random Forest / none / {'select_k': 60},Uganda,105,"Functional, Partially functional, Abandoned or not functional",0.661641541038526,0.6666666666666666,0.7494879903796589,0.9714285714285714,98,3,4

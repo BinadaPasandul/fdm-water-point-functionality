@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "source": "reports/model_optimization/cv_vs_holdout.csv",
+    "historical_evaluation": true,
+    "holdout_recomputed": false
+  },
+  "records": [
+    {
+      "metric": "macro_f1",
+      "repeated_cv": 0.6995798685801132,
+      "holdout": 0.6698919816566876,
+      "holdout_minus_cv": -0.0296878869234256
+    },
+    {
+      "metric": "balanced_accuracy",
+      "repeated_cv": 0.6690930039286535,
+      "holdout": 0.6392280669786775,
+      "holdout_minus_cv": -0.0298649369499759
+    },
+    {
+      "metric": "mcc",
+      "repeated_cv": 0.6349234570476817,
+      "holdout": 0.6465569837526769,
+      "holdout_minus_cv": 0.0116335267049951
+    },
+    {
+      "metric": "accuracy",
+      "repeated_cv": 0.8593723349820911,
+      "holdout": 0.8662952646239555,
+      "holdout_minus_cv": 0.0069229296418643
+    },
+    {
+      "metric": "log_loss",
+      "repeated_cv": 0.4577951007105825,
+      "holdout": 0.33534170865142,
+      "holdout_minus_cv": -0.1224533920591625
+    },
+    {
+      "metric": "partial_recall",
+      "repeated_cv": 0.3205128205128206,
+      "holdout": 0.1935483870967742,
+      "holdout_minus_cv": -0.1269644334160464
+    },
+    {
+      "metric": "partial_f1",
+      "repeated_cv": 0.4220308143419959,
+      "holdout": 0.3,
+      "holdout_minus_cv": -0.1220308143419959
+    },
+    {
+      "metric": "partial_ap",
+      "repeated_cv": 0.4483802719537216,
+      "holdout": 0.520801867696213,
+      "holdout_minus_cv": 0.0724215957424913
+    }
+  ]
+}

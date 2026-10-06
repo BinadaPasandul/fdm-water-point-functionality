@@ -1,0 +1,295 @@
+{
+  "metadata": {
+    "source": "Notebook 02 cells 26–27"
+  },
+  "records": [
+    {
+      "variable": "country",
+      "category": "Ethiopia",
+      "count": 386,
+      "percentage": 21.528165086447295
+    },
+    {
+      "variable": "country",
+      "category": "Nepal",
+      "count": 328,
+      "percentage": 18.293363078639153
+    },
+    {
+      "variable": "country",
+      "category": "Malawi",
+      "count": 277,
+      "percentage": 15.448968209704406
+    },
+    {
+      "variable": "country",
+      "category": "Mali",
+      "count": 163,
+      "percentage": 9.090909090909092
+    },
+    {
+      "variable": "country",
+      "category": "Niger",
+      "count": 147,
+      "percentage": 8.198549916341328
+    },
+    {
+      "variable": "country",
+      "category": "Uganda",
+      "count": 132,
+      "percentage": 7.361963190184049
+    },
+    {
+      "variable": "country",
+      "category": "India",
+      "count": 130,
+      "percentage": 7.2504182933630785
+    },
+    {
+      "variable": "country",
+      "category": "Rwanda",
+      "count": 116,
+      "percentage": 6.4696040156162855
+    },
+    {
+      "variable": "country",
+      "category": "Mozambique",
+      "count": 114,
+      "percentage": 6.358059118795315
+    },
+    {
+      "variable": "wptype",
+      "category": "Borehole with hand pump",
+      "count": 1036,
+      "percentage": 57.78025655326269
+    },
+    {
+      "variable": "wptype",
+      "category": "Public tap / standpipe",
+      "count": 516,
+      "percentage": 28.778583379810375
+    },
+    {
+      "variable": "wptype",
+      "category": "Protected dug well with hand pump",
+      "count": 145,
+      "percentage": 8.087005019520358
+    },
+    {
+      "variable": "wptype",
+      "category": "Piped water into yard / plot",
+      "count": 51,
+      "percentage": 2.8443948689347462
+    },
+    {
+      "variable": "wptype",
+      "category": "Protected spring",
+      "count": 28,
+      "percentage": 1.5616285554935863
+    },
+    {
+      "variable": "wptype",
+      "category": "Mechanized borehole",
+      "count": 10,
+      "percentage": 0.5577244841048522
+    },
+    {
+      "variable": "wptype",
+      "category": "Rainwater collection",
+      "count": 4,
+      "percentage": 0.2230897936419409
+    },
+    {
+      "variable": "wptype",
+      "category": "Unprotected dug well",
+      "count": 2,
+      "percentage": 0.11154489682097045
+    },
+    {
+      "variable": "wptype",
+      "category": "Unprotected spring",
+      "count": 1,
+      "percentage": 0.055772448410485224
+    },
+    {
+      "variable": "pumptype",
+      "category": "Afridev",
+      "count": 749,
+      "percentage": 41.773563859453425
+    },
+    {
+      "variable": "pumptype",
+      "category": "(Missing)",
+      "count": 616,
+      "percentage": 34.355828220858896
+    },
+    {
+      "variable": "pumptype",
+      "category": "India Mark II",
+      "count": 238,
+      "percentage": 13.273842721695484
+    },
+    {
+      "variable": "pumptype",
+      "category": "U3",
+      "count": 96,
+      "percentage": 5.354155047406581
+    },
+    {
+      "variable": "pumptype",
+      "category": "Water4",
+      "count": 36,
+      "percentage": 2.007808142777468
+    },
+    {
+      "variable": "pumptype",
+      "category": "Vergnet",
+      "count": 31,
+      "percentage": 1.7289459007250418
+    },
+    {
+      "variable": "pumptype",
+      "category": "Vergnet Hydro",
+      "count": 14,
+      "percentage": 0.7808142777467931
+    },
+    {
+      "variable": "pumptype",
+      "category": "Hydro India",
+      "count": 13,
+      "percentage": 0.7250418293363079
+    },
+    {
+      "variable": "drillmethod",
+      "category": "Manually drilled",
+      "count": 816,
+      "percentage": 45.51031790295594
+    },
+    {
+      "variable": "drillmethod",
+      "category": "(Missing)",
+      "count": 601,
+      "percentage": 33.51924149470162
+    },
+    {
+      "variable": "drillmethod",
+      "category": "Drilled by machine",
+      "count": 228,
+      "percentage": 12.71611823759063
+    },
+    {
+      "variable": "drillmethod",
+      "category": "Hand-dug",
+      "count": 148,
+      "percentage": 8.254322364751813
+    },
+    {
+      "variable": "rehabyn",
+      "category": "No",
+      "count": 1145,
+      "percentage": 63.85945343000557
+    },
+    {
+      "variable": "rehabyn",
+      "category": "(Missing)",
+      "count": 367,
+      "percentage": 20.468488566648077
+    },
+    {
+      "variable": "rehabyn",
+      "category": "Yes",
+      "count": 281,
+      "percentage": 15.672058003346349
+    },
+    {
+      "variable": "whomanage_wp",
+      "category": "Water committee",
+      "count": 1529,
+      "percentage": 85.2760736196319
+    },
+    {
+      "variable": "whomanage_wp",
+      "category": "Private person",
+      "count": 67,
+      "percentage": 3.7367540435025095
+    },
+    {
+      "variable": "whomanage_wp",
+      "category": "School",
+      "count": 60,
+      "percentage": 3.3463469046291134
+    },
+    {
+      "variable": "whomanage_wp",
+      "category": "Community leader",
+      "count": 59,
+      "percentage": 3.2905744562186277
+    },
+    {
+      "variable": "whomanage_wp",
+      "category": "Vendor",
+      "count": 56,
+      "percentage": 3.1232571109871725
+    },
+    {
+      "variable": "whomanage_wp",
+      "category": "No one",
+      "count": 11,
+      "percentage": 0.6134969325153374
+    },
+    {
+      "variable": "whomanage_wp",
+      "category": "Health administrator",
+      "count": 3,
+      "percentage": 0.16731734523145567
+    },
+    {
+      "variable": "whomanage_wp",
+      "category": "District/local government",
+      "count": 2,
+      "percentage": 0.11154489682097045
+    },
+    {
+      "variable": "whomanage_wp",
+      "category": "Church",
+      "count": 2,
+      "percentage": 0.11154489682097045
+    },
+    {
+      "variable": "whomanage_wp",
+      "category": "Other",
+      "count": 2,
+      "percentage": 0.11154489682097045
+    },
+    {
+      "variable": "whomanage_wp",
+      "category": "Don't Know",
+      "count": 1,
+      "percentage": 0.055772448410485224
+    },
+    {
+      "variable": "whomanage_wp",
+      "category": "(Missing)",
+      "count": 1,
+      "percentage": 0.055772448410485224
+    },
+    {
+      "variable": "season",
+      "category": "dry",
+      "count": 786,
+      "percentage": 43.83714445064138
+    },
+    {
+      "variable": "season",
+      "category": "(Missing)",
+      "count": 547,
+      "percentage": 30.507529280535415
+    },
+    {
+      "variable": "season",
+      "category": "wet",
+      "count": 460,
+      "percentage": 25.655326268823202
+    }
+  ]
+}

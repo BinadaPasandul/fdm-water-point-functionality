@@ -1,0 +1,115 @@
+{
+  "metadata": {
+    "source": "Notebook 02 cell 42"
+  },
+  "records": [
+    {
+      "class": "Functional",
+      "variable": "wp_age",
+      "n": 1321,
+      "mean": 4.348978046934141,
+      "median": 3.0,
+      "q1": 1.0,
+      "q3": 4.0
+    },
+    {
+      "class": "Partially functional",
+      "variable": "wp_age",
+      "n": 155,
+      "mean": 5.04516129032258,
+      "median": 3.0,
+      "q1": 1.0,
+      "q3": 4.5
+    },
+    {
+      "class": "Abandoned or not functional",
+      "variable": "wp_age",
+      "n": 300,
+      "mean": 5.528333333333333,
+      "median": 4.0,
+      "q1": 2.0,
+      "q3": 6.0
+    },
+    {
+      "class": "Functional",
+      "variable": "rehab_age",
+      "n": 203,
+      "mean": 2.3374384236453203,
+      "median": 2.0,
+      "q1": 1.0,
+      "q3": 3.0
+    },
+    {
+      "class": "Partially functional",
+      "variable": "rehab_age",
+      "n": 21,
+      "mean": 4.0,
+      "median": 3.0,
+      "q1": 2.0,
+      "q3": 5.0
+    },
+    {
+      "class": "Abandoned or not functional",
+      "variable": "rehab_age",
+      "n": 56,
+      "mean": 2.455357142857143,
+      "median": 2.0,
+      "q1": 1.0,
+      "q3": 3.25
+    },
+    {
+      "class": "Functional",
+      "variable": "qtypeople_wp",
+      "n": 1310,
+      "mean": 339.85725190839696,
+      "median": 250.0,
+      "q1": 100.0,
+      "q3": 420.0
+    },
+    {
+      "class": "Partially functional",
+      "variable": "qtypeople_wp",
+      "n": 156,
+      "mean": 320.87179487179486,
+      "median": 200.0,
+      "q1": 14.0,
+      "q3": 508.5
+    },
+    {
+      "class": "Abandoned or not functional",
+      "variable": "qtypeople_wp",
+      "n": 289,
+      "mean": 393.69204152249137,
+      "median": 290.0,
+      "q1": 58.0,
+      "q3": 550.0
+    },
+    {
+      "class": "Functional",
+      "variable": "annual_rain",
+      "n": 884,
+      "mean": 999.5803167420814,
+      "median": 1007.0,
+      "q1": 631.0,
+      "q3": 1225.25
+    },
+    {
+      "class": "Partially functional",
+      "variable": "annual_rain",
+      "n": 104,
+      "mean": 1158.3076923076924,
+      "median": 1007.0,
+      "q1": 1007.0,
+      "q3": 1689.0
+    },
+    {
+      "class": "Abandoned or not functional",
+      "variable": "annual_rain",
+      "n": 258,
+      "mean": 920.5038759689922,
+      "median": 631.0,
+      "q1": 601.0,
+      "q3": 1205.0
+    }
+  ]
+}

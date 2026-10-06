@@ -1,0 +1,36 @@
+{
+  "top_raw_permutation_features": [
+    "pumpstrokes",
+    "longitude_wp",
+    "admin1",
+    "latitude_wp",
+    "elevation_wp"
+  ],
+  "top_selected_processed_features": [
+    "num_indicator__missingindicator_pumpstrokes",
+    "num_other__longitude_wp",
+    "num_other__latitude_wp",
+    "num_other__elevation_wp",
+    "cat_unknown__lockedfullday_wp_Unknown"
+  ],
+  "coordinate_delta_cv_macro_f1": -0.014732764119885,
+  "coordinate_delta_train_cv_gap": -0.017997798224955702,
+  "coordinate_delta_country_macro_f1": -0.014023643658574059,
+  "coordinate_delta_mcc": -0.018591283500384526,
+  "coordinate_delta_partial_f1": -0.030148826871773116,
+  "coordinate_delta_partial_recall": -0.039692307692307804,
+  "smotenc_safe": true,
+  "smotenc_delta_partial_recall_vs_control": 0.12133333333333335,
+  "smotenc_delta_partial_precision_vs_control": -0.18738753696160204,
+  "smotenc_delta_macro_f1_vs_control": 0.015559287956877887,
+  "smotenc_delta_mcc_vs_control": 0.011375090744834837,
+  "smotenc_delta_gap_vs_control": 0.017556131905683975,
+  "representation_control_delta_macro_f1_vs_locked": -0.06955791238043452,
+  "best_cv_macro_f1": "Locked RF",
+  "best_mcc": "Locked RF",
+  "best_partial_f1": "SMOTENC RF",
+  "smallest_train_cv_gap": "RF without coordinates",
+  "best_country_macro_f1": "Locked RF",
+  "coordinate_robustness_oriented_candidate": false,
+  "promising_overall_candidate": null
+}

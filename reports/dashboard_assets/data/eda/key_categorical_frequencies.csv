@@ -1,0 +1,49 @@
+variable,category,count,percentage
+country,Ethiopia,386,21.528165086447295
+country,Nepal,328,18.293363078639153
+country,Malawi,277,15.448968209704406
+country,Mali,163,9.090909090909092
+country,Niger,147,8.198549916341328
+country,Uganda,132,7.361963190184049
+country,India,130,7.2504182933630785
+country,Rwanda,116,6.4696040156162855
+country,Mozambique,114,6.358059118795315
+wptype,Borehole with hand pump,1036,57.78025655326269
+wptype,Public tap / standpipe,516,28.778583379810375
+wptype,Protected dug well with hand pump,145,8.087005019520358
+wptype,Piped water into yard / plot,51,2.8443948689347462
+wptype,Protected spring,28,1.5616285554935863
+wptype,Mechanized borehole,10,0.5577244841048522
+wptype,Rainwater collection,4,0.2230897936419409
+wptype,Unprotected dug well,2,0.11154489682097045
+wptype,Unprotected spring,1,0.055772448410485224
+pumptype,Afridev,749,41.773563859453425
+pumptype,(Missing),616,34.355828220858896
+pumptype,India Mark II,238,13.273842721695484
+pumptype,U3,96,5.354155047406581
+pumptype,Water4,36,2.007808142777468
+pumptype,Vergnet,31,1.7289459007250418
+pumptype,Vergnet Hydro,14,0.7808142777467931
+pumptype,Hydro India,13,0.7250418293363079
+drillmethod,Manually drilled,816,45.51031790295594
+drillmethod,(Missing),601,33.51924149470162
+drillmethod,Drilled by machine,228,12.71611823759063
+drillmethod,Hand-dug,148,8.254322364751813
+rehabyn,No,1145,63.85945343000557
+rehabyn,(Missing),367,20.468488566648077
+rehabyn,Yes,281,15.672058003346349
+whomanage_wp,Water committee,1529,85.2760736196319
+whomanage_wp,Private person,67,3.7367540435025095
+whomanage_wp,School,60,3.3463469046291134
+whomanage_wp,Community leader,59,3.2905744562186277
+whomanage_wp,Vendor,56,3.1232571109871725
+whomanage_wp,No one,11,0.6134969325153374
+whomanage_wp,Health administrator,3,0.16731734523145567
+whomanage_wp,District/local government,2,0.11154489682097045
+whomanage_wp,Church,2,0.11154489682097045
+whomanage_wp,Other,2,0.11154489682097045
+whomanage_wp,Don't Know,1,0.055772448410485224
+whomanage_wp,(Missing),1,0.055772448410485224
+season,dry,786,43.83714445064138
+season,(Missing),547,30.507529280535415
+season,wet,460,25.655326268823202

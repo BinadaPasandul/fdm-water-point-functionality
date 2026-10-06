@@ -1,0 +1,13 @@
+variable,value,class,count
+wateravailable,No,Functional,0
+wateravailable,No,Partially functional,2
+wateravailable,No,Abandoned or not functional,300
+wateravailable,Yes,Functional,1333
+wateravailable,Yes,Partially functional,155
+wateravailable,Yes,Abandoned or not functional,3
+downtime2weeks,No,Functional,1332
+downtime2weeks,No,Partially functional,76
+downtime2weeks,No,Abandoned or not functional,30
+downtime2weeks,Yes,Functional,1
+downtime2weeks,Yes,Partially functional,81
+downtime2weeks,Yes,Abandoned or not functional,272

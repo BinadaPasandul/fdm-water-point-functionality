@@ -1,0 +1,10 @@
+variable,category,count
+wptype,Rainwater collection,4
+wptype,Unprotected dug well,2
+wptype,Unprotected spring,1
+whomanage_wp,Health administrator,3
+whomanage_wp,District/local government,2
+whomanage_wp,Church,2
+whomanage_wp,Other,2
+whomanage_wp,Don't Know,1
+whomanage_wp,(Missing),1

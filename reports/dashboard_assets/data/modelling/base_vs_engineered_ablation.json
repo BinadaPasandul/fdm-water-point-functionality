@@ -1,0 +1,67 @@
+{
+  "metadata": {
+    "source": "reports/model_development/feature_ablation_summary.csv"
+  },
+  "records": [
+    {
+      "model_family": "HistGradientBoosting",
+      "base_configuration": "HistGB Base",
+      "engineered_configuration": "HistGB Engineered",
+      "base_macro_f1": 0.6952668835089694,
+      "engineered_macro_f1": 0.6843823441492282,
+      "macro_f1_difference": -0.0108845393597412,
+      "base_balanced_accuracy": 0.6720297757928212,
+      "engineered_balanced_accuracy": 0.6626647005223135,
+      "base_partial_f1": 0.3636363636363636,
+      "engineered_partial_f1": 0.3368421052631579
+    },
+    {
+      "model_family": "XGBoost",
+      "base_configuration": "XGBoost Base",
+      "engineered_configuration": "XGBoost Engineered",
+      "base_macro_f1": 0.689089510389214,
+      "engineered_macro_f1": 0.6812954048848473,
+      "macro_f1_difference": -0.0077941055043666,
+      "base_balanced_accuracy": 0.662659006879056,
+      "engineered_balanced_accuracy": 0.6564124585396892,
+      "base_partial_f1": 0.3655913978494624,
+      "engineered_partial_f1": 0.3523316062176165
+    },
+    {
+      "model_family": "Random Forest",
+      "base_configuration": "RF Base",
+      "engineered_configuration": "RF Engineered",
+      "base_macro_f1": 0.6689462716680947,
+      "engineered_macro_f1": 0.6586876255471901,
+      "macro_f1_difference": -0.0102586461209046,
+      "base_balanced_accuracy": 0.6387532912835382,
+      "engineered_balanced_accuracy": 0.6264872797927011,
+      "base_partial_f1": 0.3204419889502762,
+      "engineered_partial_f1": 0.3186813186813186
+    },
+    {
+      "model_family": "CatBoost",
+      "base_configuration": "CatBoost Base",
+      "engineered_configuration": "CatBoost Engineered",
+      "base_macro_f1": 0.6251385201758929,
+      "engineered_macro_f1": 0.6113270207820104,
+      "macro_f1_difference": -0.0138114993938824,
+      "base_balanced_accuracy": 0.600268475734073,
+      "engineered_balanced_accuracy": 0.586947636136141,
+      "base_partial_f1": 0.2651933701657458,
+      "engineered_partial_f1": 0.2558139534883721
+    },
+    {
+      "model_family": "Logistic Regression",
+      "base_configuration": "LR Base",
+      "engineered_configuration": "LR Engineered",
+      "base_macro_f1": 0.5966298905928276,
+      "engineered_macro_f1": 0.6013277217604531,
+      "macro_f1_difference": 0.0046978311676255,
+      "base_balanced_accuracy": 0.5703465390228774,
+      "engineered_balanced_accuracy": 0.5755830887018198,
+      "base_partial_f1": 0.1635220125786163,
+      "engineered_partial_f1": 0.1739130434782608
+    }
+  ]
+}

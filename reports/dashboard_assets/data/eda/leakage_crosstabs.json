@@ -1,0 +1,80 @@
+{
+  "metadata": {
+    "source": "Notebook 02 cells 49–52",
+    "intended_use": "technical_report_only"
+  },
+  "records": [
+    {
+      "variable": "wateravailable",
+      "value": "No",
+      "class": "Functional",
+      "count": 0
+    },
+    {
+      "variable": "wateravailable",
+      "value": "No",
+      "class": "Partially functional",
+      "count": 2
+    },
+    {
+      "variable": "wateravailable",
+      "value": "No",
+      "class": "Abandoned or not functional",
+      "count": 300
+    },
+    {
+      "variable": "wateravailable",
+      "value": "Yes",
+      "class": "Functional",
+      "count": 1333
+    },
+    {
+      "variable": "wateravailable",
+      "value": "Yes",
+      "class": "Partially functional",
+      "count": 155
+    },
+    {
+      "variable": "wateravailable",
+      "value": "Yes",
+      "class": "Abandoned or not functional",
+      "count": 3
+    },
+    {
+      "variable": "downtime2weeks",
+      "value": "No",
+      "class": "Functional",
+      "count": 1332
+    },
+    {
+      "variable": "downtime2weeks",
+      "value": "No",
+      "class": "Partially functional",
+      "count": 76
+    },
+    {
+      "variable": "downtime2weeks",
+      "value": "No",
+      "class": "Abandoned or not functional",
+      "count": 30
+    },
+    {
+      "variable": "downtime2weeks",
+      "value": "Yes",
+      "class": "Functional",
+      "count": 1
+    },
+    {
+      "variable": "downtime2weeks",
+      "value": "Yes",
+      "class": "Partially functional",
+      "count": 81
+    },
+    {
+      "variable": "downtime2weeks",
+      "value": "Yes",
+      "class": "Abandoned or not functional",
+      "count": 272
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "stage7_status": "PASS",
+  "stage6_baselines_rerun": false,
+  "search_budget": {
+    "HistGradientBoosting": 30,
+    "XGBoost": 35,
+    "Random Forest": 30,
+    "CatBoost": 12
+  },
+  "search_results": {
+    "HistGradientBoosting": {
+      "params": {
+        "l2_regularization": 0.003727925903376985,
+        "learning_rate": 0.09677225724712923,
+        "max_depth": null,
+        "max_iter": 81,
+        "max_leaf_nodes": 30,
+        "min_samples_leaf": 53
+      },
+      "score": 0.6944862158279332,
+      "mcc": 0.6423609375016184,
+      "train_macro_f1": 0.979388534524625,
+      "n_iter": 30,
+      "fits": 150,
+      "elapsed_seconds": 141.1320225999807
+    },
+    "XGBoost": {
+      "params": {
+        "colsample_bytree": 0.6785579631400841,
+        "gamma": 0.015554588321960328,
+        "learning_rate": 0.08490326871900453,
+        "max_depth": 5,
+        "min_child_weight": 1,
+        "n_estimators": 363,
+        "reg_alpha": 0.2759459021053989,
+        "reg_lambda": 4.886714837338904,
+        "subsample": 0.9615018696361481
+      },
+      "score": 0.6920456683104381,
+      "mcc": 0.6270448748904214,
+      "train_macro_f1": 0.9955319979941526,
+      "n_iter": 35,
+      "fits": 175,
+      "elapsed_seconds": 60.40432679999503
+    },
+    "Random Forest": {
+      "params": {
+        "bootstrap": false,
+        "max_depth": null,
+        "max_features": 0.5,
+        "min_samples_leaf": 5,
+        "min_samples_split": 8,
+        "n_estimators": 336
+      },
+      "score": 0.6975451199021279,
+      "mcc": 0.6203706697823904,
+      "train_macro_f1": 0.8667361106119241,
+      "n_iter": 30,
+      "fits": 150,
+      "elapsed_seconds": 109.94600570001057
+    },
+    "CatBoost": {
+      "params": {
+        "bagging_temperature": 0.6842330265121569,
+        "depth": 6,
+        "iterations": 413,
+        "l2_leaf_reg": 1.0975998502129432,
+        "learning_rate": 0.15049772641332726,
+        "random_strength": 0.5175599632000338
+      },
+      "score": 0.6493612040552261,
+      "mcc": 0.5831613583620918,
+      "train_macro_f1": 0.8928820124717216,
+      "n_iter": 12,
+      "fits": 60,
+      "elapsed_seconds": 965.195775500004
+    }
+  },
+  "selected_finalist": {
+    "finalist": "Random Forest / none / {'select_k': 60}",
+    "model_family": "Random Forest",
+    "preprocessing_variant": "tree_base",
+    "hyperparameters": {
+      "bootstrap": false,
+      "max_depth": null,
+      "max_features": 0.5,
+      "min_samples_leaf": 5,
+      "min_samples_split": 8,
+      "n_estimators": 336
+    },
+    "imbalance_strategy": "none",
+    "rare_min_frequency": 10,
+    "feature_selection_k": 60,
+    "feature_set": "base",
+    "class_mapping": {
+      "Functional": 0,
+      "Partially functional": 1,
+      "Abandoned or not functional": 2
+    },
+    "primary_cv_macro_f1": 0.6995798685801132,
+    "cv_sd": 0.04812455152560639,
+    "balanced_accuracy": 0.6690930039286535,
+    "mcc": 0.6349234570476817,
+    "partial_f1": 0.4329896907216495,
+    "partial_recall": 0.3333333333333333,
+    "selection_rule": "Repeated-CV Macro-F1; within 0.005: Balanced Accuracy, Partial F1, Partial Recall, MCC, lower SD, lower Log Loss",
+    "development_rows": 1434,
+    "holdout_evaluated": false
+  },
+  "finalist_summary": [
+    {
+      "finalist": "Random Forest / none / {'select_k': 60}",
+      "family": "Random Forest",
+      "strategy": "none",
+      "macro_f1": 0.6995798685801132,
+      "balanced_accuracy": 0.6690930039286535,
+      "macro_recall": 0.6690930039286535,
+      "macro_precision": 0.7756276726031017,
+      "mcc": 0.6349234570476817,
+      "weighted_f1": 0.84719179334041,
+      "accuracy": 0.8593723349820911,
+      "log_loss": 0.45779510071058255,
+      "macro_ap": 0.7547892071569957,
+      "partial_precision": 0.6522628787334669,
+      "partial_recall": 0.3205128205128206,
+      "partial_f1": 0.4220308143419959,
+      "partial_ap": 0.4483802719537216,
+      "train_macro_f1": 0.8647392045023146,
+      "train_cv_gap": 0.1651593359222012,
+      "sd_macro_f1": 0.04812455152560639
+    },
+    {
+      "finalist": "XGBoost / none",
+      "family": "XGBoost",
+      "strategy": "none",
+      "macro_f1": 0.6873992599419947,
+      "balanced_accuracy": 0.6594090865490855,
+      "macro_recall": 0.6594090865490855,
+      "macro_precision": 0.7536723453577158,
+      "mcc": 0.6264403894743182,
+      "weighted_f1": 0.8437204059081584,
+      "accuracy": 0.8561194902658317,
+      "log_loss": 0.4462202387711297,
+      "macro_ap": 0.7456534908220889,
+      "partial_precision": 0.5800457875457875,
+      "partial_recall": 0.2911794871794872,
+      "partial_f1": 0.3821483858918328,
+      "partial_ap": 0.4263544116162159,
+      "train_macro_f1": 0.9948706704574469,
+      "train_cv_gap": 0.3074714105154524,
+      "sd_macro_f1": 0.029092416103951226
+    },
+    {
+      "finalist": "HistGradientBoosting / none",
+      "family": "HistGradientBoosting",
+      "strategy": "none",
+      "macro_f1": 0.679294053281275,
+      "balanced_accuracy": 0.6496982619760877,
+      "macro_recall": 0.6496982619760877,
+      "macro_precision": 0.7576859592315635,
+      "mcc": 0.6215971055163926,
+      "weighted_f1": 0.8409654156111087,
+      "accuracy": 0.8549580500800011,
+      "log_loss": 0.46852384296786675,
+      "macro_ap": 0.7326402822488326,
+      "partial_precision": 0.6037636827110511,
+      "partial_recall": 0.2697435897435898,
+      "partial_f1": 0.3677416750636564,
+      "partial_ap": 0.41367126937734466,
+      "train_macro_f1": 0.9806020749305673,
+      "train_cv_gap": 0.3013080216492922,
+      "sd_macro_f1": 0.022117666658073635
+    }
+  ],
+  "holdout_metrics": {
+    "macro_f1": 0.6698919816566876,
+    "balanced_accuracy": 0.6392280669786775,
+    "macro_recall": 0.6392280669786775,
+    "macro_precision": 0.7896825396825395,
+    "mcc": 0.6465569837526769,
+    "weighted_f1": 0.8462411457495843,
+    "accuracy": 0.8662952646239555,
+    "log_loss": 0.33534170865142,
+    "macro_ap": 0.7930175200072295,
+    "partial_precision": 0.6666666666666666,
+    "partial_recall": 0.1935483870967742,
+    "partial_f1": 0.3,
+    "partial_ap": 0.520801867696213
+  },
+  "post_holdout_tuning": false,
+  "smotenc_status": "Deferred: tree preprocessing one-hot encodes nominal fields; valid SMOTENC needs a mixed representation and post-sampler encoder.",
+  "geography_ablation_status": "Deferred under fixed budget; country diagnostic retained."
+}

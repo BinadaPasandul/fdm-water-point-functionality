@@ -1,0 +1,232 @@
+{
+  "metadata": {
+    "source": "reports/posthoc_robustness/raw_feature_permutation_importance.csv",
+    "values_reused_without_refitting": true
+  },
+  "records": [
+    {
+      "raw_feature": "pumpstrokes",
+      "mean_importance": 0.3274366646436765,
+      "sd_across_folds": 0.0310965764815458,
+      "positive_folds": 5,
+      "mean_within_fold_sd": 0.0221842071417211
+    },
+    {
+      "raw_feature": "longitude_wp",
+      "mean_importance": 0.0542311989591552,
+      "sd_across_folds": 0.0427698288056237,
+      "positive_folds": 4,
+      "mean_within_fold_sd": 0.0184478455479131
+    },
+    {
+      "raw_feature": "admin1",
+      "mean_importance": 0.049858853226702,
+      "sd_across_folds": 0.0453898700942865,
+      "positive_folds": 4,
+      "mean_within_fold_sd": 0.0154315974530027
+    },
+    {
+      "raw_feature": "latitude_wp",
+      "mean_importance": 0.0414203271331255,
+      "sd_across_folds": 0.0348551404819338,
+      "positive_folds": 5,
+      "mean_within_fold_sd": 0.0095714723858338
+    },
+    {
+      "raw_feature": "elevation_wp",
+      "mean_importance": 0.0296897714117467,
+      "sd_across_folds": 0.0344627431270007,
+      "positive_folds": 4,
+      "mean_within_fold_sd": 0.015003192302606
+    },
+    {
+      "raw_feature": "pumptype",
+      "mean_importance": 0.0254491799902691,
+      "sd_across_folds": 0.0160410160950851,
+      "positive_folds": 5,
+      "mean_within_fold_sd": 0.0108609422163263
+    },
+    {
+      "raw_feature": "lockedfullday_wp",
+      "mean_importance": 0.0205177734078076,
+      "sd_across_folds": 0.0134823528416687,
+      "positive_folds": 5,
+      "mean_within_fold_sd": 0.0102878840228836
+    },
+    {
+      "raw_feature": "wptype",
+      "mean_importance": 0.0175100761223324,
+      "sd_across_folds": 0.0173907449978438,
+      "positive_folds": 4,
+      "mean_within_fold_sd": 0.0102222365458267
+    },
+    {
+      "raw_feature": "drillmethod",
+      "mean_importance": 0.0154375290248103,
+      "sd_across_folds": 0.0218429345957688,
+      "positive_folds": 4,
+      "mean_within_fold_sd": 0.0069414678525881
+    },
+    {
+      "raw_feature": "qtyhh_wp",
+      "mean_importance": 0.0145313375919115,
+      "sd_across_folds": 0.0130002027782584,
+      "positive_folds": 5,
+      "mean_within_fold_sd": 0.0054658553843037
+    },
+    {
+      "raw_feature": "country",
+      "mean_importance": 0.0111396093079625,
+      "sd_across_folds": 0.016792203488253,
+      "positive_folds": 4,
+      "mean_within_fold_sd": 0.0075463142736671
+    },
+    {
+      "raw_feature": "wpqty_wp",
+      "mean_importance": 0.0087929640639536,
+      "sd_across_folds": 0.0059813875017338,
+      "positive_folds": 4,
+      "mean_within_fold_sd": 0.0027421446486519
+    },
+    {
+      "raw_feature": "wp_age",
+      "mean_importance": 0.0082376688942249,
+      "sd_across_folds": 0.0117235176080278,
+      "positive_folds": 3,
+      "mean_within_fold_sd": 0.0060233279077839
+    },
+    {
+      "raw_feature": "wc_mgmt_index_wp",
+      "mean_importance": 0.0082319942125699,
+      "sd_across_folds": 0.012989534460627,
+      "positive_folds": 3,
+      "mean_within_fold_sd": 0.006136129634198
+    },
+    {
+      "raw_feature": "qtypeople_wp",
+      "mean_importance": 0.0077719281297261,
+      "sd_across_folds": 0.0133512913178538,
+      "positive_folds": 3,
+      "mean_within_fold_sd": 0.0036537159452741
+    },
+    {
+      "raw_feature": "pop_1000",
+      "mean_importance": 0.0073550571298531,
+      "sd_across_folds": 0.0065199505821541,
+      "positive_folds": 4,
+      "mean_within_fold_sd": 0.0077500225316637
+    },
+    {
+      "raw_feature": "annual_rain",
+      "mean_importance": 0.0072326737455535,
+      "sd_across_folds": 0.007804461195724,
+      "positive_folds": 4,
+      "mean_within_fold_sd": 0.0071339816229083
+    },
+    {
+      "raw_feature": "paytocollect_wp",
+      "mean_importance": 0.0072197971519433,
+      "sd_across_folds": 0.0110103434498008,
+      "positive_folds": 2,
+      "mean_within_fold_sd": 0.0045791808680911
+    },
+    {
+      "raw_feature": "qtyhh_c_wp",
+      "mean_importance": 0.0070700859058095,
+      "sd_across_folds": 0.0098854814470962,
+      "positive_folds": 4,
+      "mean_within_fold_sd": 0.007891751480714
+    },
+    {
+      "raw_feature": "wc_admin_index_wp",
+      "mean_importance": 0.0060805437300741,
+      "sd_across_folds": 0.0072383247539544,
+      "positive_folds": 4,
+      "mean_within_fold_sd": 0.0053796304368298
+    },
+    {
+      "raw_feature": "piped_pump",
+      "mean_importance": 0.0057904910895819,
+      "sd_across_folds": 0.0140249981977087,
+      "positive_folds": 3,
+      "mean_within_fold_sd": 0.004601400969241
+    },
+    {
+      "raw_feature": "season",
+      "mean_importance": 0.0040171690656102,
+      "sd_across_folds": 0.0092809782833676,
+      "positive_folds": 4,
+      "mean_within_fold_sd": 0.0044608206703963
+    },
+    {
+      "raw_feature": "improved_wponly_wp",
+      "mean_importance": 0.0032359146140571,
+      "sd_across_folds": 0.0081654513915515,
+      "positive_folds": 2,
+      "mean_within_fold_sd": 0.0030014889073304
+    },
+    {
+      "raw_feature": "wc_finance_index_wp",
+      "mean_importance": 0.0016015131720633,
+      "sd_across_folds": 0.0082568387495805,
+      "positive_folds": 2,
+      "mean_within_fold_sd": 0.0035295296398359
+    },
+    {
+      "raw_feature": "rehabyn",
+      "mean_importance": 0.0014258090272605,
+      "sd_across_folds": 0.0015140325259348,
+      "positive_folds": 3,
+      "mean_within_fold_sd": 0.0030997578914004
+    },
+    {
+      "raw_feature": "rehab_age",
+      "mean_importance": 0.0005857691539893,
+      "sd_across_folds": 0.0033509716575323,
+      "positive_folds": 2,
+      "mean_within_fold_sd": 0.0026069736135909
+    },
+    {
+      "raw_feature": "whomanage_wp",
+      "mean_importance": 0.0,
+      "sd_across_folds": 0.0,
+      "positive_folds": 0,
+      "mean_within_fold_sd": 0.0
+    },
+    {
+      "raw_feature": "cwfunded_wp",
+      "mean_importance": 0.0,
+      "sd_across_folds": 0.0,
+      "positive_folds": 0,
+      "mean_within_fold_sd": 0.0
+    },
+    {
+      "raw_feature": "wc_savings_wp",
+      "mean_importance": -0.0002199342514339,
+      "sd_across_folds": 0.004909486164249,
+      "positive_folds": 1,
+      "mean_within_fold_sd": 0.0022027089748339
+    },
+    {
+      "raw_feature": "wc_maint_index_wp",
+      "mean_importance": -0.0003267031934991,
+      "sd_across_folds": 0.0080942623926605,
+      "positive_folds": 2,
+      "mean_within_fold_sd": 0.003253550584711
+    },
+    {
+      "raw_feature": "piped_source",
+      "mean_importance": -0.0008449159402687,
+      "sd_across_folds": 0.0051809138003071,
+      "positive_folds": 1,
+      "mean_within_fold_sd": 0.0026647399977194
+    },
+    {
+      "raw_feature": "wc_present_wp",
+      "mean_importance": -0.0013462329620486,
+      "sd_across_folds": 0.0034440715768914,
+      "positive_folds": 1,
+      "mean_within_fold_sd": 0.0020772340622919
+    }
+  ]
+}

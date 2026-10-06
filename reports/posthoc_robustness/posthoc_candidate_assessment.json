@@ -1,0 +1,59 @@
+{
+  "official_locked_model_unchanged": true,
+  "promising_posthoc_candidate": false,
+  "candidate_name": null,
+  "screen": [
+    {
+      "configuration": "RF without coordinates",
+      "eligible": false,
+      "checks": {
+        "macro_f1_gain_over_0_005": false,
+        "mcc_preserved": false,
+        "partial_f1_preserved": false,
+        "partial_recall_preserved": false,
+        "train_cv_gap_controlled": true,
+        "country_robustness_preserved": true,
+        "sd_not_excessive": true
+      },
+      "delta_macro_f1": -0.014732764119885,
+      "delta_mcc": -0.018591283500384526,
+      "delta_partial_f1": -0.030148826871773116,
+      "delta_country_mean": -0.014023643658574059
+    },
+    {
+      "configuration": "Mixed representation control",
+      "eligible": false,
+      "checks": {
+        "macro_f1_gain_over_0_005": false,
+        "mcc_preserved": false,
+        "partial_f1_preserved": false,
+        "partial_recall_preserved": false,
+        "train_cv_gap_controlled": false,
+        "country_robustness_preserved": null,
+        "sd_not_excessive": true
+      },
+      "delta_macro_f1": -0.06955791238043452,
+      "delta_mcc": -0.1378982222325738,
+      "delta_partial_f1": -0.01830534735367323,
+      "delta_country_mean": null
+    },
+    {
+      "configuration": "SMOTENC RF",
+      "eligible": false,
+      "checks": {
+        "macro_f1_gain_over_0_005": false,
+        "mcc_preserved": false,
+        "partial_f1_preserved": true,
+        "partial_recall_preserved": true,
+        "train_cv_gap_controlled": false,
+        "country_robustness_preserved": false,
+        "sd_not_excessive": true
+      },
+      "delta_macro_f1": -0.05399862442355663,
+      "delta_mcc": -0.12652313148773897,
+      "delta_partial_f1": 0.0025895678063729832,
+      "delta_country_mean": -0.11715719262869578
+    }
+  ],
+  "conclusion": "Keep locked model"
+}

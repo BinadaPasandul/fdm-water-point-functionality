@@ -1,0 +1,128 @@
+{
+  "target": "functional3",
+  "split": {
+    "test_size": 0.2,
+    "random_state": 42,
+    "stratify": "functional3"
+  },
+  "raw_predictor_columns": [
+    "country",
+    "admin1",
+    "latitude_wp",
+    "longitude_wp",
+    "elevation_wp",
+    "cwfunded_wp",
+    "wptype",
+    "pumptype",
+    "drillmethod",
+    "piped_source",
+    "piped_pump",
+    "rehabyn",
+    "qtyhh_wp",
+    "whomanage_wp",
+    "wp_age",
+    "rehab_age",
+    "qtypeople_wp",
+    "lockedfullday_wp",
+    "pumpstrokes",
+    "wc_present_wp",
+    "paytocollect_wp",
+    "improved_wponly_wp",
+    "qtyhh_c_wp",
+    "wc_admin_index_wp",
+    "wc_finance_index_wp",
+    "wc_mgmt_index_wp",
+    "wc_maint_index_wp",
+    "wc_savings_wp",
+    "wpqty_wp",
+    "pop_1000",
+    "annual_rain",
+    "season"
+  ],
+  "rare_min_frequency_candidates": [
+    5,
+    10,
+    20
+  ],
+  "variants": {
+    "scaled_base": {
+      "model_family": "scale_sensitive",
+      "include_optional_engineered_features": false,
+      "rare_min_frequency": 10,
+      "use_log_transform": true,
+      "scale_numeric": true
+    },
+    "scaled_engineered": {
+      "model_family": "scale_sensitive",
+      "include_optional_engineered_features": true,
+      "rare_min_frequency": 10,
+      "use_log_transform": true,
+      "scale_numeric": true
+    },
+    "tree_base": {
+      "model_family": "tree_boosting",
+      "include_optional_engineered_features": false,
+      "rare_min_frequency": 10,
+      "use_log_transform": false,
+      "scale_numeric": false
+    },
+    "tree_engineered": {
+      "model_family": "tree_boosting",
+      "include_optional_engineered_features": true,
+      "rare_min_frequency": 10,
+      "use_log_transform": false,
+      "scale_numeric": false
+    },
+    "catboost_native_base": {
+      "model_family": "catboost_native",
+      "include_optional_engineered_features": false,
+      "rare_min_frequency": null,
+      "use_log_transform": false,
+      "scale_numeric": false,
+      "one_hot_encode": false,
+      "native_categorical_handling": true,
+      "categorical_features": [
+        "cat_not_applicable__pumptype",
+        "cat_not_applicable__drillmethod",
+        "cat_not_applicable__piped_source",
+        "cat_not_applicable__piped_pump",
+        "cat_unknown__country",
+        "cat_unknown__admin1",
+        "cat_unknown__wptype",
+        "cat_unknown__whomanage_wp",
+        "cat_unknown__rehabyn",
+        "cat_unknown__season",
+        "cat_unknown__cwfunded_wp",
+        "cat_unknown__wc_present_wp",
+        "cat_unknown__paytocollect_wp",
+        "cat_unknown__lockedfullday_wp"
+      ]
+    },
+    "catboost_native_engineered": {
+      "model_family": "catboost_native",
+      "include_optional_engineered_features": true,
+      "rare_min_frequency": null,
+      "use_log_transform": false,
+      "scale_numeric": false,
+      "one_hot_encode": false,
+      "native_categorical_handling": true,
+      "categorical_features": [
+        "cat_not_applicable__pumptype",
+        "cat_not_applicable__drillmethod",
+        "cat_not_applicable__piped_source",
+        "cat_not_applicable__piped_pump",
+        "cat_unknown__country",
+        "cat_unknown__admin1",
+        "cat_unknown__wptype",
+        "cat_unknown__whomanage_wp",
+        "cat_unknown__rehabyn",
+        "cat_unknown__season",
+        "cat_unknown__cwfunded_wp",
+        "cat_unknown__wc_present_wp",
+        "cat_unknown__paytocollect_wp",
+        "cat_unknown__lockedfullday_wp",
+        "cat_unknown__wp_age_group"
+      ]
+    }
+  }
+}
