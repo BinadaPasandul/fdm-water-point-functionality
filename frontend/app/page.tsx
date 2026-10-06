@@ -8,6 +8,7 @@ import { Metric } from "@/components/metric";
 import { Card, ErrorPanel, PageHeading, SkeletonGrid } from "@/components/ui";
 import { getDashboardSummary, getEdaInsights, getFeatureImportance, getRobustness, getModelPerformance, records } from "@/lib/api";
 import type { DashboardSummary } from "@/lib/types";
+import { CHART_COLORS } from "@/lib/chart-colors";
 
 export default function DashboardPage() {
   const [summary, setSummary] = useState<DashboardSummary | null>(null);
@@ -58,8 +59,8 @@ export default function DashboardPage() {
       <div className="grid-7"><CountryChart rows={countryRows} /></div>
       <div className="grid-6"><Card title="Final model performance" subtitle={`${summary?.final_model.family ?? "Final model"} · historical holdout`}><div className="performance-stats"><div><span>Macro-F1</span><strong>{Number(holdout.macro_f1 ?? 0).toFixed(3)}</strong></div><div><span>MCC</span><strong>{Number(holdout.mcc ?? 0).toFixed(3)}</strong></div><div><span>Accuracy</span><strong>{Number(holdout.accuracy ?? 0).toFixed(3)}</strong></div></div><p className="metric-note">Development CV Macro-F1: {Number(summary?.final_model.development_cv.macro_f1 ?? 0).toFixed(3)}. The holdout value is historical evidence.</p><Link href="/model-insights" className="text-link inline-link">View model evaluation <ArrowRight size={14} /></Link></Card></div>
       <div className="grid-6"><Card title="Baseline to optimized" subtitle="Repeated cross-validation Macro-F1">{opt ? <div className="compare-bars"><div><span>Baseline</span><div className="compare-track"><i style={{ width: `${Number(opt.baseline_macro_f1) * 100}%` }} /></div><b>{Number(opt.baseline_macro_f1).toFixed(3)}</b></div><div><span>Optimized</span><div className="compare-track optimized"><i style={{ width: `${Number(opt.optimized_macro_f1) * 100}%` }} /></div><b>{Number(opt.optimized_macro_f1).toFixed(3)}</b></div><p className="metric-note">Change: {Number(opt.macro_f1_change) >= 0 ? "+" : ""}{Number(opt.macro_f1_change).toFixed(3)} · {summary?.final_model.family}</p></div> : <p className="empty-state">Optimization comparison is unavailable.</p>}</Card></div>
-      <div className="grid-6"><HorizontalBars title="Top feature importance" subtitle="Raw feature permutation importance · mean decrease" rows={features} nameKey="name" valueKey="value" color="#4D728F" footer={<p className="metric-note">Importance reflects predictive reliance, not causation.</p>} /></div>
-      <div className="grid-6"><HorizontalBars title="Cross-country robustness" subtitle="Leave-one-country-out evaluation · Macro-F1" rows={records(robustness?.country_robustness).map((row) => ({ ...row, score: Number(row.macro_f1_observed_classes) })).sort((a, b) => Number(b.score) - Number(a.score))} nameKey="country" valueKey="score" color="#25AFC0" /></div>
+      <div className="grid-6"><HorizontalBars title="Top feature importance" subtitle="Raw feature permutation importance · mean decrease" rows={features} nameKey="name" valueKey="value" color={CHART_COLORS.steelBlue} footer={<p className="metric-note">Importance reflects predictive reliance, not causation.</p>} /></div>
+      <div className="grid-6"><HorizontalBars title="Cross-country robustness" subtitle="Leave-one-country-out evaluation · Macro-F1" rows={records(robustness?.country_robustness).map((row) => ({ ...row, score: Number(row.macro_f1_observed_classes) })).sort((a, b) => Number(b.score) - Number(a.score))} nameKey="country" valueKey="score" color={CHART_COLORS.aqua} /></div>
       <div className="grid-12"><PerformanceLines rows={curve} /></div>
     </div>
     {error && <div className="inline-error">Some dashboard panels could not be loaded: {error}</div>}

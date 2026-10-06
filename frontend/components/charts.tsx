@@ -3,9 +3,9 @@
 import { Bar, BarChart, CartesianGrid, Cell, Legend, Line, LineChart, Pie, PieChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
 import type { ReactNode } from "react";
 import { Card } from "./ui";
-import { classColors } from "@/lib/api";
+import { CHART_COLORS, CHART_PALETTE, classColors } from "@/lib/api";
 
-const palette = ["#1F3952", "#4D728F", "#25C9D0", "#90B0C7", "#64788A"];
+const palette = CHART_PALETTE;
 const fmt = (value: number) => `${Number(value).toFixed(1)}%`;
 function EmptyChart() { return <div className="chart-empty"><span>No chart data is available.</span></div>; }
 
@@ -21,7 +21,7 @@ export function CountryChart({ rows }: { rows: Record<string, string | number>[]
 
 export function HorizontalBars({ title, subtitle, rows, nameKey, valueKey, color = palette[0], footer }: { title: string; subtitle?: string; rows: Record<string, string | number>[]; nameKey: string; valueKey: string; color?: string; footer?: ReactNode }) {
   if (!rows.length) return <Card title={title} subtitle={subtitle}><EmptyChart /></Card>;
-  return <Card title={title} subtitle={subtitle}><div className="chart-area"><ResponsiveContainer width="100%" height="100%"><BarChart data={rows} layout="vertical" margin={{ top: 2, right: 18, left: 22, bottom: 0 }}><CartesianGrid horizontal={false} stroke="#EAF0F4" /><XAxis type="number" tickLine={false} axisLine={false} tick={{ fill: "#8A9BA9", fontSize: 11 }} /><YAxis type="category" dataKey={nameKey} width={132} tickLine={false} axisLine={false} tick={{ fill: "#64788A", fontSize: 11 }} /><Tooltip formatter={(value) => Number(value).toFixed(3)} /><Bar dataKey={valueKey} fill={color} radius={[0, 6, 6, 0]} barSize={17} /></BarChart></ResponsiveContainer></div>{footer}</Card>;
+  return <Card title={title} subtitle={subtitle}><div className="chart-area"><ResponsiveContainer width="100%" height="100%"><BarChart data={rows} layout="vertical" margin={{ top: 2, right: 18, left: 22, bottom: 0 }}><CartesianGrid horizontal={false} stroke="#EAF0F4" /><XAxis type="number" tickLine={false} axisLine={false} tick={{ fill: "#8A9BA9", fontSize: 11 }} /><YAxis type="category" dataKey={nameKey} width={170} tickLine={false} axisLine={false} tick={{ fill: CHART_COLORS.muted, fontSize: 11 }} /><Tooltip formatter={(value) => Number(value).toFixed(3)} /><Bar dataKey={valueKey} fill={color} radius={[0, 6, 6, 0]} barSize={17} /></BarChart></ResponsiveContainer></div>{footer}</Card>;
 }
 
 export function PerformanceLines({ rows }: { rows: Record<string, string | number>[] }) {

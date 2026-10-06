@@ -1,4 +1,6 @@
 import type { ApiError, DashboardSummary, Health, InputSchema, Prediction } from "./types";
+import { CLASS_COLORS } from "./chart-colors";
+export { CLASS_COLORS, CHART_COLORS, CHART_PALETTE } from "./chart-colors";
 
 const baseUrl = (process.env.NEXT_PUBLIC_API_BASE_URL ?? "http://127.0.0.1:8000").replace(/\/$/, "");
 
@@ -26,11 +28,7 @@ export const getModelPerformance = () => request<Record<string, unknown>>("/api/
 export const getFeatureImportance = () => request<Record<string, unknown>>("/api/v1/dashboard/feature-importance");
 export const getRobustness = () => request<Record<string, unknown>>("/api/v1/dashboard/robustness");
 
-export const classColors: Record<string, string> = {
-  Functional: "#2FA66A",
-  "Partially functional": "#E6A23C",
-  "Abandoned or not functional": "#D95C5C",
-};
+export const classColors = CLASS_COLORS;
 
 export function records(value: unknown): Record<string, string | number>[] {
   if (!value || typeof value !== "object" || !("records" in value)) return [];

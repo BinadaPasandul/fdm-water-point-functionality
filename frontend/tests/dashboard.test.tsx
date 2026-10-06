@@ -7,6 +7,12 @@ vi.mock("@/lib/api", async () => {
   const actual = await vi.importActual<typeof import("@/lib/api")>("@/lib/api");
   return { ...actual, getDashboardSummary: vi.fn(), getEdaInsights: vi.fn(), getFeatureImportance: vi.fn(), getModelPerformance: vi.fn(), getRobustness: vi.fn() };
 });
+vi.mock("@/components/charts", () => ({
+  DistributionChart: () => <section><h2>Functionality distribution</h2></section>,
+  CountryChart: () => <section><h2>Functionality by country</h2></section>,
+  HorizontalBars: ({ title }: { title: string }) => <section><h2>{title}</h2></section>,
+  PerformanceLines: () => <section><h2>Learning curve</h2></section>,
+}));
 
 afterEach(() => cleanup());
 
@@ -19,6 +25,7 @@ describe("dashboard API states", () => {
     vi.mocked(getRobustness).mockResolvedValue({ learning_curves: { records: [] }, country_robustness: { records: [] } });
     render(<DashboardPage />);
     expect(await screen.findByText("0.6699")).toBeInTheDocument();
+    expect(screen.getByRole("heading", { level: 1, name: "Water Point Functionality Dashboard" })).toBeInTheDocument();
     expect(screen.getByText("Functionality distribution")).toBeInTheDocument();
   });
 
