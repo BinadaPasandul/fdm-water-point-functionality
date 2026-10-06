@@ -22,7 +22,9 @@ REGIONS_BY_COUNTRY = {
 
 FIELD_OPTIONS: dict[str, list[dict[str, Any]]] = {
     "country": [option(value) for value in REGIONS_BY_COUNTRY],
-    "admin1": [option(value) for regions in REGIONS_BY_COUNTRY.values() for value in regions],
+    "admin1": [option(value) for value in dict.fromkeys(
+        region for regions in REGIONS_BY_COUNTRY.values() for region in regions
+    )],
     "cwfunded_wp": YES_NO,
     "wptype": [option(value) for value in [
         "Borehole with hand pump", "Mechanized borehole", "Piped water into yard / plot",

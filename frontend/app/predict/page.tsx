@@ -109,7 +109,8 @@ export default function PredictPage() {
 
   async function goNext() {
     if (step >= groups.length - 1) return;
-    const valid = await trigger(groups[step].names as never[]);
+    const visibleNames = groups[step].names.filter((name) => isApplicable(name, values));
+    const valid = await trigger(visibleNames as never[]);
     if (valid) setStep((current) => current + 1);
   }
 

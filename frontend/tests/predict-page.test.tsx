@@ -21,6 +21,14 @@ const regionMap: Record<string, FieldOption[]> = {
 const countryOptions = options(Object.keys(regionMap));
 const regionOptions = options(Object.values(regionMap).flatMap((items) => items.map((item) => String(item.value))));
 const binary = options(["Yes", "No"]);
+const labels: Record<string, string> = {
+  country: "Country", admin1: "Administrative Region", wptype: "Water Point Type", pumptype: "Pump Type",
+  drillmethod: "Drilling Method", piped_source: "Piped Water Source", piped_pump: "Piped Water Delivery",
+  rehabyn: "Rehabilitated", rehab_age: "Age at Rehabilitation", whomanage_wp: "Water Point Manager",
+  wc_present_wp: "Water Committee Present", wc_savings_wp: "Water Committee Savings",
+  wc_admin_index_wp: "Water Committee Administration Index", season: "Season",
+  improved_wponly_wp: "Improved Water Point Only",
+};
 const fieldOptions: Record<string, FieldOption[]> = {
   country: countryOptions, admin1: regionOptions, cwfunded_wp: binary,
   wptype: options(["Borehole with hand pump", "Mechanized borehole", "Piped water into yard / plot", "Protected dug well with hand pump", "Protected spring", "Public tap / standpipe", "Rainwater collection", "Unprotected dug well", "Unprotected spring"]),
@@ -30,7 +38,7 @@ const fieldOptions: Record<string, FieldOption[]> = {
   piped_pump: options(["Diesel powered pump", "Electric powered pump", "Gravity Fed", "Solar powered pump"]),
   rehabyn: binary, whomanage_wp: options(["Church", "Community leader", "District/local government", "Don't Know", "Health administrator", "No one", "Other", "Private person", "School", "Vendor", "Water committee"]),
   lockedfullday_wp: binary, wc_present_wp: binary, paytocollect_wp: binary,
-  improved_wponly_wp: options([0, 1]), wc_savings_wp: options([0, 1]),
+  improved_wponly_wp: [{ label: "No", value: 0 }, { label: "Yes", value: 1 }], wc_savings_wp: [{ label: "No", value: 0 }, { label: "Yes", value: 1 }],
   wc_admin_index_wp: options(["Inadequate", "Minimum", "Moderate", "Advanced"]), wc_finance_index_wp: options(["Inadequate", "Minimum", "Moderate", "Advanced"]),
   wc_mgmt_index_wp: options(["Inadequate", "Minimum", "Moderate", "Advanced"]), wc_maint_index_wp: options(["Inadequate", "Minimum", "Moderate", "Advanced"]),
   season: [{ label: "Dry", value: "dry" }, { label: "Wet", value: "wet" }],
@@ -38,7 +46,7 @@ const fieldOptions: Record<string, FieldOption[]> = {
 const schema = {
   field_count: 32,
   fields: names.map((name): Field => ({
-    name, label: name.replaceAll("_", " "), type: numeric.has(name) ? "number" : ["improved_wponly_wp", "wc_savings_wp"].includes(name) ? "binary_numeric" : "categorical",
+    name, label: labels[name] ?? name.replaceAll("_", " "), type: numeric.has(name) ? "number" : ["improved_wponly_wp", "wc_savings_wp"].includes(name) ? "binary_numeric" : "categorical",
     required: true, nullable: true, known_options: fieldOptions[name], ...(name === "admin1" ? { options_by_parent: regionMap } : {}),
   })),
 };
@@ -53,6 +61,11 @@ async function choose(user: ReturnType<typeof userEvent.setup>, label: RegExp | 
   await user.click(await screen.findByRole("option", { name: option }));
 }
 
+async function chooseSelect(user: ReturnType<typeof userEvent.setup>, label: RegExp | string, option: string) {
+  await user.click(screen.getByRole("combobox", { name: label }));
+  await user.click(await screen.findByRole("option", { name: option }));
+}
+
 async function moveToStep(user: ReturnType<typeof userEvent.setup>, target: number) {
   const text = screen.getByText(/Step \d of 5/).textContent ?? "Step 1 of 5";
   const current = Number(text.match(/Step (\d)/)?.[1] ?? 1) - 1;
@@ -64,17 +77,17 @@ describe("production prediction input UX", () => {
     vi.mocked(getInputSchema).mockResolvedValue(schema);
     const user = userEvent.setup();
     render(<PredictPage />);
-    await screen.findByRole("combobox", { name: "country" });
-    await choose(user, "country", "Ethiopia");
-    const admin = screen.getByRole("combobox", { name: "admin1" });
+    await screen.findByRole("combobox", { name: "Country" });
+    await choose(user, "Country", "Ethiopia");
+    const admin = screen.getByRole("combobox", { name: "Administrative Region" });
     await user.click(admin);
-    const regionList = screen.getByRole("listbox", { name: "admin1" });
+    const regionList = screen.getByRole("listbox", { name: "Administrative Region" });
     expect(within(regionList).getByRole("option", { name: "Tigray" })).toBeInTheDocument();
     expect(within(regionList).queryByRole("option", { name: "Bihar" })).not.toBeInTheDocument();
     await user.click(within(regionList).getByRole("option", { name: "Tigray" }));
-    await choose(user, "country", "India");
-    expect(screen.getByRole("combobox", { name: "admin1" })).toHaveValue("");
-    await user.click(screen.getByRole("combobox", { name: "admin1" }));
+    await choose(user, "Country", "India");
+    expect(screen.getByRole("combobox", { name: "Administrative Region" })).toHaveValue("");
+    await user.click(screen.getByRole("combobox", { name: "Administrative Region" }));
     expect(screen.getByRole("option", { name: "Bihar" })).toBeInTheDocument();
     expect(screen.queryByRole("option", { name: "Tigray" })).not.toBeInTheDocument();
   });
@@ -83,12 +96,12 @@ describe("production prediction input UX", () => {
     vi.mocked(getInputSchema).mockResolvedValue(schema);
     vi.mocked(predictWaterPoint).mockResolvedValue(prediction);
     const user = userEvent.setup();
-    const { container } = render(<PredictPage />);
-    await screen.findByRole("combobox", { name: "country" });
-    await choose(user, "country", "Ethiopia");
+    render(<PredictPage />);
+    await screen.findByRole("combobox", { name: "Country" });
+    await choose(user, "Country", "Ethiopia");
     for (let step = 0; step < 4; step += 1) await user.click(screen.getByRole("button", { name: "Next" }));
-    await user.selectOptions(screen.getByRole("combobox", { name: "season" }), "dry");
-    await user.selectOptions(screen.getByRole("combobox", { name: "improved wponly wp" }), "1");
+    await chooseSelect(user, "Season", "Dry");
+    await chooseSelect(user, "Improved Water Point Only", "Yes");
     await user.click(screen.getByRole("button", { name: /Predict Functionality/i }));
     await screen.findByText("Functional", { selector: ".predicted-label" });
     const payload = vi.mocked(predictWaterPoint).mock.calls[0][0];
@@ -98,31 +111,34 @@ describe("production prediction input UX", () => {
     expect(payload.improved_wponly_wp).toBe(1);
     expect(payload.wc_savings_wp).toBeNull();
     expect(payload.rehab_age).toBeNull();
-    expect(container.querySelectorAll("select option")).not.toContainEqual(expect.objectContaining({ value: "888" }));
-    expect(container.querySelectorAll("select option")).not.toContainEqual(expect.objectContaining({ value: "999" }));
   });
 
   it("renders searchable category sets, keeps Don't Know distinct, and preserves ordinal order", async () => {
     vi.mocked(getInputSchema).mockResolvedValue(schema);
     const user = userEvent.setup();
     render(<PredictPage />);
-    await screen.findByRole("combobox", { name: "country" });
+    await screen.findByRole("combobox", { name: "Country" });
     await user.click(screen.getByRole("button", { name: "Next" }));
     await choose(user, "Water Point Type", "Public tap / standpipe");
-    expect(screen.queryByRole("combobox", { name: "pumptype" })).not.toBeInTheDocument();
+    expect(screen.queryByRole("combobox", { name: "Pump Type" })).not.toBeInTheDocument();
     await user.click(screen.getByRole("button", { name: "Back" }));
     await user.click(screen.getByRole("button", { name: "Next" }));
     await choose(user, "Water Point Type", "Borehole with hand pump");
-    expect(screen.getByRole("combobox", { name: "pumptype" })).toBeInTheDocument();
+    expect(screen.getByRole("combobox", { name: "Pump Type" })).toBeInTheDocument();
     await user.click(screen.getByRole("button", { name: "Next" }));
     await user.click(screen.getByRole("button", { name: "Next" }));
-    const manager = screen.getByRole("combobox", { name: "whomanage wp" });
+    const manager = screen.getByRole("combobox", { name: "Water Point Manager" });
     await user.click(manager);
     expect(screen.getByRole("option", { name: "Don't Know" })).toBeInTheDocument();
-    const ordinal = screen.getByRole("combobox", { name: "wc admin index wp" });
-    const ordinalValues = Array.from(ordinal.querySelectorAll("option")).map((item) => item.textContent).filter((text) => text !== "Unknown / not available");
+    await chooseSelect(user, "Water Committee Present", "Yes");
+    await user.click(screen.getByRole("combobox", { name: "Water Committee Administration Index" }));
+    const ordinalValues = within(screen.getByRole("listbox", { name: "Water Committee Administration Index" })).getAllByRole("option").map((item) => item.textContent).filter((text) => text !== "Unknown / not available");
     expect(ordinalValues).toEqual(["Inadequate", "Minimum", "Moderate", "Advanced"]);
-    expect(screen.getByRole("combobox", { name: "wc savings wp" }).querySelectorAll("option")).toHaveLength(3);
+    await user.click(screen.getByRole("combobox", { name: "Water Committee Savings" }));
+    const savingsOptions = within(screen.getByRole("listbox", { name: "Water Committee Savings" })).getAllByRole("option");
+    expect(savingsOptions).toHaveLength(3);
+    expect(savingsOptions.map((item) => item.textContent)).not.toContain("888");
+    expect(savingsOptions.map((item) => item.textContent)).not.toContain("999");
   });
 
   it("clears conditional inputs and marks predictions stale only when API values change", async () => {
@@ -130,31 +146,30 @@ describe("production prediction input UX", () => {
     vi.mocked(predictWaterPoint).mockResolvedValue(prediction);
     const user = userEvent.setup();
     render(<PredictPage />);
-    await screen.findByRole("combobox", { name: "country" });
+    await screen.findByRole("combobox", { name: "Country" });
     await moveToStep(user, 1);
     await choose(user, "Water Point Type", "Borehole with hand pump");
-    await user.selectOptions(screen.getByRole("combobox", { name: "rehabyn" }), "Yes");
-    await user.type(screen.getByLabelText("rehab age"), "4");
+    await chooseSelect(user, "Rehabilitated", "Yes");
+    await user.type(screen.getByLabelText("Age at Rehabilitation"), "4");
     await moveToStep(user, 2);
     await moveToStep(user, 3);
-    await user.selectOptions(screen.getByRole("combobox", { name: "wc present wp" }), "Yes");
-    await user.selectOptions(screen.getByRole("combobox", { name: "wc savings wp" }), "1");
+    await chooseSelect(user, "Water Committee Present", "Yes");
+    await chooseSelect(user, "Water Committee Savings", "Yes");
     await moveToStep(user, 4);
     await user.click(screen.getByRole("button", { name: /Predict Functionality/i }));
     await screen.findByText("Functional", { selector: ".predicted-label" });
     await user.click(screen.getByRole("button", { name: "Back" }));
     expect(screen.queryByText("Inputs changed")).not.toBeInTheDocument();
-    await user.selectOptions(screen.getByRole("combobox", { name: "wc present wp" }), "No");
+    await chooseSelect(user, "Water Committee Present", "No");
     expect(screen.getByText("Inputs changed")).toBeInTheDocument();
     expect(screen.queryByText("Functional", { selector: ".predicted-label" })).not.toBeInTheDocument();
     await user.click(screen.getByRole("button", { name: "Back" }));
     await user.click(screen.getByRole("button", { name: "Back" }));
-    await user.selectOptions(screen.getByRole("combobox", { name: "rehabyn" }), "No");
-    await waitFor(() => expect(screen.queryByRole("spinbutton", { name: "rehab age" })).not.toBeInTheDocument());
+    await chooseSelect(user, "Rehabilitated", "No");
+    await waitFor(() => expect(screen.queryByRole("spinbutton", { name: "Age at Rehabilitation" })).not.toBeInTheDocument());
     await user.click(screen.getByRole("button", { name: "Next" }));
     const requestBeforeRepredict = vi.mocked(predictWaterPoint).mock.calls[0][0];
     expect(requestBeforeRepredict.rehab_age).toBe(4);
-    await user.click(screen.getByRole("button", { name: "Next" }));
     await user.click(screen.getByRole("button", { name: "Next" }));
     await user.click(screen.getByRole("button", { name: "Next" }));
     await user.click(screen.getByRole("button", { name: /Predict Functionality/i }));
@@ -168,7 +183,7 @@ describe("production prediction input UX", () => {
     vi.mocked(predictWaterPoint).mockRejectedValue(new Error("Prediction model is unavailable."));
     const user = userEvent.setup();
     render(<PredictPage />);
-    await screen.findByRole("combobox", { name: "country" });
+    await screen.findByRole("combobox", { name: "Country" });
     await moveToStep(user, 4);
     await user.click(screen.getByRole("button", { name: /Predict Functionality/i }));
     await waitFor(() => expect(screen.getByRole("alert")).toHaveTextContent("Prediction model is unavailable."));

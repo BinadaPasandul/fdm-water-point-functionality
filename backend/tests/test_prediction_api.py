@@ -73,6 +73,9 @@ def test_model_info_and_input_schema(client):
     assert fields["admin1"]["options_by_parent"]["India"] == [
         {"label": "Bihar", "value": "Bihar"}, {"label": "West Bengal", "value": "West Bengal"},
     ]
+    all_regions = [item["value"] for item in fields["admin1"]["known_options"]]
+    assert len(all_regions) == len(set(all_regions))
+    assert all_regions.count("Central") == 1
     assert fields["whomanage_wp"]["known_options"][3] == {"label": "Don't Know", "value": "Don't Know"}
     assert fields["season"]["known_options"] == [
         {"label": "Dry", "value": "dry"}, {"label": "Wet", "value": "wet"},

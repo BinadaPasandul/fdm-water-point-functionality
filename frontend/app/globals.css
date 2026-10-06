@@ -96,6 +96,14 @@ h1 { margin: 0; color: var(--navy-950); font-size: clamp(27px, 3vw, 35px); line-
 /* Prediction selection controls follow the shared WaterPoint input treatment. */
 .select-shell, .search-select { position: relative; min-width: 0; }
 .select-shell select, .search-select > input { width: 100%; min-height: 46px; padding: 0 42px 0 14px; appearance: none; border: 1px solid var(--border-soft); border-radius: 13px; background: #fff; color: var(--navy-950); font: inherit; font-size: 13px; outline: none; }
+.select-shell.custom-select > button[role="combobox"] { display: flex; align-items: center; justify-content: space-between; gap: 10px; width: 100%; min-height: 46px; padding: 0 42px 0 14px; border: 1px solid var(--border-soft); border-radius: 13px; background: #fff; color: var(--navy-950); text-align: left; font: inherit; font-size: 13px; cursor: pointer; }
+.select-shell.custom-select > button[role="combobox"]:focus-visible { border-color: var(--aqua-500, #25C9D0); outline: none; box-shadow: 0 0 0 3px rgba(37,201,208,.16); }
+.select-shell.custom-select > button[role="combobox"]:disabled { cursor: not-allowed; background: var(--surface-soft); color: var(--text-muted); }
+.select-placeholder { color: var(--text-muted); }
+.select-menu { position: absolute; z-index: 20; top: calc(100% + 6px); left: 0; right: 0; max-height: 250px; overflow: auto; padding: 5px; border: 1px solid var(--border-soft); border-radius: 13px; background: #fff; box-shadow: 0 12px 28px rgba(31,57,82,.13); }
+.select-option { display: block; width: 100%; min-height: 38px; padding: 9px 10px; border: 0; border-radius: 8px; background: transparent; color: var(--navy-800); text-align: left; font: inherit; font-size: 12px; line-height: 1.35; cursor: pointer; }
+.select-option:hover, .select-option.active { background: var(--surface-soft); }
+.select-option.selected { color: var(--navy-950); background: #e6f7f7; font-weight: 650; }
 .select-shell select:focus, .search-select > input:focus { border-color: var(--aqua-500, #25C9D0); box-shadow: 0 0 0 3px rgba(37,201,208,.16); }
 .select-shell select:disabled, .search-select > input:disabled { cursor: not-allowed; background: var(--surface-soft); color: var(--text-muted); }
 .select-shell select option { color: var(--navy-950); background: white; }
